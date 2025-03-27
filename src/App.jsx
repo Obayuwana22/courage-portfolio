@@ -55,7 +55,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="mt-10 mb-10">
+    <div className="mt-10 mb-5 mx-5">
       <RouterProvider router={router} />
     </div>
   );

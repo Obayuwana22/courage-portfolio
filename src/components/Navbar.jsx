@@ -36,7 +36,7 @@ const Navbar = () => {
         {navLinks.map((navLink) => (
           <ul
             key={navLink.id}
-            className={`border-b-1 border-red-500 text-center mx-5 shadow-md transition-all duration-700 overflow-hidden ${
+            className={`border-b-1 border-red-500 text-center shadow-md transition-all duration-700 overflow-hidden ${
               isMenuActive ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
             }`}
           >

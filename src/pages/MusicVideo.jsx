@@ -1,6 +1,10 @@
+import ProjectCard from "../components/ProjectCard";
+
 const MusicVideo = () => {
   return (
-    <div>MusicVideo</div>
-  )
-}
-export default MusicVideo
+    <div>
+      <ProjectCard />
+    </div>
+  );
+};
+export default MusicVideo;

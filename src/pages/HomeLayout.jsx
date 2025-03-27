@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const HomeLayout = () => {
   return (
@@ -11,11 +12,12 @@ const HomeLayout = () => {
         <h1 className="text-2xl tracking-[0.4em] font-medium mt-2">
           JULIA ROSSETTI
         </h1>
-        <p className="tracking-[0.5em]">freelance colorist</p>
+        <h2 className="tracking-[0.5em]">freelance colorist</h2>
       </div>
 
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   );
 };

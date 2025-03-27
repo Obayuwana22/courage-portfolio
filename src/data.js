@@ -1,4 +1,5 @@
 import { nanoid } from "nanoid";
+import placeholder from "./assets/placeholder.jpg";
 
 export const navLinks = [
   { id: nanoid(), href: "/work", text: "work" },
@@ -8,4 +9,31 @@ export const navLinks = [
   { id: nanoid(), href: "/fashion-film", text: "fashion film" },
   { id: nanoid(), href: "/show-reel", text: "showreel" },
   { id: nanoid(), href: "/contact", text: "contact" },
+];
+
+export const projectCard = [
+  {
+    id: nanoid(),
+    img: placeholder,
+    title: "aron • especial",
+    service: "music video",
+  },
+  {
+    id: nanoid(),
+    img: placeholder,
+    title: "aron • especial",
+    service: "music video",
+  },
+  {
+    id: nanoid(),
+    img: placeholder,
+    title: "aron • especial",
+    service: "music video",
+  },
+  {
+    id: nanoid(),
+    img: placeholder,
+    title: "aron • especial",
+    service: "music video",
+  },
 ];
