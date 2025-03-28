@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="border border-transparent rounded-3xl w-8 h-8 bg-red-500 flex justify-center items-center">
-          <a href="tel:+2348184127982">
+          <a href="tel:+2347063337594">
             <MdOutlinePhoneInTalk size={20} color="white" />
           </a>
         </div>

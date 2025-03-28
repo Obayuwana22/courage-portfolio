@@ -6,3 +6,4 @@ export { default as ShowReel } from "./ShowReel";
 export { default as ShortFilm } from "./ShortFilm";
 export { default as FashionFilm } from "./FashionFilm";
 export { default as MusicVideo } from "./MusicVideo";
+export { default as ProjectDetails } from "./ProjectDetails";

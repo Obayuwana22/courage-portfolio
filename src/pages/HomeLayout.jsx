@@ -12,7 +12,7 @@ const HomeLayout = () => {
         <h1 className="text-2xl tracking-[0.4em] font-medium mt-2">
           JULIA ROSSETTI
         </h1>
-        <h2 className="tracking-[0.5em]">freelance colorist</h2>
+        <h2 className="tracking-[0.5em] text-gray-500">freelance colorist</h2>
       </div>
 
       <Navbar />
@@ -24,3 +24,5 @@ const HomeLayout = () => {
   );
 };
 export default HomeLayout;
+
+

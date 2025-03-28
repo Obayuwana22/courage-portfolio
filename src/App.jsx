@@ -9,6 +9,7 @@ import {
   ShortFilm,
   ShowReel,
   Work,
+  ProjectDetails,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -51,11 +52,15 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/project-details",
+    element: <ProjectDetails />,
+  },
 ]);
 
 function App() {
   return (
-    <div className="mt-10 mb-5 mx-5 2xl:mx-0">
+    <div className="mt-10 mb-5 mx-5">
       <RouterProvider router={router} />
     </div>
   );

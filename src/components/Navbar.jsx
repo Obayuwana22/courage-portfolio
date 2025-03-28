@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { navLinks } from "../data";
 import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuActive, setIsMenuActive] = useState(false);
@@ -40,8 +40,8 @@ const Navbar = () => {
           isMenuActive ? "max-h-[500px]" : "max-h-0"
         }`}
       >
-        <a
-          href="/work"
+        <Link
+          to="/work"
           className={`flex justify-center my-5 md:my-2 md:hover:border-b-1 ${
             location.pathname === "/work"
               ? "md:border-b-1 md:border-red-500"
@@ -49,21 +49,21 @@ const Navbar = () => {
           } `}
         >
           work
-        </a>
+        </Link>
         {navLinks.map((navLink) => (
           <ul key={navLink.id}>
             <li className="border-t-1 border-red-500 text-center py-5 md:border-t-0 md:py-2">
               <span className="hidden md:inline md:px-5">•</span>
-              <a
-                href={navLink.href}
+              <Link
+                to={navLink.path}
                 className={`${
-                  location.pathname === navLink.href
+                  location.pathname === navLink.path
                     ? "md:border-b-1 md:border-red-500"
                     : ""
                 }`}
               >
                 {navLink.text}
-              </a>
+              </Link>
             </li>
           </ul>
         ))}
