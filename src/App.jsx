@@ -60,7 +60,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="flex justify-center">
+    <div className="2xl:flex 2xl:justify-center">
       <RouterProvider router={router} />
     </div>
   );
