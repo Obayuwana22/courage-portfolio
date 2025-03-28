@@ -4,8 +4,8 @@ import Footer from "../components/Footer";
 
 const HomeLayout = () => {
   return (
-    <div>
-      <div className="flex flex-col items-center">
+    <div className=" flex flex-col min-h-screen 2xl:w-[2000px] 2xl:mx-auto">
+      <div className="flex flex-col items-center text-center">
         <div className="flex items-center justify-center border-2 rounded-3xl w-[50px] h-[50px] text-2xl font-bold">
           JR
         </div>
@@ -17,7 +17,9 @@ const HomeLayout = () => {
 
       <Navbar />
       <Outlet />
-      <Footer />
+      <div className="mt-auto">
+        <Footer />
+      </div>
     </div>
   );
 };
