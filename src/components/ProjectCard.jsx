@@ -8,13 +8,14 @@ const ProjectCard = () => {
         {projects.map((project) => {
           const { id, img, title, service } = project;
           return (
-            <div key={id} className="flex flex-col">
+            <div key={id} className="relative group transition duration-500">
               <Link to={`/project/${title}`}>
-                <img src={img} alt={title} className="my-5 w-full" />
+                <img src={img} alt={title} className="my-5 w-full lg:my-0 hover:opacity-50 transition duration-700" />
               </Link>
-              <div className="text-center uppercase text-sm">
+
+              <div className="text-center uppercase text-sm lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:opacity-0 lg:group-hover:opacity-100 lg:transition lg:duration-700">
                 <span className="text-red-500 font-medium">{title}</span>
-                <h3>{service}</h3>
+                <h3 className="lg:text-red-500">{service}</h3>
               </div>
             </div>
           );
