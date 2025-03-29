@@ -50,17 +50,18 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+
+      {
+        path: "/project/:projectTitle",
+        element: <ProjectDetails />,
+      },
     ],
-  },
-  {
-    path: "/project-details",
-    element: <ProjectDetails />,
   },
 ]);
 
 function App() {
   return (
-    <div className="2xl:flex 2xl:justify-center">
+    <div>
       <RouterProvider router={router} />
     </div>
   );

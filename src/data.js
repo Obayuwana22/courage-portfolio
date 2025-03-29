@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
-import placeholder from "./assets/placeholder.jpg";
+import placeholder from "./assets/placeholderOne.jpg";
+import video from "./assets/video.mp4";
 
 export const navLinks = [
   // { id: nanoid(), href: "/work", text: "work" },
@@ -11,53 +12,182 @@ export const navLinks = [
   { id: nanoid(), path: "/contact", text: "contact" },
 ];
 
-export const projectCard = [
+export const projects = [
   {
     id: nanoid(),
     img: placeholder,
     title: "aron • especial",
     service: "music video",
+    video: video,
+    projectInformation: {
+      title: "Cinematic Short – The Golden Hour",
+      clientName: "Worked with XYZ Productions",
+      directorDPName: "Shot by John Doe",
+      beforeAfterLabel: "Before | After",
+    },
+    yourRole: {
+      colorGradingStyle: "Warm Cinematic Look with Teal & Orange",
+      softwareUsed: "Graded in DaVinci Resolve",
+      specialTechniques: ["HDR Workflow", "Film Emulation", "LUTs"],
+    },
+    callToAction: {
+      contactDetails: "Available for freelance work. Contact: your@email.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
   },
   {
     id: nanoid(),
     img: placeholder,
     title: "aron • especial",
     service: "music video",
+    video: video,
+    projectInformation: {
+      title: "Cinematic Short – The Golden Hour",
+      clientName: "Worked with XYZ Productions",
+      directorDPName: "Shot by John Doe",
+      beforeAfterLabel: "Before | After",
+    },
+    yourRole: {
+      colorGradingStyle: "Warm Cinematic Look with Teal & Orange",
+      softwareUsed: "Graded in DaVinci Resolve",
+      specialTechniques: ["HDR Workflow", "Film Emulation", "LUTs"],
+    },
+    callToAction: {
+      contactDetails: "Available for freelance work. Contact: your@email.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
   },
   {
     id: nanoid(),
     img: placeholder,
     title: "aron • especial",
     service: "music video",
+    video: video,
+    projectInformation: {
+      title: "Cinematic Short – The Golden Hour",
+      clientName: "Worked with XYZ Productions",
+      directorDPName: "Shot by John Doe",
+      beforeAfterLabel: "Before | After",
+    },
+    yourRole: {
+      colorGradingStyle: "Warm Cinematic Look with Teal & Orange",
+      softwareUsed: "Graded in DaVinci Resolve",
+      specialTechniques: ["HDR Workflow", "Film Emulation", "LUTs"],
+    },
+    callToAction: {
+      contactDetails: "Available for freelance work. Contact: your@email.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
   },
   {
     id: nanoid(),
     img: placeholder,
     title: "aron • especial",
     service: "music video",
+    video: video,
+    projectInformation: {
+      title: "Cinematic Short – The Golden Hour",
+      clientName: "Worked with XYZ Productions",
+      directorDPName: "Shot by John Doe",
+      beforeAfterLabel: "Before | After",
+    },
+    yourRole: {
+      colorGradingStyle: "Warm Cinematic Look with Teal & Orange",
+      softwareUsed: "Graded in DaVinci Resolve",
+      specialTechniques: ["HDR Workflow", "Film Emulation", "LUTs"],
+    },
+    callToAction: {
+      contactDetails: "Available for freelance work. Contact: your@email.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
   },
   {
     id: nanoid(),
     img: placeholder,
     title: "aron • especial",
     service: "music video",
+    video: video,
+    projectInformation: {
+      title: "Cinematic Short – The Golden Hour",
+      clientName: "Worked with XYZ Productions",
+      directorDPName: "Shot by John Doe",
+      beforeAfterLabel: "Before | After",
+    },
+    yourRole: {
+      colorGradingStyle: "Warm Cinematic Look with Teal & Orange",
+      softwareUsed: "Graded in DaVinci Resolve",
+      specialTechniques: ["HDR Workflow", "Film Emulation", "LUTs"],
+    },
+    callToAction: {
+      contactDetails: "Available for freelance work. Contact: your@email.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
   },
   {
     id: nanoid(),
     img: placeholder,
     title: "aron • especial",
     service: "music video",
+    video: video,
+    projectInformation: {
+      title: "Cinematic Short – The Golden Hour",
+      clientName: "Worked with XYZ Productions",
+      directorDPName: "Shot by John Doe",
+      beforeAfterLabel: "Before | After",
+    },
+    yourRole: {
+      colorGradingStyle: "Warm Cinematic Look with Teal & Orange",
+      softwareUsed: "Graded in DaVinci Resolve",
+      specialTechniques: ["HDR Workflow", "Film Emulation", "LUTs"],
+    },
+    callToAction: {
+      contactDetails: "Available for freelance work. Contact: your@email.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
   },
   {
     id: nanoid(),
     img: placeholder,
     title: "aron • especial",
     service: "music video",
+    video: video,
+    projectInformation: {
+      title: "Cinematic Short – The Golden Hour",
+      clientName: "Worked with XYZ Productions",
+      directorDPName: "Shot by John Doe",
+      beforeAfterLabel: "Before | After",
+    },
+    yourRole: {
+      colorGradingStyle: "Warm Cinematic Look with Teal & Orange",
+      softwareUsed: "Graded in DaVinci Resolve",
+      specialTechniques: ["HDR Workflow", "Film Emulation", "LUTs"],
+    },
+    callToAction: {
+      contactDetails: "Available for freelance work. Contact: your@email.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
   },
   {
     id: nanoid(),
     img: placeholder,
     title: "aron • especial",
     service: "music video",
+    video: video,
+    projectInformation: {
+      title: "Cinematic Short – The Golden Hour",
+      clientName: "Worked with XYZ Productions",
+      directorDPName: "Shot by John Doe",
+      beforeAfterLabel: "Before | After",
+    },
+    yourRole: {
+      colorGradingStyle: "Warm Cinematic Look with Teal & Orange",
+      softwareUsed: "Graded in DaVinci Resolve",
+      specialTechniques: ["HDR Workflow", "Film Emulation", "LUTs"],
+    },
+    callToAction: {
+      contactDetails: "Available for freelance work. Contact: your@email.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
   },
+  
 ];
