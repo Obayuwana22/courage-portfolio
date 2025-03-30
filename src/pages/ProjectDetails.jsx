@@ -13,7 +13,7 @@ const ProjectDetails = () => {
         {project.map((project) => (
           <div key={project.id} className="flex flex-col gap-10">
             <iframe
-            className="min-h-[200px] md:h-screen"
+              className="h-[200px] md:h-[500px] lg:h-screen"
               src={project.video}
               title="IBRAHIM | Short Film | 2023"
               frameborder="0"
@@ -38,21 +38,6 @@ const ProjectDetails = () => {
               <div>
                 <span>Director / DP Name: </span>
                 <span>{project.projectInformation.directorDPName}</span>
-              </div>
-            </div>
-            <div>
-              <div className="text-lg font-medium mb-2">Your Role</div>
-              <div>
-                <span>Color Grading Style: </span>
-                <span>{project.yourRole.colorGradingStyle}</span>
-              </div>
-              <div>
-                <span>Software Used: </span>
-                <span>{project.yourRole.softwareUsed}</span>
-              </div>
-              <div>
-                <span>Special Techniques: </span>
-                <span>{project.yourRole.specialTechniques}</span>
               </div>
             </div>
 

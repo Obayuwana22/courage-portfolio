@@ -40,7 +40,7 @@ const Navbar = () => {
           isMenuActive ? "max-h-[500px]" : "max-h-0"
         }`}
       >
-        <Link
+        {/* <Link
           to="/work"
           className={`flex justify-center my-5 md:my-2 md:hover:border-b-1 ${
             location.pathname === "/work"
@@ -50,7 +50,7 @@ const Navbar = () => {
           onClick={handleClick}
         >
           work
-        </Link>
+        </Link> */}
         {navLinks.map((navLink) => (
           <ul key={navLink.id}>
             <li className="border-t-1 border-red-500 text-center py-5 md:border-t-0 md:py-2">
