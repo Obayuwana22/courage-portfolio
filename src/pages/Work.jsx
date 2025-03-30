@@ -1,6 +1,10 @@
+import ProjectCard from "../components/ProjectCard"
+
 const Work = () => {
   return (
-    <div>Work</div>
+    <div>
+      <ProjectCard/>
+    </div>
   )
 }
 export default Work

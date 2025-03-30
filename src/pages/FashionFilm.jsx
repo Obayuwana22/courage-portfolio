@@ -1,6 +1,10 @@
+import ProjectCard from "../components/ProjectCard"
+
 const FashionFilm = () => {
   return (
-    <div>FashionFilm</div>
+    <div>
+      <ProjectCard/>
+    </div>
   )
 }
 export default FashionFilm

@@ -1,6 +1,10 @@
+import ProjectCard from "../components/ProjectCard"
+
 const Commercial = () => {
   return (
-    <div>Commercial</div>
+    <div>
+      <ProjectCard/>
+    </div>
   )
 }
 export default Commercial

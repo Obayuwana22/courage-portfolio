@@ -1,6 +1,10 @@
+import ProjectCard from "../components/ProjectCard"
+
 const ShowReel = () => {
   return (
-    <div>ShowReel</div>
+    <div>
+      <ProjectCard/>
+    </div>
   )
 }
 export default ShowReel
