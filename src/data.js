@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 import placeholder from "./assets/placeholderOne.jpg";
-import video from "./assets/video.mp4";
+// import video from "./assets/video.mp4";
 
 export const navLinks = [
   // { id: nanoid(), href: "/work", text: "work" },
@@ -18,7 +18,7 @@ export const projects = [
     img: placeholder,
     title: "aron • especial",
     service: "music video",
-    video: video,
+    video: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Cinematic Short – The Golden Hour",
       clientName: "Worked with XYZ Productions",
@@ -52,7 +52,7 @@ export const projects = [
     img: placeholder,
     title: "leo • prime",
     service: "music video",
-    video: video,
+    video: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Cinematic Short – The Golden Hour",
       clientName: "Worked with XYZ Productions",
@@ -86,7 +86,7 @@ export const projects = [
     img: placeholder,
     title: "nova • stellar",
     service: "music video",
-    video: video,
+    video: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Cinematic Short – The Golden Hour",
       clientName: "Worked with XYZ Productions",
@@ -120,7 +120,7 @@ export const projects = [
     img: placeholder,
     title: "mira • elite",
     service: "music video",
-    video: video,
+    video: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Cinematic Short – The Golden Hour",
       clientName: "Worked with XYZ Productions",
@@ -154,7 +154,7 @@ export const projects = [
     img: placeholder,
     title: "zayn • supreme",
     service: "music video",
-    video: video,
+    video: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Cinematic Short – The Golden Hour",
       clientName: "Worked with XYZ Productions",
@@ -188,7 +188,7 @@ export const projects = [
     img: placeholder,
     title: "kai • aurora",
     service: "music video",
-    video: video,
+    video: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Cinematic Short – The Golden Hour",
       clientName: "Worked with XYZ Productions",
@@ -222,7 +222,7 @@ export const projects = [
     img: placeholder,
     title: "sage • genesis",
     service: "music video",
-    video: video,
+    video: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Cinematic Short – The Golden Hour",
       clientName: "Worked with XYZ Productions",
@@ -256,7 +256,7 @@ export const projects = [
     img: placeholder,
     title: "ryu • ascend",
     service: "music video",
-    video: video,
+    video: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Cinematic Short – The Golden Hour",
       clientName: "Worked with XYZ Productions",

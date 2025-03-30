@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div>
-      <div className="font-bold text-center mt-10 lg:mt-24">
+      <div className="font-bold text-center md:mt-10 lg:mt-24">
         <div>Julia Rossetti</div>
         <p>Freelance Colorist - Based in Barcelona working worldwide</p>
         <div>---</div>

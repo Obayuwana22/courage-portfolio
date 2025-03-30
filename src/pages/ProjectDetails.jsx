@@ -12,9 +12,16 @@ const ProjectDetails = () => {
       <div>
         {project.map((project) => (
           <div key={project.id} className="flex flex-col gap-10">
-            <video controls>
-              <source src={project.video} type="video/mp4" />
-            </video>
+            <iframe
+            className="min-h-[200px] md:h-screen"
+              src={project.video}
+              title="IBRAHIM | Short Film | 2023"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+
             <div className="text-xl font-bold uppercase">{project.title}</div>
             <div>
               <div className="text-lg font-medium mb-2">

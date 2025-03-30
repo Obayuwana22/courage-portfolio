@@ -4,7 +4,7 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="mt-10 mb-0 flex flex-col items-center">
+    <div className=" flex flex-col items-center mb-5 mt-10">
       <div className="flex items-center gap-2">
         {/* <div className="border border-transparent rounded-3xl w-8 h-8 bg-red-500 flex justify-center items-center">
           <a
@@ -34,7 +34,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="text-[0.7rem] mt-5">
+      <p className="text-[0.7rem] text-center mt-5">
         ©2025 JULIA ROSSETTI. All rights reserved. No part of this website may
         be reproduced without permission.
       </p>
