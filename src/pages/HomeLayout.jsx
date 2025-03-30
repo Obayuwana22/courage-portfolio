@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const HomeLayout = () => {
   return (
-    <div className=" flex flex-col mt-10 mb-5 mx-5 min-h-screen">
+    <div className="flex flex-col mt-10 mb-5 mx-5 min-h-screen">
       <div className="flex flex-col items-center text-center">
         <div className="flex items-center justify-center border-2 rounded-3xl w-[50px] h-[50px] text-2xl font-bold">
           JR
@@ -17,6 +17,7 @@ const HomeLayout = () => {
 
       <Navbar />
       <Outlet />
+
       <div className="mt-auto">
         <Footer />
       </div>
@@ -24,5 +25,3 @@ const HomeLayout = () => {
   );
 };
 export default HomeLayout;
-
-

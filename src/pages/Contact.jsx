@@ -7,7 +7,7 @@ const Contact = () => {
         <div>---</div>
         <p className="font-normal mb-5">Let's create something together!</p>
         <p className="font-normal">
-          Contact <span>julia.rossetti@gmail.com</span> for bookings and other
+          Contact <span className="font-bold">julia.rossetti@gmail.com</span> for bookings and other
           information
         </p>
       </div>
