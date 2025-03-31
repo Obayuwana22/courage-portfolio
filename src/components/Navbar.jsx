@@ -36,11 +36,11 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`flex flex-col text-red-500 uppercase tracking-[0.4em] text-sm shadow-md transition-[max-height] duration-1000 ease-in-out overflow-hidden md:shadow-none md:flex-row md:flex-wrap md:justify-center md:overflow-visible md:mb-16 xl:mb-10 ${
+        className={`flex flex-col text-red-500 uppercase tracking-[0.4em] text-sm shadow-md transition-[max-height] duration-1000 ease-in-out overflow-hidden md:shadow-none md:flex-row md:flex-wrap md:justify-center md:overflow-visible  md:mb-16 xl:mb-10 ${
           isMenuActive ? "max-h-[500px]" : "max-h-0"
         }`}
       >
-        {/* <Link
+        <Link
           to="/work"
           className={`flex justify-center my-5 md:my-2 md:hover:border-b-1 ${
             location.pathname === "/work"
@@ -50,7 +50,7 @@ const Navbar = () => {
           onClick={handleClick}
         >
           work
-        </Link> */}
+        </Link>
         {navLinks.map((navLink) => (
           <ul key={navLink.id}>
             <li className="border-t-1 border-red-500 text-center py-5 md:border-t-0 md:py-2">

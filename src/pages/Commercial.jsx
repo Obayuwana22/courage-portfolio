@@ -3,7 +3,8 @@ import ProjectCard from "../components/ProjectCard"
 const Commercial = () => {
   return (
     <div>
-      <ProjectCard/>
+      Commercial
+      {/* <ProjectCard/> */}
     </div>
   )
 }

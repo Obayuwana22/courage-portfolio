@@ -3,7 +3,8 @@ import ProjectCard from "../components/ProjectCard"
 const ShortFilm = () => {
   return (
     <div>
-      <ProjectCard/>
+      ShortFilm
+      {/* <ProjectCard/> */}
     </div>
   )
 }

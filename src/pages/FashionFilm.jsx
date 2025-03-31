@@ -3,7 +3,8 @@ import ProjectCard from "../components/ProjectCard"
 const FashionFilm = () => {
   return (
     <div>
-      <ProjectCard/>
+      FashionFilm
+      {/* <ProjectCard/> */}
     </div>
   )
 }

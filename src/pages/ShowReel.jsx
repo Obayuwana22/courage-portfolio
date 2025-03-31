@@ -3,7 +3,8 @@ import ProjectCard from "../components/ProjectCard"
 const ShowReel = () => {
   return (
     <div>
-      <ProjectCard/>
+      ShowReel
+      {/* <ProjectCard/> */}
     </div>
   )
 }

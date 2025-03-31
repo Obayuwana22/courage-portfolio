@@ -3,7 +3,8 @@ import ProjectCard from "../components/ProjectCard";
 const MusicVideo = () => {
   return (
     <div>
-      <ProjectCard />
+      MusicVideo
+      {/* <ProjectCard /> */}
     </div>
   );
 };
