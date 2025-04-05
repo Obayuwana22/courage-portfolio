@@ -12,15 +12,21 @@ const ProjectDetails = () => {
       <div>
         {project.map((project) => (
           <div key={project.id} className="flex flex-col gap-10">
-            <iframe
-              className="h-[200px] md:h-[500px] lg:h-screen"
-              src={project.video}
-              title="IBRAHIM | Short Film | 2023"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+            {project.video ? (
+              <video controls>
+                <source src={project.video} type="video/mp4" />
+              </video>
+            ) : (
+              <iframe
+                className="h-[200px] md:h-[500px] lg:h-screen"
+                src={project.youTubeLink}
+                title="IBRAHIM | Short Film | 2023"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            )}
 
             <div className="text-xl font-bold uppercase">{project.title}</div>
             <div>
@@ -55,13 +61,13 @@ const ProjectDetails = () => {
               </div>
             </div>
 
-            {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
               {Object.values(project.gallery).map((img, index) => (
                 <div key={index} className="m-1">
                   <img src={img} alt="porfolio images" className="" />
                 </div>
               ))}
-            </div> */}
+            </div>
           </div>
         ))}
       </div>
@@ -69,4 +75,3 @@ const ProjectDetails = () => {
   );
 };
 export default ProjectDetails;
-

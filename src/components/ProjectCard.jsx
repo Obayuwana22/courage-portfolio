@@ -4,7 +4,7 @@ import { projects } from "../data";
 const ProjectCard = () => {
   return (
     <div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 mb-20">
         {projects.map((project) => {
           const { id, img, title, service } = project;
           return (
@@ -14,7 +14,7 @@ const ProjectCard = () => {
                   src={img}
                   alt={title}
                   className="my-5 lg:my-0 lg:hover:opacity-50 transition duration-700
-           
+           h-[300px] w-full object-cover
                   "
                 />
               </Link>
