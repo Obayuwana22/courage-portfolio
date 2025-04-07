@@ -11,28 +11,28 @@ export const navLinks = [
 ];
 
 // Project one assests
-// import dfwVideo from "./assets/DYING FOR WATER/Video/Compressed Dfw Trailer Hd.mp4";
-// import dfw1 from "./assets/DYING FOR WATER/Stills/dfw1.jpg";
-// import dfw2 from "./assets/DYING FOR WATER/Stills/dfw2.jpg";
-// import dfw3 from "./assets/DYING FOR WATER/Stills/dfw3.jpg";
-// import dfw4 from "./assets/DYING FOR WATER/Stills/dfw4.jpg";
-// import dfw5 from "./assets/DYING FOR WATER/Stills/dfw5.jpg";
-// import dfw6 from "./assets/DYING FOR WATER/Stills/dfw6.jpg";
-// import dfw7 from "./assets/DYING FOR WATER/Stills/dfw7.jpg";
-// import dfw8 from "./assets/DYING FOR WATER/Stills/dfw8.jpg";
-// import dfw9 from "./assets/DYING FOR WATER/Stills/dfw9.jpg";
-// import dfw10 from "./assets/DYING FOR WATER/Stills/dfw10.jpg";
-// import dfw11 from "./assets/DYING FOR WATER/Stills/dfw11.jpg";
-// import dfw12 from "./assets/DYING FOR WATER/Stills/dfw12.jpg";
-// import dfw13 from "./assets/DYING FOR WATER/Stills/dfw13.jpg";
-// import dfw14 from "./assets/DYING FOR WATER/Stills/dfw14.jpg";
-// import dfw15 from "./assets/DYING FOR WATER/Stills/dfw15.jpg";
-// import dfw16 from "./assets/DYING FOR WATER/Stills/dfw16.jpg";
-// import dfw17 from "./assets/DYING FOR WATER/Stills/dfw17.jpg";
-// import dfw18 from "./assets/DYING FOR WATER/Stills/dfw18.jpg";
-// import dfw19 from "./assets/DYING FOR WATER/Stills/dfw19.jpg";
-// import dfw20 from "./assets/DYING FOR WATER/Stills/dfw20.jpg";
-// import dfw21 from "./assets/DYING FOR WATER/Stills/dfw21.jpg";
+import dfwVideo from "./assets/DYING FOR WATER/Video/Compressed Dfw Trailer Hd.mp4";
+import dfw1 from "./assets/DYING FOR WATER/Stills/dfw1.jpg";
+import dfw2 from "./assets/DYING FOR WATER/Stills/dfw2.jpg";
+import dfw3 from "./assets/DYING FOR WATER/Stills/dfw3.jpg";
+import dfw4 from "./assets/DYING FOR WATER/Stills/dfw4.jpg";
+import dfw5 from "./assets/DYING FOR WATER/Stills/dfw5.jpg";
+import dfw6 from "./assets/DYING FOR WATER/Stills/dfw6.jpg";
+import dfw7 from "./assets/DYING FOR WATER/Stills/dfw7.jpg";
+import dfw8 from "./assets/DYING FOR WATER/Stills/dfw8.jpg";
+import dfw9 from "./assets/DYING FOR WATER/Stills/dfw9.jpg";
+import dfw10 from "./assets/DYING FOR WATER/Stills/dfw10.jpg";
+import dfw11 from "./assets/DYING FOR WATER/Stills/dfw11.jpg";
+import dfw12 from "./assets/DYING FOR WATER/Stills/dfw12.jpg";
+import dfw13 from "./assets/DYING FOR WATER/Stills/dfw13.jpg";
+import dfw14 from "./assets/DYING FOR WATER/Stills/dfw14.jpg";
+import dfw15 from "./assets/DYING FOR WATER/Stills/dfw15.jpg";
+import dfw16 from "./assets/DYING FOR WATER/Stills/dfw16.jpg";
+import dfw17 from "./assets/DYING FOR WATER/Stills/dfw17.jpg";
+import dfw18 from "./assets/DYING FOR WATER/Stills/dfw18.jpg";
+import dfw19 from "./assets/DYING FOR WATER/Stills/dfw19.jpg";
+import dfw20 from "./assets/DYING FOR WATER/Stills/dfw20.jpg";
+import dfw21 from "./assets/DYING FOR WATER/Stills/dfw21.jpg";
 
 // // Project two assests
 import ibrahim1 from "./assets/IBRAHIM/Stills/IBRAHIM1.png";
@@ -105,47 +105,47 @@ import ibrahim19 from "./assets/IBRAHIM/Stills/IBRAHIM19.png";
 // import maji29 from "./assets/PROJECT MAJI/Stills/maji29.jpg";
 
 export const projects = [
-  // {
-  //   id: nanoid(),
-  //   img: dfw1,
-  //   title: "dying for water",
-  //   service: "music video",
-  //   video: dfwVideo,
-  //   projectInformation: {
-  //     title: "Dying for Water",
-  //     clientName: "Just Red Production",
-  //     directorDPName: "Yemi Omu",
-  //     beforeAfterLabel: "Before | After",
-  //   },
-  //   callToAction: {
-  //     contactDetails:
-  //       "Available for freelance work. Contact: courage304@gmail.com",
-  //     socialMediaLinks: "Follow @yourhandle on Instagram",
-  //   },
-  //   gallery: {
-  //     img1: dfw1,
-  //     img2: dfw2,
-  //     img3: dfw3,
-  //     img4: dfw4,
-  //     img5: dfw5,
-  //     img6: dfw6,
-  //     img7: dfw7,
-  //     img8: dfw8,
-  //     img9: dfw9,
-  //     img10: dfw10,
-  //     img11: dfw11,
-  //     img12: dfw12,
-  //     img13: dfw13,
-  //     img14: dfw14,
-  //     img15: dfw15,
-  //     img16: dfw16,
-  //     img17: dfw17,
-  //     img18: dfw18,
-  //     img19: dfw19,
-  //     img20: dfw20,
-  //     img21: dfw21,
-  //   },
-  // },
+  {
+    id: nanoid(),
+    img: dfw1,
+    title: "dying for water",
+    service: "music video",
+    video: dfwVideo,
+    projectInformation: {
+      title: "Dying for Water",
+      clientName: "Just Red Production",
+      directorDPName: "Yemi Omu",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: dfw1,
+      img2: dfw2,
+      img3: dfw3,
+      img4: dfw4,
+      img5: dfw5,
+      img6: dfw6,
+      img7: dfw7,
+      img8: dfw8,
+      img9: dfw9,
+      img10: dfw10,
+      img11: dfw11,
+      img12: dfw12,
+      img13: dfw13,
+      img14: dfw14,
+      img15: dfw15,
+      img16: dfw16,
+      img17: dfw17,
+      img18: dfw18,
+      img19: dfw19,
+      img20: dfw20,
+      img21: dfw21,
+    },
+  },
   {
     id: nanoid(),
     img: ibrahim4,
