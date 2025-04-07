@@ -55,10 +55,10 @@ const ProjectDetails = () => {
                 <span>Contact Details: </span>
                 <span>{project.callToAction.contactDetails}</span>
               </div>
-              <div>
+              {/* <div>
                 <span>Social Media Links: </span>
                 <span>{project.callToAction.socialMediaLinks}</span>
-              </div>
+              </div> */}
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
