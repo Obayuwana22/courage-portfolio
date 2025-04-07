@@ -74,35 +74,35 @@ import idia15 from "./assets/IDIA/Stills/idia15.jpg";
 import idia16 from "./assets/IDIA/Stills/idia16.jpg";
 
 // // Project four assests
-// import maji1 from "./assets/PROJECT MAJI/Stills/maji1.jpg";
-// import maji2 from "./assets/PROJECT MAJI/Stills/maji2.jpg";
-// import maji3 from "./assets/PROJECT MAJI/Stills/maji3.jpg";
-// import maji4 from "./assets/PROJECT MAJI/Stills/maji4.jpg";
-// import maji5 from "./assets/PROJECT MAJI/Stills/maji5.jpg";
-// import maji6 from "./assets/PROJECT MAJI/Stills/maji6.jpg";
-// import maji7 from "./assets/PROJECT MAJI/Stills/maji7.jpg";
-// import maji8 from "./assets/PROJECT MAJI/Stills/maji8.jpg";
-// import maji9 from "./assets/PROJECT MAJI/Stills/maji9.jpg";
-// import maji10 from "./assets/PROJECT MAJI/Stills/maji10.jpg";
-// import maji11 from "./assets/PROJECT MAJI/Stills/maji11.jpg";
-// import maji12 from "./assets/PROJECT MAJI/Stills/maji12.jpg";
-// import maji13 from "./assets/PROJECT MAJI/Stills/maji13.jpg";
-// import maji14 from "./assets/PROJECT MAJI/Stills/maji14.jpg";
-// import maji15 from "./assets/PROJECT MAJI/Stills/maji15.jpg";
-// import maji16 from "./assets/PROJECT MAJI/Stills/maji16.jpg";
-// import maji17 from "./assets/PROJECT MAJI/Stills/maji17.jpg";
-// import maji18 from "./assets/PROJECT MAJI/Stills/maji18.jpg";
-// import maji19 from "./assets/PROJECT MAJI/Stills/maji19.jpg";
-// import maji20 from "./assets/PROJECT MAJI/Stills/maji20.jpg";
-// import maji21 from "./assets/PROJECT MAJI/Stills/maji21.jpg";
-// import maji22 from "./assets/PROJECT MAJI/Stills/maji22.jpg";
-// import maji23 from "./assets/PROJECT MAJI/Stills/maji23.jpg";
-// import maji24 from "./assets/PROJECT MAJI/Stills/maji24.jpg";
-// import maji25 from "./assets/PROJECT MAJI/Stills/maji25.jpg";
-// import maji26 from "./assets/PROJECT MAJI/Stills/maji26.jpg";
-// import maji27 from "./assets/PROJECT MAJI/Stills/maji27.jpg";
-// import maji28 from "./assets/PROJECT MAJI/Stills/maji28.jpg";
-// import maji29 from "./assets/PROJECT MAJI/Stills/maji29.jpg";
+import maji1 from "./assets/PROJECT MAJI/Stills/maji1.jpg";
+import maji2 from "./assets/PROJECT MAJI/Stills/maji2.jpg";
+import maji3 from "./assets/PROJECT MAJI/Stills/maji3.jpg";
+import maji4 from "./assets/PROJECT MAJI/Stills/maji4.jpg";
+import maji5 from "./assets/PROJECT MAJI/Stills/maji5.jpg";
+import maji6 from "./assets/PROJECT MAJI/Stills/maji6.jpg";
+import maji7 from "./assets/PROJECT MAJI/Stills/maji7.jpg";
+import maji8 from "./assets/PROJECT MAJI/Stills/maji8.jpg";
+import maji9 from "./assets/PROJECT MAJI/Stills/maji9.jpg";
+import maji10 from "./assets/PROJECT MAJI/Stills/maji10.jpg";
+import maji11 from "./assets/PROJECT MAJI/Stills/maji11.jpg";
+import maji12 from "./assets/PROJECT MAJI/Stills/maji12.jpg";
+import maji13 from "./assets/PROJECT MAJI/Stills/maji13.jpg";
+import maji14 from "./assets/PROJECT MAJI/Stills/maji14.jpg";
+import maji15 from "./assets/PROJECT MAJI/Stills/maji15.jpg";
+import maji16 from "./assets/PROJECT MAJI/Stills/maji16.jpg";
+import maji17 from "./assets/PROJECT MAJI/Stills/maji17.jpg";
+import maji18 from "./assets/PROJECT MAJI/Stills/maji18.jpg";
+import maji19 from "./assets/PROJECT MAJI/Stills/maji19.jpg";
+import maji20 from "./assets/PROJECT MAJI/Stills/maji20.jpg";
+import maji21 from "./assets/PROJECT MAJI/Stills/maji21.jpg";
+import maji22 from "./assets/PROJECT MAJI/Stills/maji22.jpg";
+import maji23 from "./assets/PROJECT MAJI/Stills/maji23.jpg";
+import maji24 from "./assets/PROJECT MAJI/Stills/maji24.jpg";
+import maji25 from "./assets/PROJECT MAJI/Stills/maji25.jpg";
+import maji26 from "./assets/PROJECT MAJI/Stills/maji26.jpg";
+import maji27 from "./assets/PROJECT MAJI/Stills/maji27.jpg";
+import maji28 from "./assets/PROJECT MAJI/Stills/maji28.jpg";
+import maji29 from "./assets/PROJECT MAJI/Stills/maji29.jpg";
 
 export const projects = [
   {
@@ -222,55 +222,53 @@ export const projects = [
     },
   },
 
-  // {
-  //   id: nanoid(),
-  //   img: maji9,
-  //   title: "project maji",
-  //   service: "music video",
-  //   video: dfwVideo,
-  //   projectInformation: {
-  //     title: "Project Maji",
-  //     clientName: "Just Red Production",
-  //     directorDPName: "Yemi Omu",
-  //     beforeAfterLabel: "Before | After",
-  //   },
-  //   callToAction: {
-  //     contactDetails:
-  //       "Available for freelance work. Contact: courage304@gmail.com",
-  //     socialMediaLinks: "Follow @yourhandle on Instagram",
-  //   },
-  //   gallery: {
-  //     img1: maji1,
-  //     img2: maji2,
-  //     img3: maji3,
-  //     img4: maji4,
-  //     img5: maji5,
-  //     img6: maji6,
-  //     img7: maji7,
-  //     img8: maji8,
-  //     img9: maji9,
-  //     img10: maji10,
-  //     img11: maji11,
-  //     img12: maji12,
-  //     img13: maji13,
-  //     img14: maji14,
-  //     img15: maji15,
-  //     img16: maji16,
-  //     img17: maji17,
-  //     img18: maji18,
-  //     img19: maji19,
-  //     img20: maji20,
-  //     img21: maji21,
-  //     img22: maji22,
-  //     img23: maji23,
-  //     img24: maji24,
-  //     img25: maji25,
-  //     img26: maji26,
-  //     img27: maji27,
-  //     img28: maji28,
-  //     img29: maji29,
-  //   },
-  // },
-
-  
+  {
+    id: nanoid(),
+    img: maji9,
+    title: "project maji",
+    service: "music video",
+    video: dfwVideo,
+    projectInformation: {
+      title: "Project Maji",
+      clientName: "Just Red Production",
+      directorDPName: "Yemi Omu",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: maji1,
+      img2: maji2,
+      img3: maji3,
+      img4: maji4,
+      img5: maji5,
+      img6: maji6,
+      img7: maji7,
+      img8: maji8,
+      img9: maji9,
+      img10: maji10,
+      img11: maji11,
+      img12: maji12,
+      img13: maji13,
+      img14: maji14,
+      img15: maji15,
+      img16: maji16,
+      img17: maji17,
+      img18: maji18,
+      img19: maji19,
+      img20: maji20,
+      img21: maji21,
+      img22: maji22,
+      img23: maji23,
+      img24: maji24,
+      img25: maji25,
+      img26: maji26,
+      img27: maji27,
+      img28: maji28,
+      img29: maji29,
+    },
+  },
 ];
