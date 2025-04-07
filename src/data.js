@@ -56,22 +56,22 @@ import ibrahim18 from "./assets/IBRAHIM/Stills/IBRAHIM18.png";
 import ibrahim19 from "./assets/IBRAHIM/Stills/IBRAHIM19.png";
 
 // // Project three assests
-// import idia1 from "./assets/IDIA/Stills/idia1.jpg";
-// import idia2 from "./assets/IDIA/Stills/idia2.jpg";
-// import idia3 from "./assets/IDIA/Stills/idia3.jpg";
-// import idia4 from "./assets/IDIA/Stills/idia4.jpg";
-// import idia5 from "./assets/IDIA/Stills/idia5.jpg";
-// import idia6 from "./assets/IDIA/Stills/idia6.jpg";
-// import idia7 from "./assets/IDIA/Stills/idia7.jpg";
-// import idia8 from "./assets/IDIA/Stills/idia8.jpg";
-// import idia9 from "./assets/IDIA/Stills/idia9.jpg";
-// import idia10 from "./assets/IDIA/Stills/idia10.jpg";
-// import idia11 from "./assets/IDIA/Stills/idia11.jpg";
-// import idia12 from "./assets/IDIA/Stills/idia12.jpg";
-// import idia13 from "./assets/IDIA/Stills/idia13.jpg";
-// import idia14 from "./assets/IDIA/Stills/idia14.jpg";
-// import idia15 from "./assets/IDIA/Stills/idia15.jpg";
-// import idia16 from "./assets/IDIA/Stills/idia16.jpg";
+import idia1 from "./assets/IDIA/Stills/idia1.jpg";
+import idia2 from "./assets/IDIA/Stills/idia2.jpg";
+import idia3 from "./assets/IDIA/Stills/idia3.jpg";
+import idia4 from "./assets/IDIA/Stills/idia4.jpg";
+import idia5 from "./assets/IDIA/Stills/idia5.jpg";
+import idia6 from "./assets/IDIA/Stills/idia6.jpg";
+import idia7 from "./assets/IDIA/Stills/idia7.jpg";
+import idia8 from "./assets/IDIA/Stills/idia8.jpg";
+import idia9 from "./assets/IDIA/Stills/idia9.jpg";
+import idia10 from "./assets/IDIA/Stills/idia10.jpg";
+import idia11 from "./assets/IDIA/Stills/idia11.jpg";
+import idia12 from "./assets/IDIA/Stills/idia12.jpg";
+import idia13 from "./assets/IDIA/Stills/idia13.jpg";
+import idia14 from "./assets/IDIA/Stills/idia14.jpg";
+import idia15 from "./assets/IDIA/Stills/idia15.jpg";
+import idia16 from "./assets/IDIA/Stills/idia16.jpg";
 
 // // Project four assests
 // import maji1 from "./assets/PROJECT MAJI/Stills/maji1.jpg";
@@ -185,42 +185,42 @@ export const projects = [
       img19: ibrahim19,
     },
   },
-  // {
-  //   id: nanoid(),
-  //   img: idia8,
-  //   title: "idia",
-  //   service: "music video",
-  //   video: dfwVideo,
-  //   projectInformation: {
-  //     title: "Idia",
-  //     clientName: "Just Red Production",
-  //     directorDPName: "Yemi Omu",
-  //     beforeAfterLabel: "Before | After",
-  //   },
-  //   callToAction: {
-  //     contactDetails:
-  //       "Available for freelance work. Contact: courage304@gmail.com",
-  //     socialMediaLinks: "Follow @yourhandle on Instagram",
-  //   },
-  //   gallery: {
-  //     img1: idia1,
-  //     img2: idia2,
-  //     img3: idia3,
-  //     img4: idia4,
-  //     img5: idia5,
-  //     img6: idia6,
-  //     img7: idia7,
-  //     img8: idia8,
-  //     img9: idia9,
-  //     img10: idia10,
-  //     img11: idia11,
-  //     img12: idia12,
-  //     img13: idia13,
-  //     img14: idia14,
-  //     img15: idia15,
-  //     img16: idia16,
-  //   },
-  // },
+  {
+    id: nanoid(),
+    img: idia8,
+    title: "idia",
+    service: "music video",
+    video: dfwVideo,
+    projectInformation: {
+      title: "Idia",
+      clientName: "Just Red Production",
+      directorDPName: "Yemi Omu",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: idia1,
+      img2: idia2,
+      img3: idia3,
+      img4: idia4,
+      img5: idia5,
+      img6: idia6,
+      img7: idia7,
+      img8: idia8,
+      img9: idia9,
+      img10: idia10,
+      img11: idia11,
+      img12: idia12,
+      img13: idia13,
+      img14: idia14,
+      img15: idia15,
+      img16: idia16,
+    },
+  },
 
   // {
   //   id: nanoid(),
