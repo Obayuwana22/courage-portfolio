@@ -3,7 +3,7 @@ import { useTheme } from "./ThemeProvider";
 const DarkModeToggle = () => {
   const { isDarkMode, toggleDarkMode } = useTheme();
   return (
-    <div className="flex justify-center mt-2">
+    <div className="flex justify-end">
       <div className="flex flex-col items-center">
         <button
           onClick={toggleDarkMode}
@@ -11,7 +11,7 @@ const DarkModeToggle = () => {
             isDarkMode ? "bg-white" : "bg-black"
           }`}
         ></button>
-        <div className="italic text-black dark:text-white">mood swings</div>
+        <div className="italic text-[10px] text-black dark:text-white">mood swings</div>
       </div>
     </div>
   );
