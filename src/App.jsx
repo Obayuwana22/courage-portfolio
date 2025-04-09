@@ -9,7 +9,7 @@ import {
   ShortFilm,
   Work,
   ProjectDetails,
-  FeatureFilm,
+  // FeatureFilm,
   Documentary,
 } from "./pages";
 import { ThemeProvider } from "./components/ThemeProvider";
@@ -40,10 +40,10 @@ const router = createBrowserRouter([
         path: "/short-film",
         element: <ShortFilm />,
       },
-      {
-        path: "/feature-film",
-        element: <FeatureFilm />,
-      },
+      // {
+      //   path: "/feature-film",
+      //   element: <FeatureFilm />,
+      // },
       {
         path: "/documentary",
         element: <Documentary />,
