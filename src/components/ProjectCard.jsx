@@ -16,6 +16,7 @@ const ProjectCard = () => {
                   className="my-5 lg:my-0 lg:hover:opacity-50 transition duration-700
            h-[300px] w-full object-cover
                   "
+                  loading="lazy"
                 />
               </Link>
 

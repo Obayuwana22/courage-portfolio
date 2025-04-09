@@ -5,8 +5,8 @@ import DarkModeToggle from "../components/DarkModeToggle";
 
 const HomeLayout = () => {
   return (
-    <div className="flex flex-col mx-5 min-h-screen relative">
-      <div className="flex flex-col items-center text-center mt-10 ">
+    <div className="flex flex-col mx-5 min-h-screen">
+      <header className="flex flex-col items-center text-center mt-10 ">
         {/* <div className="flex items-center justify-center border-4 rounded-full w-[70px] h-[70px] text-2xl font-bold">
           CEE
         </div> */}
@@ -16,9 +16,9 @@ const HomeLayout = () => {
           </h1>
         </Link>
         <h2 className="tracking-[0.5em] text-gray-500">freelance colorist</h2>
-      </div>
+      </header>
 
-      <div className="absolute top-2 right-0">
+      <div>
         <DarkModeToggle />
       </div>
 

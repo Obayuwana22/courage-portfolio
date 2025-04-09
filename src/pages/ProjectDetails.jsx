@@ -64,7 +64,7 @@ const ProjectDetails = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
               {Object.values(project.gallery).map((img, index) => (
                 <div key={index} className="m-1">
-                  <img src={img} alt="porfolio images" className="" />
+                  <img src={img} alt="porfolio images" loading="lazy"/>
                 </div>
               ))}
             </div>

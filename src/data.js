@@ -148,7 +148,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: ibrahim4,
+    img: ibrahim1,
     title: "ibrahim",
     service: "music video",
     youTubeLink: "https://www.youtube.com/embed/syHSnmPaBaE",
