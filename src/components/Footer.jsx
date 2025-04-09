@@ -34,7 +34,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="text-[0.7rem] text-center mt-5">
+      <p className="text-[0.7rem] text-center mt-5 dark:text-white">
         ©2025 COURAGE OBAYUWANA. All rights reserved. No part of this website may
         be reproduced without permission.
       </p>

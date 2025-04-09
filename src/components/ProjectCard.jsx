@@ -21,7 +21,7 @@ const ProjectCard = () => {
 
               <div className="text-center uppercase text-sm lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:opacity-0 lg:group-hover:opacity-100 lg:transition lg:duration-700">
                 <span className="text-red-500 font-medium">{title}</span>
-                <h3 className="lg:text-red-500">{service}</h3>
+                <h3 className=" lg:text-red-500 dark:text-white">{service}</h3>
               </div>
             </div>
           );

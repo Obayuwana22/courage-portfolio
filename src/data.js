@@ -4,9 +4,9 @@ export const navLinks = [
   // { id: nanoid(), href: "/work", text: "work" },
   { id: nanoid(), path: "/music-video", text: "music video" },
   { id: nanoid(), path: "/commercial", text: "commercial" },
-  { id: nanoid(), path: "/short-film", text: "shortfilm" },
-  { id: nanoid(), path: "/fashion-film", text: "fashion film" },
-  { id: nanoid(), path: "/show-reel", text: "showreel" },
+  { id: nanoid(), path: "/short-film", text: "short film" },
+  { id: nanoid(), path: "/documentary", text: "documentary" },
+  { id: nanoid(), path: "/feature-film", text: "feature film" },
   { id: nanoid(), path: "/contact", text: "contact" },
 ];
 

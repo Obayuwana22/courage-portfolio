@@ -9,7 +9,7 @@ const ProjectDetails = () => {
   );
   return (
     <div>
-      <div>
+      <div className="text-black dark:text-white">
         {project.map((project) => (
           <div key={project.id} className="flex flex-col gap-10">
             {project.video ? (

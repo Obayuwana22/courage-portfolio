@@ -1,11 +1,11 @@
 import ProjectCard from "../components/ProjectCard"
 
-const ShowReel = () => {
+const FeatureFilm = () => {
   return (
     <div>
-      ShowReel
+      FeatureFilm
       {/* <ProjectCard/> */}
     </div>
   )
 }
-export default ShowReel
+export default FeatureFilm

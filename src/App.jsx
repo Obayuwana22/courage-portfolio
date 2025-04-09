@@ -1,16 +1,18 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import "./index.css";
 import {
   HomeLayout,
   Commercial,
   Contact,
-  FashionFilm,
+  FeatureFilm,
   MusicVideo,
   ShortFilm,
-  ShowReel,
+  Documentary,
   Work,
   ProjectDetails,
 } from "./pages";
+import { ThemeProvider } from "./components/ThemeProvider";
 
 const router = createBrowserRouter([
   {
@@ -39,12 +41,12 @@ const router = createBrowserRouter([
         element: <ShortFilm />,
       },
       {
-        path: "/fashion-film",
-        element: <FashionFilm />,
+        path: "/feature-film",
+        element: <FeatureFilm />,
       },
       {
-        path: "/show-reel",
-        element: <ShowReel />,
+        path: "/documentary",
+        element: <Documentary />,
       },
       {
         path: "/contact",
@@ -61,9 +63,11 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="font-quicksand">
-      <RouterProvider router={router} />
-    </div>
+    <ThemeProvider>
+      <div className="font-quicksand  bg-white dark:bg-black">
+        <RouterProvider router={router} />
+      </div>
+    </ThemeProvider>
   );
 }
 

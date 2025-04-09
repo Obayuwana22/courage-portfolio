@@ -1,11 +1,11 @@
 import ProjectCard from "../components/ProjectCard"
 
-const FashionFilm = () => {
+const Documentary = () => {
   return (
     <div>
-      FashionFilm
+      Documentary
       {/* <ProjectCard/> */}
     </div>
   )
 }
-export default FashionFilm
+export default Documentary

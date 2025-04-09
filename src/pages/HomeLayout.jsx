@@ -1,6 +1,7 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import DarkModeToggle from "../components/DarkModeToggle";
 
 const HomeLayout = () => {
   return (
@@ -9,11 +10,15 @@ const HomeLayout = () => {
         {/* <div className="flex items-center justify-center border-4 rounded-full w-[70px] h-[70px] text-2xl font-bold">
           CEE
         </div> */}
-        <h1 className="text-2xl tracking-[0.4em] font-medium mt-2">
-          COURAGE OBAYUWANA
-        </h1>
+        <Link to="/">
+          <h1 className="text-2xl tracking-[0.4em] font-medium mt-2 text-black dark:text-white">
+            COURAGE OBAYUWANA
+          </h1>
+        </Link>
         <h2 className="tracking-[0.5em] text-gray-500">freelance colorist</h2>
       </div>
+
+      <DarkModeToggle />
 
       <Navbar />
       <main>
