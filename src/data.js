@@ -6,6 +6,7 @@ export const navLinks = [
   { id: nanoid(), path: "/commercial", text: "commercial" },
   { id: nanoid(), path: "/short-film", text: "short film" },
   { id: nanoid(), path: "/documentary", text: "documentary" },
+  { id: nanoid(), path: "/feature-film", text: "feature film" },
   { id: nanoid(), path: "/contact", text: "contact" },
 ];
 

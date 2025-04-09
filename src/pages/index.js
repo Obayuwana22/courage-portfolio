@@ -6,3 +6,4 @@ export { default as Documentary } from "./Documentary";
 export { default as ShortFilm } from "./ShortFilm";
 export { default as MusicVideo } from "./MusicVideo";
 export { default as ProjectDetails } from "./ProjectDetails";
+export { default as FeatureFilm } from "./FeatureFilm";
