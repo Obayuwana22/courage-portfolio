@@ -1,17 +1,18 @@
+import { LuSun } from "react-icons/lu";
 import { useTheme } from "./ThemeProvider";
+import { IoIosMoon } from "react-icons/io";
 
 const DarkModeToggle = () => {
   const { isDarkMode, toggleDarkMode } = useTheme();
   return (
-    <div className="flex justify-end">
+    <div className="">
       <div className="flex flex-col items-center">
-        <button
-          onClick={toggleDarkMode}
-          className={`w-4 h-4 rounded-full ${
-            isDarkMode ? "bg-white" : "bg-black"
-          }`}
-        ></button>
-        <div className="italic text-[10px] text-black dark:text-white">mood swings</div>
+        <button onClick={toggleDarkMode}>
+          {isDarkMode ? <LuSun color="white" size={20}/> : <IoIosMoon size={20} />}
+        </button>
+        <div className="italic text-[8px] lg:text-[10px] text-black dark:text-white">
+          mood swing
+        </div>
       </div>
     </div>
   );

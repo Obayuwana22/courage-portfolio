@@ -4,6 +4,5 @@ export { default as Contact } from "./Contact";
 export { default as Work } from "./Work";
 export { default as Documentary } from "./Documentary";
 export { default as ShortFilm } from "./ShortFilm";
-// export { default as FeatureFilm } from "./FeatureFilm";
 export { default as MusicVideo } from "./MusicVideo";
 export { default as ProjectDetails } from "./ProjectDetails";
