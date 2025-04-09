@@ -5,12 +5,12 @@ import {
   HomeLayout,
   Commercial,
   Contact,
-  FeatureFilm,
   MusicVideo,
   ShortFilm,
-  Documentary,
   Work,
   ProjectDetails,
+  FeatureFilm,
+  Documentary,
 } from "./pages";
 import { ThemeProvider } from "./components/ThemeProvider";
 
