@@ -14,7 +14,7 @@ const ProjectCard = () => {
                   src={img}
                   alt={title}
                   className="my-5 lg:my-0 lg:hover:opacity-50 transition duration-700
-           h-[300px] w-full object-cover
+           aspect-[16/9] object-cover
                   "
                   loading="lazy"
                 />

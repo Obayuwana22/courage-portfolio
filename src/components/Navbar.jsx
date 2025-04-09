@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`flex flex-col text-red-500 uppercase tracking-[0.4em] text-sm shadow-md transition-[max-height] duration-1000 ease-in-out overflow-hidden md:shadow-none md:flex-row md:flex-wrap md:justify-center md:overflow-visible  md:mb-16 xl:mb-10 ${
+        className={`flex flex-col text-red-500 uppercase tracking-[0.4em] text-sm shadow-md transition-[max-height] duration-1000 ease-in-out overflow-hidden md:shadow-none md:flex-row md:flex-wrap md:justify-center md:overflow-visible  md:mb-16 ${
           isMenuActive ? "max-h-[500px]" : "max-h-0"
         }`}
       >

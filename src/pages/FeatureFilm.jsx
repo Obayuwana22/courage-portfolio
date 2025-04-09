@@ -1,6 +1,11 @@
+import ProjectDetails from "./ProjectDetails";
+
 const FeatureFilm = () => {
   return (
-    <div>FeatureFilm</div>
-  )
-}
-export default FeatureFilm
+    <div>
+      FeatureFilm
+      {/* <ProjectDetails/> */}
+    </div>
+  );
+};
+export default FeatureFilm;

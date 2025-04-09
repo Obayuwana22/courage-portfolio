@@ -12,6 +12,7 @@ export const navLinks = [
 
 // Project one assests
 import dfwVideo from "./assets/DYING FOR WATER/Video/Compressed Dfw Trailer Hd.mp4";
+import dfwhome from "./assets/DYING FOR WATER/Stills/dfwhome.jpg";
 import dfw1 from "./assets/DYING FOR WATER/Stills/dfw1.jpg";
 import dfw2 from "./assets/DYING FOR WATER/Stills/dfw2.jpg";
 import dfw3 from "./assets/DYING FOR WATER/Stills/dfw3.jpg";
@@ -107,9 +108,9 @@ import maji29 from "./assets/PROJECT MAJI/Stills/maji29.jpg";
 export const projects = [
   {
     id: nanoid(),
-    img: dfw1,
+    img: dfwhome,
     title: "dying for water",
-    service: "music video",
+    service: "documentary",
     video: dfwVideo,
     projectInformation: {
       title: "Dying for Water",
@@ -150,7 +151,7 @@ export const projects = [
     id: nanoid(),
     img: ibrahim1,
     title: "ibrahim",
-    service: "music video",
+    service: "short film",
     youTubeLink: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Ibrahim",
@@ -189,7 +190,7 @@ export const projects = [
     id: nanoid(),
     img: idia8,
     title: "idia",
-    service: "music video",
+    service: "feature film",
     video: dfwVideo,
     projectInformation: {
       title: "Idia",
@@ -226,7 +227,7 @@ export const projects = [
     id: nanoid(),
     img: maji9,
     title: "project maji",
-    service: "music video",
+    service: "documentary",
     video: dfwVideo,
     projectInformation: {
       title: "Project Maji",
