@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { projects } from "../data";
+import { projects as allProjects } from "../data";
 
-const ProjectCard = () => {
+const ProjectCard = ({ projects = allProjects }) => {
   return (
     <div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 mb-20">

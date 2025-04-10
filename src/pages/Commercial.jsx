@@ -1,9 +1,10 @@
+import ComingSoon from "../components/ComingSoon"
 import ProjectCard from "../components/ProjectCard"
 
 const Commercial = () => {
   return (
     <div>
-      Commercial
+     <ComingSoon/>
       {/* <ProjectCard/> */}
     </div>
   )

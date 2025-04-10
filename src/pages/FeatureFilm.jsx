@@ -1,10 +1,13 @@
-import ProjectDetails from "./ProjectDetails";
+import ProjectCard from "../components/ProjectCard";
+import { projects } from "../data";
 
 const FeatureFilm = () => {
+  const featureFilmProjects = projects.filter(
+    (project) => project.service === "feature film"
+  );
   return (
     <div>
-      FeatureFilm
-      {/* <ProjectDetails/> */}
+      <ProjectCard projects={featureFilmProjects} />
     </div>
   );
 };
