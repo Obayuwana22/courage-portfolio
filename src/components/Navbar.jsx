@@ -74,24 +74,3 @@ const Navbar = () => {
 };
 export default Navbar;
 
-{
-  /* <div>
-        {navLinks.map((navLink) => (
-          <ul
-            key={navLink.id}
-            className={`border-b-1 border-red-500 text-center transition-all duration-700 overflow-hidden ${
-              isMenuActive ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
-            }`}
-          >
-            <li className="my-5">
-              <a
-                href={navLink.href}
-                className="uppercase text-red-500 tracking-[0.4em] text-sm"
-              >
-                {navLink.text}
-              </a>
-            </li>
-          </ul>
-        ))}
-      </div> */
-}

@@ -1,7 +1,6 @@
 import { nanoid } from "nanoid";
 
 export const navLinks = [
-  // { id: nanoid(), href: "/work", text: "work" },
   { id: nanoid(), path: "/music-video", text: "music video" },
   { id: nanoid(), path: "/commercial", text: "commercial" },
   { id: nanoid(), path: "/short-film", text: "short film" },
@@ -53,7 +52,6 @@ import ibrahim14 from "./assets/IBRAHIM/Stills/IBRAHIM14.webp";
 import ibrahim15 from "./assets/IBRAHIM/Stills/IBRAHIM15.webp";
 import ibrahim16 from "./assets/IBRAHIM/Stills/IBRAHIM16.webp";
 import ibrahim17 from "./assets/IBRAHIM/Stills/IBRAHIM17.webp";
-import ibrahim18 from "./assets/IBRAHIM/Stills/IBRAHIM18.webp";
 import ibrahim19 from "./assets/IBRAHIM/Stills/IBRAHIM19.webp";
 
 // // Project three assests
@@ -182,7 +180,6 @@ export const projects = [
       img15: ibrahim15,
       img16: ibrahim16,
       img17: ibrahim17,
-      img18: ibrahim18,
       img19: ibrahim19,
     },
   },
