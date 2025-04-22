@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div>
-      <div className="font-bold text-center md:mt-10 lg:mt-24">
+      <div className="font-bold text-center md:mt-10 lg:mt-24 dark:text-white">
         <div>Courage Obayuwana</div>
         <p>Freelance Colorist - Based in Lagos working worldwide</p>
         <div>---</div>
