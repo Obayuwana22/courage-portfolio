@@ -30,20 +30,24 @@ const ProjectDetails = () => {
 
             <div className="text-xl font-bold uppercase">{project.title}</div>
             <div>
-              <div className="text-lg font-medium mb-2">
+              <div className="text-lg font-semibold mb-2">
                 Project Information
               </div>
               <div>
-                <span>Title: </span>
+                <span className="font-medium">Title: </span>
                 <span>{project.projectInformation.title}</span>
               </div>
               <div>
-                <span>Client Name: </span>
+                <span className="font-medium">Client Name: </span>
                 <span>{project.projectInformation.clientName}</span>
               </div>
               <div>
-                <span>Director / DP Name: </span>
-                <span>{project.projectInformation.directorDPName}</span>
+                <span className="font-medium">Director Name: </span>
+                <span>{project.projectInformation.directorName}</span>
+              </div>
+              <div>
+                <span className="font-medium">DP Name: </span>
+                <span>{project.projectInformation.directorOfPhotographyName}</span>
               </div>
             </div>
 
@@ -52,7 +56,7 @@ const ProjectDetails = () => {
                 Contact Information
               </div>
               <div>
-                <span>Contact Details: </span>
+                <span className="font-medium">Contact Details: </span>
                 <span>{project.callToAction.contactDetails}</span>
               </div>
               {/* <div>

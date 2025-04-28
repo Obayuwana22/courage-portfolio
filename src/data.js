@@ -113,7 +113,8 @@ export const projects = [
     projectInformation: {
       title: "Dying for Water",
       clientName: "Just Red Production",
-      directorDPName: "Yemi Omu",
+      directorName: "Yemi Omu",
+      directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -154,7 +155,8 @@ export const projects = [
     projectInformation: {
       title: "Ibrahim",
       clientName: "Just Red Production",
-      directorDPName: "Yemi Omu",
+      directorName: "Yemi Omu",
+      directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -191,8 +193,9 @@ export const projects = [
     video: dfwVideo,
     projectInformation: {
       title: "Idia",
-      clientName: "Just Red Production",
-      directorDPName: "Yemi Omu",
+      clientName: "Golden Mhinute Pictures",
+      directorName: "Ese Arerimu Jbkaze",
+      directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -229,7 +232,8 @@ export const projects = [
     projectInformation: {
       title: "Project Maji",
       clientName: "Just Red Production",
-      directorDPName: "Yemi Omu",
+      directorName: "Yemi Omu",
+      directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
