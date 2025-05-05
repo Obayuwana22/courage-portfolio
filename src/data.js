@@ -194,7 +194,7 @@ export const projects = [
     projectInformation: {
       title: "Idia",
       clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu Jbkaze",
+      directorName: "Ese Arerimu Jblaze",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
