@@ -21,7 +21,7 @@ const ProjectDetails = () => {
           </video>
         ) : project.youTubeLink ? (
           <iframe
-            className="h-[200px] md:h-[500px] lg:h-screen"
+            className="w-full h-[200px] md:h-[500px] lg:h-screen"
             src={project.youTubeLink}
             title="IBRAHIM | Short Film | 2023"
             frameborder="0"
