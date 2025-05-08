@@ -1,12 +1,14 @@
-import ComingSoon from "../components/ComingSoon"
-import ProjectCard from "../components/ProjectCard"
+import ProjectCard from "../components/ProjectCard";
+import { projects } from "../data";
 
 const Commercial = () => {
+  const commercialProjects = projects.filter(
+    (project) => project.genre === "commercial"
+  );
   return (
     <div>
-     <ComingSoon/>
-      {/* <ProjectCard/> */}
+      <ProjectCard projects={commercialProjects} />
     </div>
-  )
-}
-export default Commercial
+  );
+};
+export default Commercial;

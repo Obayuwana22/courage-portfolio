@@ -103,12 +103,32 @@ import maji27 from "./assets/PROJECT MAJI/Stills/maji27.webp";
 import maji28 from "./assets/PROJECT MAJI/Stills/maji28.webp";
 import maji29 from "./assets/PROJECT MAJI/Stills/maji29.webp";
 
+// // Project five assests
+import asd1 from "./assets/A SILENT DISCO/Stills/asd1.webp";
+import asd2 from "./assets/A SILENT DISCO/Stills/asd2.webp";
+import asd3 from "./assets/A SILENT DISCO/Stills/asd3.webp";
+import asd4 from "./assets/A SILENT DISCO/Stills/asd4.webp";
+import asd5 from "./assets/A SILENT DISCO/Stills/asd5.webp";
+import asd6 from "./assets/A SILENT DISCO/Stills/asd6.webp";
+import asd7 from "./assets/A SILENT DISCO/Stills/asd7.webp";
+import asd8 from "./assets/A SILENT DISCO/Stills/asd8.webp";
+import asd9 from "./assets/A SILENT DISCO/Stills/asd9.webp";
+import asd10 from "./assets/A SILENT DISCO/Stills/asd10.webp";
+import asd11 from "./assets/A SILENT DISCO/Stills/asd11.webp";
+import asd12 from "./assets/A SILENT DISCO/Stills/asd12.webp";
+import asd13 from "./assets/A SILENT DISCO/Stills/asd13.webp";
+import asd14 from "./assets/A SILENT DISCO/Stills/asd14.webp";
+import asd15 from "./assets/A SILENT DISCO/Stills/asd15.webp";
+
+// // Project six assests
+import goh1 from "./assets/GAME OF HEARTS/Stills/goh1.webp";
+
 export const projects = [
   {
     id: nanoid(),
     img: dfwhome,
     title: "dying for water",
-    service: "documentary",
+    genre: "documentary",
     video: dfwVideo,
     projectInformation: {
       title: "Dying for Water",
@@ -150,7 +170,7 @@ export const projects = [
     id: nanoid(),
     img: ibrahim1,
     title: "ibrahim",
-    service: "short film",
+    genre: "short film",
     youTubeLink: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Ibrahim",
@@ -189,8 +209,8 @@ export const projects = [
     id: nanoid(),
     img: idia8,
     title: "idia",
-    service: "feature film",
-    video: dfwVideo,
+    genre: "feature film",
+    video: "",
     projectInformation: {
       title: "Idia",
       clientName: "Golden Mhinute Pictures",
@@ -227,8 +247,8 @@ export const projects = [
     id: nanoid(),
     img: maji9,
     title: "project maji",
-    service: "documentary",
-    video: dfwVideo,
+    genre: "documentary",
+    video: "",
     projectInformation: {
       title: "Project Maji",
       clientName: "Just Red Production",
@@ -272,5 +292,49 @@ export const projects = [
       img28: maji28,
       img29: maji29,
     },
+  },
+
+  {
+    id: nanoid(),
+    img: asd3,
+    title: "a silent disco",
+    genre: "feature film",
+    video: "",
+    projectInformation: {
+      title: "A Silent Disco",
+      clientName: "Sozo Film",
+      directorName: "Prosper Edesiri",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: asd1,
+      img2: asd2,
+      // img3: asd3,
+      img4: asd4,
+      img5: asd5,
+      img6: asd6,
+      img7: asd7,
+      img8: asd8,
+      img9: asd9,
+      img10: asd10,
+      img11: asd11,
+      img12: asd12,
+      img13: asd13,
+      img14: asd14,
+      img15: asd15,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: goh1,
+    title: "game of hearts",
+    genre: "commercial",
   },
 ];

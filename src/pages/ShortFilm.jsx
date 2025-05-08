@@ -3,7 +3,7 @@ import { projects } from "../data";
 
 const ShortFilm = () => {
   const shortFilmProjects = projects.filter(
-    (project) => project.service === "short film"
+    (project) => project.genre === "short film"
   );
   return (
     <div>
