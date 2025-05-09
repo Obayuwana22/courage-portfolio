@@ -59,7 +59,7 @@ const ProjectDetails = () => {
         </div>
 
         <div>
-          <div className="text-lg font-medium mb-2">Contact Information</div>
+          <div className="text-lg font-medium mb-2 mt-10">Contact Information</div>
           <div>
             <span className="font-medium">Contact Details: </span>
             <span>{project.callToAction.contactDetails}</span>
