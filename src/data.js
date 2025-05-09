@@ -132,9 +132,9 @@ export const projects = [
     video: dfwVideo,
     projectInformation: {
       title: "Dying for Water",
-      clientName: "Just Red Production",
-      directorName: "Yemi Omu",
-      directorOfPhotographyName: "Courage Obayuwana",
+      clientName: "Rector Cares Foundation",
+      directorName: "Osakpolor Omoregie",
+      directorOfPhotographyName: "Osakpolor Omoregie",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -251,9 +251,9 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Project Maji",
-      clientName: "Just Red Production",
-      directorName: "Yemi Omu",
-      directorOfPhotographyName: "Courage Obayuwana",
+      clientName: "Film Etoile",
+      directorName: "Sarah Narki Dowuona",
+      directorOfPhotographyName: "Ghanaian Filmmaker",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
