@@ -73,6 +73,7 @@ import idia15 from "./assets/IDIA/Stills/idia15.webp";
 import idia16 from "./assets/IDIA/Stills/idia16.webp";
 
 // // Project four assests
+import majivideo from "./assets/PROJECT MAJI/Video/majivideo.mp4";
 import maji1 from "./assets/PROJECT MAJI/Stills/maji1.webp";
 import maji2 from "./assets/PROJECT MAJI/Stills/maji2.webp";
 import maji3 from "./assets/PROJECT MAJI/Stills/maji3.webp";
@@ -248,7 +249,7 @@ export const projects = [
     img: maji9,
     title: "project maji",
     genre: "documentary",
-    video: "",
+    video: majivideo,
     projectInformation: {
       title: "Project Maji",
       clientName: "Film Etoile",

@@ -16,7 +16,7 @@ const ProjectDetails = () => {
     <div>
       <div className="text-black dark:text-white">
         {project.video ? (
-          <video controls>
+          <video controls className="w-full h-[200px] md:h-[500px] lg:h-screen">
             <source src={project.video} type="video/mp4" />
           </video>
         ) : project.youTubeLink ? (
