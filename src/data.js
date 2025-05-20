@@ -665,6 +665,7 @@ export const projects = [
       img20: sun20,
       img21: sun21,
       img22: sun22,
+      img23: sun22,
     },
   },
 
