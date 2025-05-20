@@ -219,11 +219,11 @@ import journey12 from "./assets/THE JOURNEY/Stills/journey12.webp";
 import journey13 from "./assets/THE JOURNEY/Stills/journey13.webp";
 
 // // Project eleven assests
-import ss1 from "./assets/SALUNI/Stills/ss1.webp";
-import ss2 from "./assets/SALUNI/Stills/ss2.webp";
-import ss3 from "./assets/SALUNI/Stills/ss3.webp";
-import ss4 from "./assets/SALUNI/Stills/ss4.webp";
-import ss5 from "./assets/SALUNI/Stills/ss5.webp";
+import SS1 from "./assets/SALUNI/Stills/SS1.webp";
+import SS2 from "./assets/SALUNI/Stills/SS2.webp";
+import SS3 from "./assets/SALUNI/Stills/SS3.webp";
+import SS4 from "./assets/SALUNI/Stills/SS4.webp";
+import SS5 from "./assets/SALUNI/Stills/SS5.webp";
 
 // // Project assests
 import goh1 from "./assets/GAME OF HEARTS/Stills/goh1.webp";
@@ -555,7 +555,7 @@ export const projects = [
 
   {
     id: nanoid(),
-    img: ss1,
+    img: SS1,
     title: "saluni",
     genre: "commercial",
     video: "",
@@ -572,11 +572,11 @@ export const projects = [
       socialMediaLinks: "Follow @yourhandle on Instagram",
     },
     gallery: {
-      img1: ss1,
-      img2: ss2,
-      img3: ss3,
-      img4: ss4,
-      img5: ss5,
+      img1: SS1,
+      img2: SS2,
+      img3: SS3,
+      img4: SS4,
+      img5: SS5,
     },
   },
 
@@ -665,7 +665,6 @@ export const projects = [
       img20: sun20,
       img21: sun21,
       img22: sun22,
-      img23: sun22,
     },
   },
 
