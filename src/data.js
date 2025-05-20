@@ -122,6 +122,110 @@ import asd14 from "./assets/A SILENT DISCO/Stills/asd14.webp";
 import asd15 from "./assets/A SILENT DISCO/Stills/asd15.webp";
 
 // // Project six assests
+import causalQ1 from "./assets/CAUSAL QUEEN/Stills/causalQ1.webp";
+import causalQ2 from "./assets/CAUSAL QUEEN/Stills/causalQ2.webp";
+import causalQ3 from "./assets/CAUSAL QUEEN/Stills/causalQ3.webp";
+import causalQ4 from "./assets/CAUSAL QUEEN/Stills/causalQ4.webp";
+import causalQ5 from "./assets/CAUSAL QUEEN/Stills/causalQ5.webp";
+import causalQ6 from "./assets/CAUSAL QUEEN/Stills/causalQ6.webp";
+import causalQ7 from "./assets/CAUSAL QUEEN/Stills/causalQ7.webp";
+import causalQ8 from "./assets/CAUSAL QUEEN/Stills/causalQ8.webp";
+import causalQ9 from "./assets/CAUSAL QUEEN/Stills/causalQ9.webp";
+import causalQ10 from "./assets/CAUSAL QUEEN/Stills/causalQ10.webp";
+import causalQ11 from "./assets/CAUSAL QUEEN/Stills/causalQ11.webp";
+import causalQ12 from "./assets/CAUSAL QUEEN/Stills/causalQ12.webp";
+import causalQ13 from "./assets/CAUSAL QUEEN/Stills/causalQ13.webp";
+
+// // Project seven assests
+import clothing1 from "./assets/CLOTHING LINE/Stills/clothing1.webp";
+import clothing2 from "./assets/CLOTHING LINE/Stills/clothing2.webp";
+import clothing3 from "./assets/CLOTHING LINE/Stills/clothing3.webp";
+import clothing4 from "./assets/CLOTHING LINE/Stills/clothing4.webp";
+import clothing5 from "./assets/CLOTHING LINE/Stills/clothing5.webp";
+import clothing6 from "./assets/CLOTHING LINE/Stills/clothing6.webp";
+import clothing7 from "./assets/CLOTHING LINE/Stills/clothing7.webp";
+import clothing8 from "./assets/CLOTHING LINE/Stills/clothing8.webp";
+import clothing9 from "./assets/CLOTHING LINE/Stills/clothing9.webp";
+import clothing10 from "./assets/CLOTHING LINE/Stills/clothing10.webp";
+import clothing11 from "./assets/CLOTHING LINE/Stills/clothing11.webp";
+import clothing12 from "./assets/CLOTHING LINE/Stills/clothing12.webp";
+import clothing13 from "./assets/CLOTHING LINE/Stills/clothing13.webp";
+import clothing14 from "./assets/CLOTHING LINE/Stills/clothing14.webp";
+import clothing15 from "./assets/CLOTHING LINE/Stills/clothing15.webp";
+
+// // Project eight assests
+import sun1 from "./assets/DYING SUN/Stills/sun1.webp";
+import sun2 from "./assets/DYING SUN/Stills/sun2.webp";
+import sun3 from "./assets/DYING SUN/Stills/sun3.webp";
+import sun4 from "./assets/DYING SUN/Stills/sun4.webp";
+import sun5 from "./assets/DYING SUN/Stills/sun5.webp";
+import sun6 from "./assets/DYING SUN/Stills/sun6.webp";
+import sun7 from "./assets/DYING SUN/Stills/sun7.webp";
+import sun8 from "./assets/DYING SUN/Stills/sun8.webp";
+import sun9 from "./assets/DYING SUN/Stills/sun9.webp";
+import sun10 from "./assets/DYING SUN/Stills/sun10.webp";
+import sun11 from "./assets/DYING SUN/Stills/sun11.webp";
+import sun12 from "./assets/DYING SUN/Stills/sun12.webp";
+import sun13 from "./assets/DYING SUN/Stills/sun13.webp";
+import sun14 from "./assets/DYING SUN/Stills/sun14.webp";
+import sun15 from "./assets/DYING SUN/Stills/sun15.webp";
+import sun16 from "./assets/DYING SUN/Stills/sun16.webp";
+import sun17 from "./assets/DYING SUN/Stills/sun17.webp";
+import sun18 from "./assets/DYING SUN/Stills/sun18.webp";
+import sun19 from "./assets/DYING SUN/Stills/sun19.webp";
+import sun20 from "./assets/DYING SUN/Stills/sun20.webp";
+import sun21 from "./assets/DYING SUN/Stills/sun21.webp";
+import sun22 from "./assets/DYING SUN/Stills/sun22.webp";
+
+// // Project nine assests
+import her1 from "./assets/HER DARK PAST/Stills/her1.webp";
+import her2 from "./assets/HER DARK PAST/Stills/her2.webp";
+import her3 from "./assets/HER DARK PAST/Stills/her3.webp";
+import her4 from "./assets/HER DARK PAST/Stills/her4.webp";
+import her5 from "./assets/HER DARK PAST/Stills/her5.webp";
+import her6 from "./assets/HER DARK PAST/Stills/her6.webp";
+import her7 from "./assets/HER DARK PAST/Stills/her7.webp";
+import her8 from "./assets/HER DARK PAST/Stills/her8.webp";
+import her9 from "./assets/HER DARK PAST/Stills/her9.webp";
+import her10 from "./assets/HER DARK PAST/Stills/her10.webp";
+import her11 from "./assets/HER DARK PAST/Stills/her11.webp";
+import her12 from "./assets/HER DARK PAST/Stills/her12.webp";
+import her13 from "./assets/HER DARK PAST/Stills/her13.webp";
+import her14 from "./assets/HER DARK PAST/Stills/her14.webp";
+import her15 from "./assets/HER DARK PAST/Stills/her15.webp";
+import her16 from "./assets/HER DARK PAST/Stills/her16.webp";
+import her17 from "./assets/HER DARK PAST/Stills/her17.webp";
+import her18 from "./assets/HER DARK PAST/Stills/her18.webp";
+import her19 from "./assets/HER DARK PAST/Stills/her19.webp";
+import her20 from "./assets/HER DARK PAST/Stills/her20.webp";
+import her21 from "./assets/HER DARK PAST/Stills/her21.webp";
+import her22 from "./assets/HER DARK PAST/Stills/her22.webp";
+import her23 from "./assets/HER DARK PAST/Stills/her23.webp";
+import her24 from "./assets/HER DARK PAST/Stills/her24.webp";
+
+// // Project ten assests
+import journey1 from "./assets/THE JOURNEY/Stills/journey1.webp";
+import journey2 from "./assets/THE JOURNEY/Stills/journey2.webp";
+import journey3 from "./assets/THE JOURNEY/Stills/journey3.webp";
+import journey4 from "./assets/THE JOURNEY/Stills/journey4.webp";
+import journey5 from "./assets/THE JOURNEY/Stills/journey5.webp";
+import journey6 from "./assets/THE JOURNEY/Stills/journey6.webp";
+import journey7 from "./assets/THE JOURNEY/Stills/journey7.webp";
+import journey8 from "./assets/THE JOURNEY/Stills/journey8.webp";
+import journey9 from "./assets/THE JOURNEY/Stills/journey9.webp";
+import journey10 from "./assets/THE JOURNEY/Stills/journey10.webp";
+import journey11 from "./assets/THE JOURNEY/Stills/journey11.webp";
+import journey12 from "./assets/THE JOURNEY/Stills/journey12.webp";
+import journey13 from "./assets/THE JOURNEY/Stills/journey13.webp";
+
+// // Project eleven assests
+import ss1 from "./assets/SALUNI/Stills/ss1.webp";
+import ss2 from "./assets/SALUNI/Stills/ss2.webp";
+import ss3 from "./assets/SALUNI/Stills/ss3.webp";
+import ss4 from "./assets/SALUNI/Stills/ss4.webp";
+import ss5 from "./assets/SALUNI/Stills/ss5.webp";
+
+// // Project assests
 import goh1 from "./assets/GAME OF HEARTS/Stills/goh1.webp";
 
 export const projects = [
@@ -176,7 +280,7 @@ export const projects = [
     projectInformation: {
       title: "Ibrahim",
       clientName: "Just Red Production",
-      directorName: "Yemi Omu",
+      directorName: "Yemi Orru",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
@@ -334,8 +438,236 @@ export const projects = [
 
   {
     id: nanoid(),
+    img: causalQ3,
+    title: "causal queen",
+    genre: "commercial",
+    video: "",
+    projectInformation: {
+      title: "Causal Queen",
+      clientName: "Golden Mhinute Pictures",
+      directorName: "Ese Arerimu Jblaze",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: causalQ1,
+      img2: causalQ2,
+      img3: causalQ3,
+      img4: causalQ4,
+      img5: causalQ5,
+      img6: causalQ6,
+      img7: causalQ7,
+      img8: causalQ8,
+      img9: causalQ9,
+      img10: causalQ10,
+      img11: causalQ11,
+      img12: causalQ12,
+      img13: causalQ13,
+    },
+  },
+
+   
+  {
+    id: nanoid(),
+    img: her15,
+    title: "her dark past",
+    genre: "feature film",
+    video: "",
+    projectInformation: {
+      title: "Her Dark Past",
+      clientName: "Golden Mhinute Pictures",
+      directorName: "Ese Arerimu Jblaze",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: her1,
+      img2: her2,
+      img3: her3,
+      img4: her4,
+      img5: her5,
+      img6: her6,
+      img7: her7,
+      img8: her8,
+      img9: her9,
+      img10: her10,
+      img11: her11,
+      img12: her12,
+      img13: her13,
+      img14: her14,
+      img15: her15,
+      img16: her16,
+      img17: her17,
+      img18: her18,
+      img19: her19,
+      img20: her20,
+      img21: her21,
+      img22: her22,
+      img23: her23,
+      img24: her24,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: journey13,
+    title: "the journey",
+    genre: "documentary",
+    video: "",
+    projectInformation: {
+      title: "The Journey",
+      clientName: "Golden Mhinute Pictures",
+      directorName: "Ese Arerimu Jblaze",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: journey1,
+      img2: journey2,
+      img3: journey3,
+      img4: journey4,
+      img5: journey5,
+      img6: journey6,
+      img7: journey7,
+      img8: journey8,
+      img9: journey9,
+      img10: journey10,
+      img11: journey11,
+      img12: journey12,
+      img13: journey13,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: ss1,
+    title: "saluni",
+    genre: "commercial",
+    video: "",
+    projectInformation: {
+      title: "Saluni",
+      clientName: "Golden Mhinute Pictures",
+      directorName: "Ese Arerimu Jblaze",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: ss1,
+      img2: ss2,
+      img3: ss3,
+      img4: ss4,
+      img5: ss5,
+    },
+  },
+
+  {
+    id: nanoid(),
     img: goh1,
     title: "game of hearts",
     genre: "commercial",
   },
+
+  {
+    id: nanoid(),
+    img: clothing15,
+    title: "clothing line",
+    genre: "fashion film",
+    video: "",
+    projectInformation: {
+      title: "Clothing Line",
+      clientName: "Golden Mhinute Pictures",
+      directorName: "Ese Arerimu Jblaze",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: clothing1,
+      img2: clothing2,
+      img3: clothing3,
+      img4: clothing4,
+      img5: clothing5,
+      img6: clothing6,
+      img7: clothing7,
+      img8: clothing8,
+      img9: clothing9,
+      img10: clothing10,
+      img11: clothing11,
+      img12: clothing12,
+      img13: clothing13,
+      img14: clothing14,
+      img15: clothing15,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: sun15,
+    title: "dying sun",
+    genre: "feature film",
+    video: "",
+    projectInformation: {
+      title: "Dying Sun",
+      clientName: "Golden Mhinute Pictures",
+      directorName: "Ese Arerimu Jblaze",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: sun1,
+      img2: sun2,
+      img3: sun3,
+      img4: sun4,
+      img5: sun5,
+      img6: sun6,
+      img7: sun7,
+      img8: sun8,
+      img9: sun9,
+      img10: sun10,
+      img11: sun11,
+      img12: sun12,
+      img13: sun13,
+      img14: sun14,
+      img15: sun15,
+      img16: sun16,
+      img17: sun17,
+      img18: sun18,
+      img19: sun19,
+      img20: sun20,
+      img21: sun21,
+      img22: sun22,
+    },
+  },
+
+
+  
 ];
