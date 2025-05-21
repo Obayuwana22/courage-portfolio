@@ -444,8 +444,8 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Causal Queen",
-      clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu Jblaze",
+      clientName: "Xtreme Captures",
+      directorName: "Micheal",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
@@ -590,11 +590,11 @@ export const projects = [
   {
     id: nanoid(),
     img: clothing15,
-    title: "clothing line",
+    title: "nosakhare",
     genre: "fashion film",
     video: "",
     projectInformation: {
-      title: "Clothing Line",
+      title: "Nosakhare",
       clientName: "Golden Mhinute Pictures",
       directorName: "Ese Arerimu Jblaze",
       directorOfPhotographyName: "Courage Obayuwana",
