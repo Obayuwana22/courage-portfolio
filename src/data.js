@@ -267,7 +267,7 @@ export const projects = [
     id: nanoid(),
     img: betone18,
     title: "betking",
-    genre: "documentary",
+    genre: "commercial",
     video: "",
     projectInformation: {
       title: "Dying for Water",
@@ -310,7 +310,7 @@ export const projects = [
     id: nanoid(),
     img: bettwo1,
     title: "Jay-Jay Okocha",
-    genre: "documentary",
+    genre: "commercial",
     video: "",
     projectInformation: {
       title: "Dying for Water",
@@ -738,8 +738,8 @@ export const projects = [
     projectInformation: {
       title: "Dying Sun",
       clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu Jblaze",
-      directorOfPhotographyName: "Courage Obayuwana",
+      directorName: "Kester Nsirim",
+      directorOfPhotographyName: "Jonathan Kovel",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
