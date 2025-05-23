@@ -10,6 +10,39 @@ export const navLinks = [
 ];
 
 // Project one assests
+import betone1 from "./assets/BETKING ONE/Stills/betone1.webp";
+import betone2 from "./assets/BETKING ONE/Stills/betone2.webp";
+import betone3 from "./assets/BETKING ONE/Stills/betone3.webp";
+import betone4 from "./assets/BETKING ONE/Stills/betone4.webp";
+import betone5 from "./assets/BETKING ONE/Stills/betone5.webp";
+import betone6 from "./assets/BETKING ONE/Stills/betone6.webp";
+import betone7 from "./assets/BETKING ONE/Stills/betone7.webp";
+import betone8 from "./assets/BETKING ONE/Stills/betone8.webp";
+import betone9 from "./assets/BETKING ONE/Stills/betone9.webp";
+import betone10 from "./assets/BETKING ONE/Stills/betone10.webp";
+import betone11 from "./assets/BETKING ONE/Stills/betone11.webp";
+import betone12 from "./assets/BETKING ONE/Stills/betone12.webp";
+import betone13 from "./assets/BETKING ONE/Stills/betone13.webp";
+import betone14 from "./assets/BETKING ONE/Stills/betone14.webp";
+import betone15 from "./assets/BETKING ONE/Stills/betone15.webp";
+import betone16 from "./assets/BETKING ONE/Stills/betone16.webp";
+import betone17 from "./assets/BETKING ONE/Stills/betone17.webp";
+import betone18 from "./assets/BETKING ONE/Stills/betone18.webp";
+import betone19 from "./assets/BETKING ONE/Stills/betone19.webp";
+import betone20 from "./assets/BETKING ONE/Stills/betone20.webp";
+import betone21 from "./assets/BETKING ONE/Stills/betone21.webp";
+
+
+// Project one assests
+import bettwo1 from "./assets/BETKING TWO/Stills/bettwo1.webp";
+import bettwo2 from "./assets/BETKING TWO/Stills/bettwo2.webp";
+import bettwo3 from "./assets/BETKING TWO/Stills/bettwo3.webp";
+import bettwo4 from "./assets/BETKING TWO/Stills/bettwo4.webp";
+import bettwo5 from "./assets/BETKING TWO/Stills/bettwo5.webp";
+import bettwo6 from "./assets/BETKING TWO/Stills/bettwo6.webp";
+import bettwo7 from "./assets/BETKING TWO/Stills/bettwo7.webp";
+
+// Project one assests
 import dfwVideo from "./assets/DYING FOR WATER/Video/Compressed Dfw Trailer Hd.mp4";
 import dfwhome from "./assets/DYING FOR WATER/Stills/dfwhome.webp";
 import dfw1 from "./assets/DYING FOR WATER/Stills/dfw1.webp";
@@ -230,6 +263,77 @@ import SS5 from "./assets/SALUNI/Stills/SS5.webp";
 import goh1 from "./assets/GAME OF HEARTS/Stills/goh1.webp";
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: betone18,
+    title: "betking",
+    genre: "documentary",
+    video: "",
+    projectInformation: {
+      title: "Dying for Water",
+      clientName: "Rector Cares Foundation",
+      directorName: "Osakpolor Omoregie",
+      directorOfPhotographyName: "Osakpolor Omoregie",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: betone1,
+      img2: betone2,
+      img3: betone3,
+      img4: betone4,
+      img5: betone5,
+      img6: betone6,
+      img7: betone7,
+      img8: betone8,
+      img9: betone9,
+      img10: betone10,
+      img11: betone11,
+      img12: betone12,
+      img13: betone13,
+      img14: betone14,
+      img15: betone15,
+      img16: betone16,
+      img17: betone17,
+      img18: betone18,
+      img19: betone19,
+      img20: betone20,
+      img21: betone21,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: bettwo1,
+    title: "Jay-Jay Okocha",
+    genre: "documentary",
+    video: "",
+    projectInformation: {
+      title: "Dying for Water",
+      clientName: "Rector Cares Foundation",
+      directorName: "Osakpolor Omoregie",
+      directorOfPhotographyName: "Osakpolor Omoregie",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: bettwo1,
+      img2: bettwo2,
+      img3: bettwo3,
+      img4: bettwo4,
+      img5: bettwo5,
+      img6: bettwo6,
+      img7: bettwo7,
+    },
+  },
   {
     id: nanoid(),
     img: dfwhome,
