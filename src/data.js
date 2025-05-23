@@ -178,6 +178,7 @@ import sun21 from "./assets/DYING SUN/Stills/sun21.webp";
 import sun22 from "./assets/DYING SUN/Stills/sun22.webp";
 
 // // Project nine assests
+import herVideo from "./assets/HER DARK PAST/Video/hervideo.mp4";
 import her1 from "./assets/HER DARK PAST/Stills/her1.webp";
 import her2 from "./assets/HER DARK PAST/Stills/her2.webp";
 import her3 from "./assets/HER DARK PAST/Stills/her3.webp";
@@ -477,7 +478,7 @@ export const projects = [
     img: her15,
     title: "her dark past",
     genre: "feature film",
-    video: "",
+    video: herVideo,
     projectInformation: {
       title: "Her Dark Past",
       clientName: "Golden Mhinute Pictures",
