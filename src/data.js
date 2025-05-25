@@ -266,14 +266,14 @@ export const projects = [
   {
     id: nanoid(),
     img: betone18,
-    title: "betking",
+    title: "betking 1",
     genre: "commercial",
     video: "",
     projectInformation: {
-      title: "Dying for Water",
-      clientName: "Rector Cares Foundation",
-      directorName: "Osakpolor Omoregie",
-      directorOfPhotographyName: "Osakpolor Omoregie",
+      title: "Betking",
+      clientName: "Betking",
+      directorName: "Aje Filmworks",
+      directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -309,14 +309,14 @@ export const projects = [
   {
     id: nanoid(),
     img: bettwo1,
-    title: "Jay-Jay Okocha",
+    title: "betking 2",
     genre: "commercial",
     video: "",
     projectInformation: {
-      title: "Dying for Water",
-      clientName: "Rector Cares Foundation",
-      directorName: "Osakpolor Omoregie",
-      directorOfPhotographyName: "Osakpolor Omoregie",
+      title: "Betking",
+      clientName: "Betking",
+      directorName: "Aje Filmworks",
+      directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {

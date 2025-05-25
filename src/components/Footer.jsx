@@ -14,12 +14,12 @@ const Footer = () => {
             <FaInstagram size={20} color="white" />
           </a>
         </div> */}
-        <div className="border border-transparent rounded-3xl w-8 h-8 bg-red-500 flex justify-center items-center">
+        <div className="border border-transparent rounded-3xl w-8 h-8 bg-[#ff4500] flex justify-center items-center">
           <a href="mailto:courage304@gmail.com">
             <IoIosMail size={20} color="white" />
           </a>
         </div>
-        <div className="border border-transparent rounded-3xl w-8 h-8 bg-red-500 flex justify-center items-center">
+        <div className="border border-transparent rounded-3xl w-8 h-8 bg-[#ff4500] flex justify-center items-center">
           <a
             href="https://wa.me/+2348184127982"
             target="_blank"
@@ -28,7 +28,7 @@ const Footer = () => {
             <FaWhatsapp size={20} color="white" />
           </a>
         </div>
-        <div className="border border-transparent rounded-3xl w-8 h-8 bg-red-500 flex justify-center items-center">
+        <div className="border border-transparent rounded-3xl w-8 h-8 bg-[#ff4500] flex justify-center items-center">
           <a href="tel:+2347063337594">
             <MdOutlinePhoneInTalk size={20} color="white" />
           </a>
