@@ -37,37 +37,45 @@ const ProjectDetails = () => {
           />
         )}
 
-        <div className="text-xl font-bold uppercase">{project.title}</div>
-        <div>
-          <div className="text-lg font-semibold mb-2">Project Information</div>
+        <div className="my-10">
+          <div className="text-xl font-bold uppercase">{project.title}</div>
           <div>
-            <span className="font-medium">Title: </span>
-            <span>{project.projectInformation.title}</span>
+            <div className="text-lg font-semibold mb-2">
+              Project Information
+            </div>
+            <div>
+              <span className="font-medium">Title: </span>
+              <span>{project.projectInformation.title}</span>
+            </div>
+            <div>
+              <span className="font-medium">Client: </span>
+              <span>{project.projectInformation.clientName}</span>
+            </div>
+            <div>
+              <span className="font-medium">Director: </span>
+              <span>{project.projectInformation.directorName}</span>
+            </div>
+            <div>
+              <span className="font-medium">Director of Photography: </span>
+              <span>
+                {project.projectInformation.directorOfPhotographyName}
+              </span>
+            </div>
           </div>
-          <div>
-            <span className="font-medium">Client: </span>
-            <span>{project.projectInformation.clientName}</span>
-          </div>
-          <div>
-            <span className="font-medium">Director: </span>
-            <span>{project.projectInformation.directorName}</span>
-          </div>
-          <div>
-            <span className="font-medium">Director of Photography: </span>
-            <span>{project.projectInformation.directorOfPhotographyName}</span>
-          </div>
-        </div>
 
-        <div>
-          <div className="text-lg font-medium mb-2 mt-10">Contact Information</div>
           <div>
-            <span className="font-medium">Contact Details: </span>
-            <span>{project.callToAction.contactDetails}</span>
-          </div>
-          {/* <div>
+            <div className="text-lg font-medium mb-2 mt-10">
+              Contact Information
+            </div>
+            <div>
+              <span className="font-medium">Contact Details: </span>
+              <span>{project.callToAction.contactDetails}</span>
+            </div>
+            {/* <div>
                 <span>Social Media Links: </span>
                 <span>{project.callToAction.socialMediaLinks}</span>
               </div> */}
+          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
