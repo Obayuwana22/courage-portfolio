@@ -325,12 +325,12 @@ import smile10 from "./assets/SMILE TRAIN/Stills/smile10.webp";
 import smile11 from "./assets/SMILE TRAIN/Stills/smile11.webp";
 import smile12 from "./assets/SMILE TRAIN/Stills/smile12.webp";
 
-import stain1 from "./assets/STAIN/Stills/stain1.webp";
-import stain2 from "./assets/STAIN/Stills/stainTwo.webp";
-import stain3 from "./assets/STAIN/Stills/stain3.webp";
-import stain4 from "./assets/STAIN/Stills/stain4.webp";
-// import stain5 from "./assets/STAIN/Stills/stain5.webp";
-// import stain6 from "./assets/STAIN/Stills/stain6.webp";
+import stain1 from "./assets/STAIN/Stills/stain 1.webp";
+import stain2 from "./assets/STAIN/Stills/Stain 2.webp";
+import stain3 from "./assets/STAIN/Stills/stain 3.webp";
+import stain4 from "./assets/STAIN/Stills/Stain 4.webp";
+import stain5 from "./assets/STAIN/Stills/Stain 5.webp";
+import stain6 from "./assets/STAIN/Stills/stain 6.webp";
 
 export const projects = [
   {
@@ -763,7 +763,7 @@ export const projects = [
 
   {
     id: nanoid(),
-    img: stain1,
+    img: stain4,
     title: "stain",
     genre: "music video",
     video: "",
@@ -784,8 +784,8 @@ export const projects = [
       img2: stain2,
       img3: stain3,
       img4: stain4,
-      // img5: stain5,
-      // img6: stain6,
+      img5: stain5,
+      img6: stain6,
     },
   },
 
