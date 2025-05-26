@@ -32,7 +32,6 @@ import betone19 from "./assets/BETKING ONE/Stills/betone19.webp";
 import betone20 from "./assets/BETKING ONE/Stills/betone20.webp";
 import betone21 from "./assets/BETKING ONE/Stills/betone21.webp";
 
-
 // Project one assests
 import bettwo1 from "./assets/BETKING TWO/Stills/bettwo1.webp";
 import bettwo2 from "./assets/BETKING TWO/Stills/bettwo2.webp";
@@ -262,6 +261,76 @@ import SS5 from "./assets/SALUNI/Stills/SS5.webp";
 // // Project assests
 import goh1 from "./assets/GAME OF HEARTS/Stills/goh1.webp";
 
+import AB1 from "./assets/AGBEKE/Stills/AB1.webp";
+import AB2 from "./assets/AGBEKE/Stills/AB2.webp";
+import AB3 from "./assets/AGBEKE/Stills/AB3.webp";
+import AB4 from "./assets/AGBEKE/Stills/AB4.webp";
+import AB5 from "./assets/AGBEKE/Stills/AB5.webp";
+import AB6 from "./assets/AGBEKE/Stills/AB6.webp";
+import AB7 from "./assets/AGBEKE/Stills/AB7.webp";
+import AB8 from "./assets/AGBEKE/Stills/AB8.webp";
+import AB9 from "./assets/AGBEKE/Stills/AB9.webp";
+import AB10 from "./assets/AGBEKE/Stills/AB10.webp";
+import AB11 from "./assets/AGBEKE/Stills/AB11.webp";
+import AB12 from "./assets/AGBEKE/Stills/AB12.webp";
+import AB13 from "./assets/AGBEKE/Stills/AB13.webp";
+import AB14 from "./assets/AGBEKE/Stills/AB14.webp";
+import AB15 from "./assets/AGBEKE/Stills/AB15.webp";
+import AB16 from "./assets/AGBEKE/Stills/AB16.webp";
+
+import mesuem1 from "./assets/MESUEM CULTURE/Stills/mesuem1.webp";
+import mesuem2 from "./assets/MESUEM CULTURE/Stills/mesuem2.webp";
+import mesuem3 from "./assets/MESUEM CULTURE/Stills/mesuem3.webp";
+import mesuem4 from "./assets/MESUEM CULTURE/Stills/mesuem4.webp";
+import mesuem5 from "./assets/MESUEM CULTURE/Stills/mesuem5.webp";
+import mesuem6 from "./assets/MESUEM CULTURE/Stills/mesuem6.webp";
+import mesuem7 from "./assets/MESUEM CULTURE/Stills/mesuem7.webp";
+import mesuem8 from "./assets/MESUEM CULTURE/Stills/mesuem8.webp";
+import mesuem9 from "./assets/MESUEM CULTURE/Stills/mesuem9.webp";
+import mesuem10 from "./assets/MESUEM CULTURE/Stills/mesuem10.webp";
+import mesuem11 from "./assets/MESUEM CULTURE/Stills/mesuem11.webp";
+import mesuem12 from "./assets/MESUEM CULTURE/Stills/mesuem12.webp";
+import mesuem13 from "./assets/MESUEM CULTURE/Stills/mesuem13.webp";
+import mesuem14 from "./assets/MESUEM CULTURE/Stills/mesuem14.webp";
+import mesuem15 from "./assets/MESUEM CULTURE/Stills/mesuem15.webp";
+import mesuem16 from "./assets/MESUEM CULTURE/Stills/mesuem16.webp";
+import mesuem17 from "./assets/MESUEM CULTURE/Stills/mesuem17.webp";
+import mesuem18 from "./assets/MESUEM CULTURE/Stills/mesuem18.webp";
+import mesuem19 from "./assets/MESUEM CULTURE/Stills/mesuem19.webp";
+import mesuem20 from "./assets/MESUEM CULTURE/Stills/mesuem20.webp";
+
+import recyclan1 from "./assets/RECYCLAN/Stills/recyclan1.webp";
+import recyclan2 from "./assets/RECYCLAN/Stills/recyclan2.webp";
+import recyclan3 from "./assets/RECYCLAN/Stills/recyclan3.webp";
+import recyclan4 from "./assets/RECYCLAN/Stills/recyclan4.webp";
+import recyclan5 from "./assets/RECYCLAN/Stills/recyclan5.webp";
+import recyclan6 from "./assets/RECYCLAN/Stills/recyclan6.webp";
+import recyclan7 from "./assets/RECYCLAN/Stills/recyclan7.webp";
+import recyclan8 from "./assets/RECYCLAN/Stills/recyclan8.webp";
+import recyclan9 from "./assets/RECYCLAN/Stills/recyclan9.webp";
+import recyclan10 from "./assets/RECYCLAN/Stills/recyclan10.webp";
+import recyclan11 from "./assets/RECYCLAN/Stills/recyclan11.webp";
+
+import smile1 from "./assets/SMILE TRAIN/Stills/smile1.webp";
+import smile2 from "./assets/SMILE TRAIN/Stills/smile2.webp";
+import smile3 from "./assets/SMILE TRAIN/Stills/smile3.webp";
+import smile4 from "./assets/SMILE TRAIN/Stills/smile4.webp";
+import smile5 from "./assets/SMILE TRAIN/Stills/smile5.webp";
+import smile6 from "./assets/SMILE TRAIN/Stills/smile6.webp";
+import smile7 from "./assets/SMILE TRAIN/Stills/smile7.webp";
+import smile8 from "./assets/SMILE TRAIN/Stills/smile8.webp";
+import smile9 from "./assets/SMILE TRAIN/Stills/smile9.webp";
+import smile10 from "./assets/SMILE TRAIN/Stills/smile10.webp";
+import smile11 from "./assets/SMILE TRAIN/Stills/smile11.webp";
+import smile12 from "./assets/SMILE TRAIN/Stills/smile12.webp";
+
+import stain1 from "./assets/STAIN/Stills/stain 1.webp";
+import stain2 from "./assets/STAIN/Stills/stain 2.webp";
+import stain3 from "./assets/STAIN/Stills/stain 3.webp";
+import stain4 from "./assets/STAIN/Stills/stain 4.webp";
+import stain5 from "./assets/STAIN/Stills/stain 5.webp";
+import stain6 from "./assets/STAIN/Stills/stain 6.webp";
+
 export const projects = [
   {
     id: nanoid(),
@@ -424,7 +493,7 @@ export const projects = [
     projectInformation: {
       title: "Idia",
       clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu Jblaze",
+      directorName: "Ese Arerimu & Jblaze",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
@@ -576,7 +645,6 @@ export const projects = [
     },
   },
 
-   
   {
     id: nanoid(),
     img: her15,
@@ -585,9 +653,9 @@ export const projects = [
     video: herVideo,
     projectInformation: {
       title: "Her Dark Past",
-      clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu Jblaze",
-      directorOfPhotographyName: "Courage Obayuwana",
+      clientName: "Muiltichoice Talent Factory",
+      directorName: " Deborah Oluwatobi Ahmed & Samuel Oluwasegun Ogundeyie",
+      directorOfPhotographyName: "Chimaobi Akwuche",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -631,9 +699,9 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "The Journey",
-      clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu Jblaze",
-      directorOfPhotographyName: "Courage Obayuwana",
+      clientName: "Osakpolor",
+      directorName: "Osakpolor Omoregie",
+      directorOfPhotographyName: "Osakpolor Omoregie",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -666,9 +734,9 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Saluni",
-      clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu Jblaze",
-      directorOfPhotographyName: "Courage Obayuwana",
+      clientName: "Saluni App",
+      directorName: "Ejiroko",
+      directorOfPhotographyName: "Ejiroko",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -694,14 +762,14 @@ export const projects = [
 
   {
     id: nanoid(),
-    img: clothing15,
-    title: "nosakhare",
-    genre: "fashion film",
+    img: stain4,
+    title: "stain",
+    genre: "music video",
     video: "",
     projectInformation: {
-      title: "Nosakhare",
-      clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu Jblaze",
+      title: "Stain",
+      clientName: "Betking",
+      directorName: "Aje Filmworks",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
@@ -711,21 +779,159 @@ export const projects = [
       socialMediaLinks: "Follow @yourhandle on Instagram",
     },
     gallery: {
-      img1: clothing1,
-      img2: clothing2,
-      img3: clothing3,
-      img4: clothing4,
-      img5: clothing5,
-      img6: clothing6,
-      img7: clothing7,
-      img8: clothing8,
-      img9: clothing9,
-      img10: clothing10,
-      img11: clothing11,
-      img12: clothing12,
-      img13: clothing13,
-      img14: clothing14,
-      img15: clothing15,
+      img1: stain1,
+      img2: stain2,
+      img3: stain3,
+      img4: stain4,
+      img5: stain5,
+      img6: stain6,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: recyclan1,
+    title: "recyclan",
+    genre: "music video",
+    video: "",
+    projectInformation: {
+      title: "Recyclan",
+      clientName: "Betking",
+      directorName: "Aje Filmworks",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: recyclan1,
+      img2: recyclan2,
+      img3: recyclan3,
+      img4: recyclan4,
+      img5: recyclan5,
+      img6: recyclan6,
+      img7: recyclan7,
+      img8: recyclan8,
+      img9: recyclan9,
+      img10: recyclan10,
+      img11: recyclan11,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: mesuem8,
+    title: "musuem culture",
+    genre: "music video",
+    video: "",
+    projectInformation: {
+      title: "Musuem Culture",
+      clientName: "Betking",
+      directorName: "Aje Filmworks",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: mesuem1,
+      img2: mesuem2,
+      img3: mesuem3,
+      img4: mesuem4,
+      img5: mesuem5,
+      img6: mesuem6,
+      img7: mesuem7,
+      img8: mesuem8,
+      img9: mesuem9,
+      img10: mesuem10,
+      img11: mesuem11,
+      img12: mesuem12,
+      img13: mesuem13,
+      img14: mesuem14,
+      img15: mesuem15,
+      img16: mesuem16,
+      img17: mesuem17,
+      img18: mesuem18,
+      img19: mesuem19,
+      img20: mesuem20,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: AB1,
+    title: "agbeke",
+    genre: "music video",
+    video: "",
+    projectInformation: {
+      title: "Agbeke",
+      clientName: "Betking",
+      directorName: "Aje Filmworks",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: AB1,
+      img2: AB2,
+      img3: AB3,
+      img4: AB4,
+      img5: AB5,
+      img6: AB6,
+      img7: AB7,
+      img8: AB8,
+      img9: AB9,
+      img10: AB10,
+      img11: AB11,
+      img12: AB12,
+      img13: AB13,
+      img14: AB14,
+      img15: AB15,
+      img16: AB16,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: smile1,
+    title: "smile train",
+    genre: "music video",
+    video: "",
+    projectInformation: {
+      title: "Smile Train",
+      clientName: "Betking",
+      directorName: "Aje Filmworks",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: smile1,
+      img2: smile2,
+      img3: smile3,
+      img4: smile4,
+      img5: smile5,
+      img6: smile6,
+      img7: smile7,
+      img8: smile8,
+      img9: smile9,
+      img10: smile10,
+      img11: smile11,
+      img12: smile12,
     },
   },
 
@@ -772,7 +978,40 @@ export const projects = [
       img22: sun22,
     },
   },
-
-
-  
+  {
+    id: nanoid(),
+    img: clothing15,
+    title: "nosakhare",
+    genre: "fashion film",
+    video: "",
+    projectInformation: {
+      title: "Nosakhare",
+      clientName: "IZODUUWA",
+      directorName: "Osakpolor",
+      directorOfPhotographyName: "Paul Sonntag",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: clothing1,
+      img2: clothing2,
+      img3: clothing3,
+      img4: clothing4,
+      img5: clothing5,
+      img6: clothing6,
+      img7: clothing7,
+      img8: clothing8,
+      img9: clothing9,
+      img10: clothing10,
+      img11: clothing11,
+      img12: clothing12,
+      img13: clothing13,
+      img14: clothing14,
+      img15: clothing15,
+    },
+  },
 ];

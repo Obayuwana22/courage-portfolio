@@ -1,11 +1,13 @@
-import ComingSoon from "../components/ComingSoon";
 import ProjectCard from "../components/ProjectCard";
+import { projects } from "../data";
 
 const MusicVideo = () => {
+  const musicVideoProjects = projects.filter(
+    (project) => project.genre === "music video"
+  );
   return (
     <div>
-      <ComingSoon/>
-      {/* <ProjectCard /> */}
+      <ProjectCard projects={musicVideoProjects} />
     </div>
   );
 };
