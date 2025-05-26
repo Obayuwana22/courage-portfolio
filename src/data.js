@@ -10,6 +10,7 @@ export const navLinks = [
 ];
 
 // Project one assests
+import betkingVideo from "./assets/BETKING ONE/Video/betkingvideo.mp4";
 import betone1 from "./assets/BETKING ONE/Stills/betone1.webp";
 import betone2 from "./assets/BETKING ONE/Stills/betone2.webp";
 import betone3 from "./assets/BETKING ONE/Stills/betone3.webp";
@@ -337,7 +338,7 @@ export const projects = [
     img: betone18,
     title: "betking 1",
     genre: "commercial",
-    video: "",
+    video: betkingVideo,
     projectInformation: {
       title: "Betking",
       clientName: "Betking",
