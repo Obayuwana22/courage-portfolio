@@ -786,6 +786,7 @@ export const projects = [
       img4: stain4,
       img5: stain5,
       img6: stain6,
+      img7: stain6,
     },
   },
 
