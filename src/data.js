@@ -765,7 +765,7 @@ export const projects = [
     id: nanoid(),
     img: stain4,
     title: "stain",
-    genre: "music video",
+    genre: "short film",
     video: "",
     projectInformation: {
       title: "Stain",
@@ -793,7 +793,7 @@ export const projects = [
     id: nanoid(),
     img: recyclan1,
     title: "recyclan",
-    genre: "music video",
+    genre: "documentary",
     video: "",
     projectInformation: {
       title: "Recyclan",
@@ -826,7 +826,7 @@ export const projects = [
     id: nanoid(),
     img: mesuem8,
     title: "musuem culture",
-    genre: "music video",
+    genre: "documentary",
     video: "",
     projectInformation: {
       title: "Musuem Culture",
@@ -906,7 +906,7 @@ export const projects = [
     id: nanoid(),
     img: smile1,
     title: "smile train",
-    genre: "music video",
+    genre: "documentary",
     video: "",
     projectInformation: {
       title: "Smile Train",
