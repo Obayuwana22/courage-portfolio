@@ -48,7 +48,11 @@ const ProjectDetails = () => {
               <span>{project.projectInformation.title}</span>
             </div>
             <div>
-              <span className="font-medium">Client: </span>
+              {project.projectInformation.clientName ? (
+                <span className="font-medium">Client: </span>
+              ) : (
+                ""
+              )}
               <span>{project.projectInformation.clientName}</span>
             </div>
             <div>

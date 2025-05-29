@@ -872,7 +872,7 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Agbeke",
-      clientName: "Betking",
+      clientName: "",
       directorName: "Micheal",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
