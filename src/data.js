@@ -584,7 +584,7 @@ export const projects = [
       title: "A Silent Disco",
       clientName: "Sozo Film",
       directorName: "Prosper Edesiri",
-      directorOfPhotographyName: "Courage Obayuwana",
+      directorOfPhotographyName: "Jerry Ogbe",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -769,8 +769,8 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Stain",
-      clientName: "Betking",
-      directorName: "Aje Filmworks",
+      clientName: "Golden Minute Pictures",
+      directorName: "Ese Arerimu",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
@@ -796,9 +796,9 @@ export const projects = [
     genre: "documentary",
     video: "",
     projectInformation: {
-      title: "Recyclan",
-      clientName: "Betking",
-      directorName: "Aje Filmworks",
+      title: "Guinness World Record Attempt",
+      clientName: "Recyclan",
+      directorName: "Courage Obayuwana",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
@@ -830,9 +830,9 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Musuem Culture",
-      clientName: "Betking",
-      directorName: "Aje Filmworks",
-      directorOfPhotographyName: "Courage Obayuwana",
+      clientName: "Osakpolor Omoregie",
+      directorName: "Osakpolor Omoregie",
+      directorOfPhotographyName: "Osakpolor Omoregie",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -873,7 +873,7 @@ export const projects = [
     projectInformation: {
       title: "Agbeke",
       clientName: "Betking",
-      directorName: "Aje Filmworks",
+      directorName: "Micheal",
       directorOfPhotographyName: "Courage Obayuwana",
       beforeAfterLabel: "Before | After",
     },
@@ -910,9 +910,9 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Smile Train",
-      clientName: "Betking",
-      directorName: "Aje Filmworks",
-      directorOfPhotographyName: "Courage Obayuwana",
+      clientName: "Smile  Train",
+      directorName: "Osakpolor Omoregie",
+      directorOfPhotographyName: "Osakpolor Omoregie",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -944,7 +944,7 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Dying Sun",
-      clientName: "Golden Mhinute Pictures",
+      clientName: "Kester Nsirim",
       directorName: "Kester Nsirim",
       directorOfPhotographyName: "Jonathan Kovel",
       beforeAfterLabel: "Before | After",
