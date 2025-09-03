@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { projects as allProjects } from "../data";
+import { motion } from "framer-motion";
 
 const ProjectCard = ({ projects = allProjects }) => {
   return (
@@ -8,7 +9,16 @@ const ProjectCard = ({ projects = allProjects }) => {
         {projects.map((project) => {
           const { id, img, title, genre } = project;
           return (
-            <div key={id} className="relative group transition duration-500">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeIn",
+              }}
+              key={id}
+              className="relative group transition duration-500"
+            >
               <Link to={`/project/${title}`}>
                 <img
                   src={img}
@@ -24,7 +34,7 @@ const ProjectCard = ({ projects = allProjects }) => {
                 <span className="text-[#ff4500] font-medium">{title}</span>
                 <h3 className=" lg:text-[#ff4500] dark:text-white">{genre}</h3>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </div>

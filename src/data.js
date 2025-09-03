@@ -332,6 +332,20 @@ import stain4 from "./assets/STAIN/Stills/Stain 4.webp";
 import stain5 from "./assets/STAIN/Stills/Stain 5.webp";
 import stain6 from "./assets/STAIN/Stills/stain 6.webp";
 
+import jacobs1 from "./assets/JACOBS/Stills/jacobs1.webp";
+import jacobs2 from "./assets/JACOBS/Stills/jacobs2.webp";
+import jacobs3 from "./assets/JACOBS/Stills/jacobs3.webp";
+import jacobs4 from "./assets/JACOBS/Stills/jacobs4.webp";
+import jacobs5 from "./assets/JACOBS/Stills/jacobs5.webp";
+import jacobs6 from "./assets/JACOBS/Stills/jacobs6.webp";
+import jacobs7 from "./assets/JACOBS/Stills/jacobs7.webp";
+import jacobs8 from "./assets/JACOBS/Stills/jacobs8.webp";
+import jacobs9 from "./assets/JACOBS/Stills/jacobs9.webp";
+import jacobs10 from "./assets/JACOBS/Stills/jacobs10.webp";
+import jacobs11 from "./assets/JACOBS/Stills/jacobs11.webp";
+import jacobs12 from "./assets/JACOBS/Stills/jacobs12.webp";
+import jacobs13 from "./assets/JACOBS/Stills/jacobs13.webp";
+
 export const projects = [
   {
     id: nanoid(),
@@ -1013,6 +1027,40 @@ export const projects = [
       img13: clothing13,
       img14: clothing14,
       img15: clothing15,
+    },
+  },
+  {
+    id: nanoid(),
+    img: jacobs1,
+    title: "jacobs",
+    genre: "short film",
+    video: "",
+    projectInformation: {
+      title: "Jacobs",
+      clientName: "IZODUUWA",
+      directorName: "Osakpolor",
+      directorOfPhotographyName: "Paul Sonntag",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: jacobs1,
+      img2: jacobs2,
+      img3: jacobs3,
+      img4: jacobs4,
+      img5: jacobs5,
+      img6: jacobs6,
+      img7: jacobs7,
+      img8: jacobs8,
+      img9: jacobs9,
+      img10: jacobs10,
+      img11: jacobs11,
+      img12: jacobs12,
+      img13: jacobs13,
     },
   },
 ];
