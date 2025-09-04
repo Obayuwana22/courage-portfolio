@@ -1032,11 +1032,11 @@ export const projects = [
   {
     id: nanoid(),
     img: jacobs1,
-    title: "jacobs",
+    title: "jacob's ladder",
     genre: "short film",
     video: "",
     projectInformation: {
-      title: "Jacobs",
+      title: "Jacob's Ladder",
       clientName: "IZODUUWA",
       directorName: "Osakpolor",
       directorOfPhotographyName: "Paul Sonntag",
