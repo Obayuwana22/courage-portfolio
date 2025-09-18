@@ -346,6 +346,28 @@ import jacobs11 from "./assets/JACOBS/Stills/jacobs11.webp";
 import jacobs12 from "./assets/JACOBS/Stills/jacobs12.webp";
 import jacobs13 from "./assets/JACOBS/Stills/jacobs13.webp";
 
+import mexico1 from "./assets/MEXICO/Stills/MNBG1.webp";
+import mexico2 from "./assets/MEXICO/Stills/MNBG2.webp";
+import mexico3 from "./assets/MEXICO/Stills/MNBG3.webp";
+import mexico4 from "./assets/MEXICO/Stills/MNBG4.webp";
+import mexico5 from "./assets/MEXICO/Stills/MNBG5.webp";
+import mexico6 from "./assets/MEXICO/Stills/MNBG6.webp";
+import mexico7 from "./assets/MEXICO/Stills/MNBG7.webp";
+import mexico8 from "./assets/MEXICO/Stills/MNBG8.webp";
+import mexico9 from "./assets/MEXICO/Stills/MNBG9.webp";
+import mexico10 from "./assets/MEXICO/Stills/MNBG10.webp";
+import mexico11 from "./assets/MEXICO/Stills/MNBG11.webp";
+import mexico12 from "./assets/MEXICO/Stills/MNBG12.webp";
+import mexico13 from "./assets/MEXICO/Stills/MNBG13.webp";
+import mexico14 from "./assets/MEXICO/Stills/MNBG14.webp";
+import mexico15 from "./assets/MEXICO/Stills/MNBG15.webp";
+import mexico16 from "./assets/MEXICO/Stills/MNBG16.webp";
+import mexico17 from "./assets/MEXICO/Stills/MNBG17.webp";
+import mexico18 from "./assets/MEXICO/Stills/MNBG18.webp";
+import mexico19 from "./assets/MEXICO/Stills/MNBG19.webp";
+import mexico20 from "./assets/MEXICO/Stills/MNBG20.webp";
+import mexico21 from "./assets/MEXICO/Stills/MNBG21.webp";
+
 export const projects = [
   {
     id: nanoid(),
@@ -420,15 +442,15 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: dfwhome,
-    title: "dying for water",
-    genre: "documentary",
-    video: dfwVideo,
+    img: mexico14,
+    title: "MEXICO NARCOS: BATTLE GROUND",
+    genre: "short film",
+    video: "",
     projectInformation: {
-      title: "Dying for Water",
-      clientName: "Rector Cares Foundation",
-      directorName: "Osakpolor Omoregie",
-      directorOfPhotographyName: "Osakpolor Omoregie",
+      title: "MEXICO NARCOS: BATTLE GROUND",
+      clientName: "undisclosed",
+      directorName: "Chidozie C. Ahaiwe",
+      directorOfPhotographyName: "Fernando Poire Villanneva",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -437,27 +459,27 @@ export const projects = [
       socialMediaLinks: "Follow @yourhandle on Instagram",
     },
     gallery: {
-      img1: dfw1,
-      img2: dfw2,
-      img3: dfw3,
-      img4: dfw4,
-      img5: dfw5,
-      img6: dfw6,
-      img7: dfw7,
-      img8: dfw8,
-      img9: dfw9,
-      img10: dfw10,
-      img11: dfw11,
-      img12: dfw12,
-      img13: dfw13,
-      img14: dfw14,
-      img15: dfw15,
-      img16: dfw16,
-      img17: dfw17,
-      img18: dfw18,
-      img19: dfw19,
-      img20: dfw20,
-      img21: dfw21,
+      img1: mexico1,
+      img2: mexico2,
+      img3: mexico3,
+      img4: mexico4,
+      img5: mexico5,
+      img6: mexico6,
+      img7: mexico7,
+      img8: mexico8,
+      img9: mexico9,
+      img10: mexico10,
+      img11: mexico11,
+      img12: mexico12,
+      img13: mexico13,
+      img14: mexico14,
+      img15: mexico15,
+      img16: mexico16,
+      img17: mexico17,
+      img18: mexico18,
+      img19: mexico19,
+      img20: mexico20,
+      img21: mexico21,
     },
   },
   {
@@ -915,7 +937,83 @@ export const projects = [
       img16: AB16,
     },
   },
+  {
+    id: nanoid(),
+    img: jacobs1,
+    title: "jacob's ladder",
+    genre: "short film",
+    video: "",
+    projectInformation: {
+      title: "Jacob's Ladder",
+      clientName: "IZODUUWA",
+      directorName: "Osakpolor",
+      directorOfPhotographyName: "Paul Sonntag",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: jacobs1,
+      img2: jacobs2,
+      img3: jacobs3,
+      img4: jacobs4,
+      img5: jacobs5,
+      img6: jacobs6,
+      img7: jacobs7,
+      img8: jacobs8,
+      img9: jacobs9,
+      img10: jacobs10,
+      img11: jacobs11,
+      img12: jacobs12,
+      img13: jacobs13,
+    },
+  },
 
+  {
+    id: nanoid(),
+    img: dfwhome,
+    title: "dying for water",
+    genre: "documentary",
+    video: dfwVideo,
+    projectInformation: {
+      title: "Dying for Water",
+      clientName: "Rector Cares Foundation",
+      directorName: "Osakpolor Omoregie",
+      directorOfPhotographyName: "Osakpolor Omoregie",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: dfw1,
+      img2: dfw2,
+      img3: dfw3,
+      img4: dfw4,
+      img5: dfw5,
+      img6: dfw6,
+      img7: dfw7,
+      img8: dfw8,
+      img9: dfw9,
+      img10: dfw10,
+      img11: dfw11,
+      img12: dfw12,
+      img13: dfw13,
+      img14: dfw14,
+      img15: dfw15,
+      img16: dfw16,
+      img17: dfw17,
+      img18: dfw18,
+      img19: dfw19,
+      img20: dfw20,
+      img21: dfw21,
+    },
+  },
   {
     id: nanoid(),
     img: smile1,
@@ -949,7 +1047,6 @@ export const projects = [
       img12: smile12,
     },
   },
-
   {
     id: nanoid(),
     img: sun15,
@@ -1027,40 +1124,6 @@ export const projects = [
       img13: clothing13,
       img14: clothing14,
       img15: clothing15,
-    },
-  },
-  {
-    id: nanoid(),
-    img: jacobs1,
-    title: "jacob's ladder",
-    genre: "short film",
-    video: "",
-    projectInformation: {
-      title: "Jacob's Ladder",
-      clientName: "IZODUUWA",
-      directorName: "Osakpolor",
-      directorOfPhotographyName: "Paul Sonntag",
-      beforeAfterLabel: "Before | After",
-    },
-    callToAction: {
-      contactDetails:
-        "Available for freelance work. Contact: courage304@gmail.com",
-      socialMediaLinks: "Follow @yourhandle on Instagram",
-    },
-    gallery: {
-      img1: jacobs1,
-      img2: jacobs2,
-      img3: jacobs3,
-      img4: jacobs4,
-      img5: jacobs5,
-      img6: jacobs6,
-      img7: jacobs7,
-      img8: jacobs8,
-      img9: jacobs9,
-      img10: jacobs10,
-      img11: jacobs11,
-      img12: jacobs12,
-      img13: jacobs13,
     },
   },
 ];
