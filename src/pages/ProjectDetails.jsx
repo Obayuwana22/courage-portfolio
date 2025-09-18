@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { projects } from "../data";
 import ComingSoon from "../components/ComingSoon";
+import { motion } from "framer-motion";
 
 const ProjectDetails = () => {
   const { projectTitle } = useParams();
@@ -13,7 +14,11 @@ const ProjectDetails = () => {
     return <ComingSoon />;
   }
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 3 }}
+    >
       <div className="text-black dark:text-white">
         {project.video ? (
           <video controls className="w-full h-[200px] md:h-[500px] lg:h-screen">
@@ -33,7 +38,7 @@ const ProjectDetails = () => {
           <img
             src={project.img}
             alt="Fallback for missing video content"
-            className="h-[200px] md:h-[500px] lg:h-screen object-cover"
+            className="h-[200px] md:h-[500px] lg:h-1/2 object-cover max-w-5xl mx-auto"
           />
         )}
 
@@ -90,7 +95,7 @@ const ProjectDetails = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default ProjectDetails;
