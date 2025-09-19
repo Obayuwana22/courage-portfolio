@@ -346,6 +346,7 @@ import jacobs11 from "./assets/JACOBS/Stills/jacobs11.webp";
 import jacobs12 from "./assets/JACOBS/Stills/jacobs12.webp";
 import jacobs13 from "./assets/JACOBS/Stills/jacobs13.webp";
 
+import mexicoVideo from "./assets/MEXICO/Video/mexicoVideo.mp4";
 import mexico1 from "./assets/MEXICO/Stills/MNBG1.webp";
 import mexico2 from "./assets/MEXICO/Stills/MNBG2.webp";
 import mexico3 from "./assets/MEXICO/Stills/MNBG3.webp";
@@ -445,7 +446,7 @@ export const projects = [
     img: mexico17,
     title: "MEXICO NARCOS: BATTLE GROUND",
     genre: "documentary",
-    video: "",
+    video: mexicoVideo,
     projectInformation: {
       title: "MEXICO NARCOS: BATTLE GROUND",
       clientName: "Quintus Studios",
