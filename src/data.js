@@ -442,9 +442,9 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: mexico14,
+    img: mexico17,
     title: "MEXICO NARCOS: BATTLE GROUND",
-    genre: "short film",
+    genre: "documentary",
     video: "",
     projectInformation: {
       title: "MEXICO NARCOS: BATTLE GROUND",
