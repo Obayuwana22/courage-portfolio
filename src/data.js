@@ -448,7 +448,7 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "MEXICO NARCOS: BATTLE GROUND",
-      clientName: "undisclosed",
+      clientName: "Quintus Studios",
       directorName: "Chidozie C. Ahaiwe",
       directorOfPhotographyName: "Fernando Poire Villanneva",
       beforeAfterLabel: "Before | After",
