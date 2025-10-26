@@ -42,7 +42,7 @@ const Navbar = () => {
         <Link
           to="/work"
           className={`flex justify-center my-5 md:my-2 md:hover:border-b-1 ${
-            location.pathname === "/work"
+            location.pathname === "/color-works/work"
               ? "md:border-b-1 md:border-[#ff4500]"
               : ""
           } `}

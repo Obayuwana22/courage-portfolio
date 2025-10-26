@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import DarkModeToggle from "../components/DarkModeToggle";
 import { motion } from "framer-motion";
+import Landing from "./Landing";
 
 const HomeLayout = () => {
   return (
@@ -28,7 +29,18 @@ const HomeLayout = () => {
         <DarkModeToggle />
       </div>
 
-      <Navbar />
+      {/* <div className="grid grid-cols-2 w-full text-center mt-5">
+        <Link to="color-works" className="bg-red-500">
+          Color Works
+        </Link>
+        <Link to="dop" className="bg-blue-500">
+          DOP
+        </Link>
+      </div> */}
+
+      <Landing/>
+
+      {/* <Navbar /> */}
       <main>
         <Outlet />
       </main>

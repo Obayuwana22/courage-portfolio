@@ -19,7 +19,7 @@ const ProjectCard = ({ projects = allProjects }) => {
               key={id}
               className="relative group transition duration-500"
             >
-              <Link to={`/project/${title}`}>
+              <Link to={`/color-works/project/${title}`}>
                 <img
                   src={img}
                   alt={title}
