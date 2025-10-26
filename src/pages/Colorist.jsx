@@ -1,17 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import ComingSoon from "../components/ComingSoon";
 
-const DOP = () => {
+const Colorist = () => {
   return (
     <div>
-      {/* <Navbar />
-      <Outlet /> */}
-
-      <ComingSoon />
+      <Navbar />
+      <Outlet />
     </div>
   );
 };
 
-export default DOP;
+export default Colorist;

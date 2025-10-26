@@ -17,65 +17,73 @@ import {
   FeatureFilm,
 } from "./pages";
 import { ThemeProvider } from "./components/ThemeProvider";
-import ColorWork from "./pages/ColorWork";
-import DOP from "./pages/DOP";
+import Colorist from "./pages/Colorist";
+import DP from "./pages/DP";
 import Landing from "./pages/Landing";
+import Error from "./pages/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeLayout />,
+    errorElement: <Error />,
     children: [
       {
         index: true,
-        element: <Navigate to="/color-work" replace/>,
+        element: <Landing />,
+        errorElement: <Error />,
       },
       {
-        path: "color-work",
-        element: <ColorWork />,
+        path: "colorist",
+        element: <Colorist />,
         children: [
           {
             index: true,
             element: <Work />,
           },
           {
-            path: "/color-work/work",
+            path: "/colorist/work",
             element: <Work />,
           },
           {
-            path: "/color-work/music-video",
+            path: "/colorist/music-video",
             element: <MusicVideo />,
           },
           {
-            path: "/color-work/commercial",
+            path: "/colorist/commercial",
             element: <Commercial />,
           },
           {
-            path: "/color-work/short-film",
+            path: "/colorist/short-film",
             element: <ShortFilm />,
           },
           {
-            path: "/color-work/documentary",
+            path: "/colorist/documentary",
             element: <Documentary />,
           },
           {
-            path: "/color-work/feature-film",
+            path: "/colorist/feature-film",
             element: <FeatureFilm />,
           },
           {
-            path: "/color-work/contact",
+            path: "/colorist/contact",
             element: <Contact />,
           },
           {
-            path: "/color-work/project/:projectTitle",
+            path: "/colorist/project/:projectTitle",
             element: <ProjectDetails />,
           },
         ],
       },
       {
-        path: "dop",
-        element: <DOP />,
+        path: "DP",
+        element: <DP />,
+        errorElement: <Error />,
       },
+      // {
+      //   path: "*",
+      //   errorElement: <Error />,
+      // },
     ],
   },
 ]);

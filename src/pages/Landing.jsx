@@ -1,36 +1,38 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
+import img from "../assets/MNBG17.webp";
 
 const Landing = () => {
-  const location = useLocation();
-
-  const isActive = (path) => {
-    return location.pathname === `/${path}`;
-  };
-
   return (
-    <div className="flex justify-center">
-      <div className="flex gap-10 md:gap-52">
-        <Link
-          to="color-works"
-          className="group relative px-2 py-3 text-sm md:px-6 md:text-lg font-medium text:black dark:text-white transition-all duration-300"
-        >
-          Color Work
-          <span
-            className={` absolute bottom-0 left-0 h-0.5 w-0 bg-[#ff4500] transition-all duration-300 group-hover:w-full ${
-              isActive("color-works") ? "w-full" : "w-0 group-hover:w-full"
-            }`}
+    <div className="flex justify-center items-center mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full max-w-5xl">
+        {/* Colorist */}
+        <Link to="colorist" className="relative group overflow-hidden">
+          <div className="text-center mb-5">
+            <span className="text-[#ff4500] font-semibold uppercase text-lg">
+              Colorist
+            </span>
+          </div>
+          <img
+            src={img}
+            alt="Colorist POW image"
+            className="w-full aspect-[16/9] object-cover transition duration-700 lg:group-hover:opacity-50"
+            loading="lazy"
           />
         </Link>
-        <Link
-          to="dop"
-          className="group relative px-2 py-3 text-sm md:px-6 md:text-lg font-medium text:black dark:text-white transition-all duration-300"
-        >
-          DOP
-          <span
-            className={` absolute bottom-0 left-0 h-0.5 w-0 bg-[#ff4500] transition-all duration-300 group-hover:w-full ${
-              isActive("dop") ? "w-full" : "w-0 group-hover:w-full"
-            }`}
+
+        {/* DP */}
+        <Link to="DP" className="relative group overflow-hidden">
+          <div className="text-center mb-5">
+            <span className="text-[#ff4500] font-semibold uppercase text-lg">
+              DP
+            </span>
+          </div>
+          <img
+            src={img}
+            alt="DP POW image"
+            className="w-full aspect-[16/9] object-cover transition duration-700 group-hover:opacity-50"
+            loading="lazy"
           />
         </Link>
       </div>
@@ -39,3 +41,4 @@ const Landing = () => {
 };
 
 export default Landing;
+

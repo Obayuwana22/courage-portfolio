@@ -29,7 +29,7 @@ const HomeLayout = () => {
         <DarkModeToggle />
       </div>
 
-      <Landing/>
+      {/* <Landing/> */}
 
       {/* <Navbar /> */}
       <main>

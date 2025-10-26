@@ -40,9 +40,9 @@ const Navbar = () => {
             md:mb-16  ${isMenuActive ? "max-h-[500px]" : "max-h-0"}`}
       >
         <Link
-          to="/work"
+          to="/colorist/work"
           className={`flex justify-center my-5 md:my-2 md:hover:border-b-1 ${
-            location.pathname === "/color-works/work"
+            location.pathname === "/colorist/work"
               ? "md:border-b-1 md:border-[#ff4500]"
               : ""
           } `}
@@ -73,4 +73,3 @@ const Navbar = () => {
   );
 };
 export default Navbar;
-
