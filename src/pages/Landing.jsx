@@ -16,7 +16,7 @@ const Landing = () => {
           <img
             src={img}
             alt="Colorist POW image"
-            className="w-full aspect-[16/9] object-cover transition duration-700 lg:group-hover:opacity-50"
+            className="w-full aspect-[16/9] object-cover transition duration-700 group-hover:opacity-50"
             loading="lazy"
           />
         </Link>
