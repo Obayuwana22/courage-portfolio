@@ -17,7 +17,7 @@ import {
   FeatureFilm,
 } from "./pages";
 import { ThemeProvider } from "./components/ThemeProvider";
-import ColorWorks from "./pages/ColorWorks";
+import ColorWork from "./pages/ColorWork";
 import DOP from "./pages/DOP";
 import Landing from "./pages/Landing";
 
@@ -28,46 +28,46 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Navigate to="/color-works" replace/>,
+        element: <Navigate to="/color-work" replace/>,
       },
       {
-        path: "color-works",
-        element: <ColorWorks />,
+        path: "color-work",
+        element: <ColorWork />,
         children: [
           {
             index: true,
             element: <Work />,
           },
           {
-            path: "/color-works/work",
+            path: "/color-work/work",
             element: <Work />,
           },
           {
-            path: "/color-works/music-video",
+            path: "/color-work/music-video",
             element: <MusicVideo />,
           },
           {
-            path: "/color-works/commercial",
+            path: "/color-work/commercial",
             element: <Commercial />,
           },
           {
-            path: "/color-works/short-film",
+            path: "/color-work/short-film",
             element: <ShortFilm />,
           },
           {
-            path: "/color-works/documentary",
+            path: "/color-work/documentary",
             element: <Documentary />,
           },
           {
-            path: "/color-works/feature-film",
+            path: "/color-work/feature-film",
             element: <FeatureFilm />,
           },
           {
-            path: "/color-works/contact",
+            path: "/color-work/contact",
             element: <Contact />,
           },
           {
-            path: "/color-works/project/:projectTitle",
+            path: "/color-work/project/:projectTitle",
             element: <ProjectDetails />,
           },
         ],

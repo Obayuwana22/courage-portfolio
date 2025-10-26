@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-const ColorWorks = () => {
+const ColorWork = () => {
   return (
     <div>
       <Navbar />
@@ -11,4 +11,4 @@ const ColorWorks = () => {
   );
 };
 
-export default ColorWorks;
+export default ColorWork;

@@ -1,12 +1,12 @@
 import { nanoid } from "nanoid";
 
 export const navLinks = [
-  { id: nanoid(), path: "/color-works/music-video", text: "music video" },
-  { id: nanoid(), path: "/color-works/commercial", text: "commercial" },
-  { id: nanoid(), path: "/color-works/short-film", text: "short film" },
-  { id: nanoid(), path: "/color-works/documentary", text: "documentary" },
-  { id: nanoid(), path: "/color-works/feature-film", text: "feature film" },
-  { id: nanoid(), path: "/color-works/contact", text: "contact" },
+  { id: nanoid(), path: "/color-work/music-video", text: "music video" },
+  { id: nanoid(), path: "/color-work/commercial", text: "commercial" },
+  { id: nanoid(), path: "/color-work/short-film", text: "short film" },
+  { id: nanoid(), path: "/color-work/documentary", text: "documentary" },
+  { id: nanoid(), path: "/color-work/feature-film", text: "feature film" },
+  { id: nanoid(), path: "/color-work/contact", text: "contact" },
 ];
 
 // Project one assests
