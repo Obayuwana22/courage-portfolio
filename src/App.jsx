@@ -19,6 +19,7 @@ import {
 import { ThemeProvider } from "./components/ThemeProvider";
 import Colorist from "./pages/Colorist";
 import DP from "./pages/DP";
+import PhotoOp from "./pages/PhotoOp";
 import Landing from "./pages/Landing";
 import Error from "./pages/Error";
 
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
-        errorElement: <Error />,
+        // errorElement: <Error />,
       },
       {
         path: "colorist",
@@ -80,11 +81,16 @@ const router = createBrowserRouter([
         element: <DP />,
         errorElement: <Error />,
       },
-      // {
-      //   path: "*",
-      //   errorElement: <Error />,
-      // },
+      {
+        path: "photo-op",
+        element: <PhotoOp />,
+        errorElement: <Error />,
+      },
     ],
+  },
+  {
+    path: "*",
+    errorElement: <Error />,
   },
 ]);
 

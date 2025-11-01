@@ -4,12 +4,12 @@ import { Link, useRouteError } from "react-router-dom";
 const Error = () => {
   const error = useRouteError();
   const status = error.status;
-  console.log(error)
+  console.log(error);
 
   return (
     <div className="flex flex-col justify-center items-center text-center text-black dark:text-white h-screen">
       <div className={`${status && "text-[#ff4500]"}`}>
-        {error.status} - {error.statusText}
+        {error.status} {error.statusText}
       </div>
 
       <div className="mb-5 ">
