@@ -369,6 +369,38 @@ import mexico19 from "./assets/MEXICO/Stills/MNBG19.webp";
 import mexico20 from "./assets/MEXICO/Stills/MNBG20.webp";
 import mexico21 from "./assets/MEXICO/Stills/MNBG21.webp";
 
+import jodala1 from "./assets/JODALA FILMS/Stills/jodala1.webp";
+import jodala2 from "./assets/JODALA FILMS/Stills/jodala2.webp";
+import jodala3 from "./assets/JODALA FILMS/Stills/jodala3.webp";
+import jodala4 from "./assets/JODALA FILMS/Stills/jodala4.webp";
+import jodala5 from "./assets/JODALA FILMS/Stills/jodala5.webp";
+import jodala6 from "./assets/JODALA FILMS/Stills/jodala6.webp";
+import jodala7 from "./assets/JODALA FILMS/Stills/jodala7.webp";
+import jodala8 from "./assets/JODALA FILMS/Stills/jodala8.webp";
+import jodala9 from "./assets/JODALA FILMS/Stills/jodala9.webp";
+import jodala10 from "./assets/JODALA FILMS/Stills/jodala10.webp";
+import jodala11 from "./assets/JODALA FILMS/Stills/jodala11.webp";
+import jodala12 from "./assets/JODALA FILMS/Stills/jodala12.webp";
+import jodala13 from "./assets/JODALA FILMS/Stills/jodala13.webp";
+import jodala14 from "./assets/JODALA FILMS/Stills/jodala14.webp";
+import jodala15 from "./assets/JODALA FILMS/Stills/jodala15.webp";
+import jodala16 from "./assets/JODALA FILMS/Stills/jodala16.webp";
+
+import battle1 from "./assets/BATTLE GRADED/Stills/battle1.webp";
+import battle2 from "./assets/BATTLE GRADED/Stills/battle2.webp";
+import battle3 from "./assets/BATTLE GRADED/Stills/battle3.webp";
+import battle4 from "./assets/BATTLE GRADED/Stills/battle4.webp";
+import battle5 from "./assets/BATTLE GRADED/Stills/battle5.webp";
+import battle6 from "./assets/BATTLE GRADED/Stills/battle6.webp";
+import battle7 from "./assets/BATTLE GRADED/Stills/battle7.webp";
+import battle8 from "./assets/BATTLE GRADED/Stills/battle8.webp";
+import battle9 from "./assets/BATTLE GRADED/Stills/battle9.webp";
+import battle10 from "./assets/BATTLE GRADED/Stills/battle10.webp";
+import battle11 from "./assets/BATTLE GRADED/Stills/battle11.webp";
+import battle12 from "./assets/BATTLE GRADED/Stills/battle12.webp";
+import battle13 from "./assets/BATTLE GRADED/Stills/battle13.webp";
+import battle14 from "./assets/BATTLE GRADED/Stills/battle14.webp";
+
 export const projects = [
   {
     id: nanoid(),
@@ -608,6 +640,44 @@ export const projects = [
       img27: maji27,
       img28: maji28,
       img29: maji29,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: jodala9,
+    title: "Through the train",
+    genre: "short film",
+    video: "",
+    projectInformation: {
+      title: "Betking",
+      clientName: "Jodala Creatives/Films",
+      directorName: "Joan Rispa",
+      directorOfPhotographyName: "Samuel Oduor",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: jodala1,
+      img2: jodala2,
+      img3: jodala3,
+      img4: jodala4,
+      img5: jodala5,
+      img6: jodala6,
+      img7: jodala7,
+      img8: jodala8,
+      img9: jodala9,
+      img10: jodala10,
+      img11: jodala11,
+      img12: jodala12,
+      img13: jodala13,
+      img14: jodala14,
+      img15: jodala15,
+      img16: jodala16,
     },
   },
 
@@ -1046,6 +1116,41 @@ export const projects = [
       img10: smile10,
       img11: smile11,
       img12: smile12,
+    },
+  },
+  {
+    id: nanoid(),
+    img: battle5,
+    title: "battle",
+    genre: "feature film",
+    video: "",
+    projectInformation: {
+      title: "N/A",
+      clientName: "N/A",
+      directorName: "N/A",
+      directorOfPhotographyName: "N/A",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: battle1,
+      img2: battle2,
+      img3: battle3,
+      img4: battle4,
+      img5: battle5,
+      img6: battle6,
+      img7: battle7,
+      img8: battle8,
+      img9: battle9,
+      img10: battle10,
+      img11: battle11,
+      img12: battle12,
+      img13: battle13,
+      img14: battle14,
     },
   },
   {
