@@ -650,7 +650,7 @@ export const projects = [
     genre: "short film",
     video: "",
     projectInformation: {
-      title: "Betking",
+      title: "Through the train",
       clientName: "Jodala Creatives/Films",
       directorName: "Joan Rispa",
       directorOfPhotographyName: "Samuel Oduor",
