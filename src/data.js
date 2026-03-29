@@ -703,7 +703,6 @@ export const projects = [
     gallery: {
       img1: asd1,
       img2: asd2,
-      // img3: asd3,
       img4: asd4,
       img5: asd5,
       img6: asd6,
