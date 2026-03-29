@@ -10,7 +10,7 @@ const ProjectDetails = () => {
     (p) => p.title.toLowerCase() === projectTitle.toLowerCase()
   );
 
-  if (!project || !project.projectInformation) {
+  if (!project || !project.projectInformation || project.isComingSoon) {
     return <ComingSoon />;
   }
   return (
