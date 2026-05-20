@@ -1,9 +1,24 @@
 import { useState } from "react";
-import { navLinks } from "../data";
 import { motion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
+import { nanoid } from "nanoid";
 
 const Navbar = () => {
+  const location = useLocation();
+
+  const basePath = location.pathname.toLowerCase().startsWith("/dp")
+    ? "/DP"
+    : "/colorist";
+
+  const navLinks = [
+    { id: nanoid(), path: `${basePath}/music-video`, text: "music video" },
+    { id: nanoid(), path: `${basePath}/commercial`, text: "commercial" },
+    { id: nanoid(), path: `${basePath}/short-film`, text: "short film" },
+    { id: nanoid(), path: `${basePath}/documentary`, text: "documentary" },
+    { id: nanoid(), path: `${basePath}/feature-film`, text: "feature film" },
+    { id: nanoid(), path: `${basePath}/contact`, text: "contact" },
+  ];
+
   const [isMenuActive, setIsMenuActive] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,7 +27,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const location = useLocation();
   return (
     <nav className="mt-5 mb-5">
       <div className="flex justify-center md:hidden">
@@ -40,9 +54,9 @@ const Navbar = () => {
             md:mb-16  ${isMenuActive ? "max-h-[500px]" : "max-h-0"}`}
       >
         <Link
-          to="/colorist/work"
+          to={`${basePath}/work`}
           className={`flex justify-center my-5 md:my-2 md:hover:border-b-1 ${
-            location.pathname === "/colorist/work"
+            location.pathname === `${basePath}/work`
               ? "md:border-b-1 md:border-[#ff4500]"
               : ""
           } `}

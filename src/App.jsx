@@ -32,54 +32,37 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
-        // errorElement: <Error />,
       },
       {
         path: "colorist",
         element: <Colorist />,
         children: [
-          {
-            index: true,
-            element: <Work />,
-          },
-          {
-            path: "/colorist/work",
-            element: <Work />,
-          },
-          {
-            path: "/colorist/music-video",
-            element: <MusicVideo />,
-          },
-          {
-            path: "/colorist/commercial",
-            element: <Commercial />,
-          },
-          {
-            path: "/colorist/short-film",
-            element: <ShortFilm />,
-          },
-          {
-            path: "/colorist/documentary",
-            element: <Documentary />,
-          },
-          {
-            path: "/colorist/feature-film",
-            element: <FeatureFilm />,
-          },
-          {
-            path: "/colorist/contact",
-            element: <Contact />,
-          },
-          {
-            path: "/colorist/project/:projectTitle",
-            element: <ProjectDetails />,
-          },
+          { index: true, element: <Work /> },
+          { path: "/colorist/work", element: <Work /> },
+          { path: "/colorist/music-video", element: <MusicVideo /> },
+          { path: "/colorist/commercial", element: <Commercial /> },
+          { path: "/colorist/short-film", element: <ShortFilm /> },
+          { path: "/colorist/documentary", element: <Documentary /> },
+          { path: "/colorist/feature-film", element: <FeatureFilm /> },
+          { path: "/colorist/contact", element: <Contact /> },
+          { path: "/colorist/project/:projectTitle", element: <ProjectDetails /> },
         ],
       },
       {
         path: "DP",
         element: <DP />,
         errorElement: <Error />,
+        children: [
+          { index: true, element: <Work /> },
+          { path: "/DP/work", element: <Work /> },
+          { path: "/DP/music-video", element: <MusicVideo /> },
+          { path: "/DP/commercial", element: <Commercial /> },
+          { path: "/DP/short-film", element: <ShortFilm /> },
+          { path: "/DP/documentary", element: <Documentary /> },
+          { path: "/DP/feature-film", element: <FeatureFilm /> },
+          { path: "/DP/contact", element: <Contact /> },
+          { path: "/DP/project/:projectTitle", element: <ProjectDetails /> },
+        ],
       },
       {
         path: "photo-op",
@@ -93,6 +76,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
   },
 ]);
+
 
 function App() {
   return (

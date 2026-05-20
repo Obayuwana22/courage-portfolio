@@ -1,8 +1,15 @@
-import { Link } from "react-router-dom";
-import { projects as allProjects } from "../data";
+import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const ProjectCard = ({ projects = allProjects }) => {
+const ProjectCard = ({ projects = [] }) => {
+  const { pathname } = useLocation();
+
+  const basePath = pathname.toLowerCase().startsWith("/dp") ? "/DP" : "/colorist";
+
+  if (!Array.isArray(projects) || projects.length === 0) {
+    return null;
+  }
+
   return (
     <div>
       <div className="grid grid-cols-2 lg:grid-cols-3 mb-20">
@@ -19,7 +26,7 @@ const ProjectCard = ({ projects = allProjects }) => {
               key={id}
               className="relative group transition duration-500"
             >
-              <Link to={`/colorist/project/${title}`}>
+              <Link to={`${basePath}/project/${title}`}>
                 <img
                   src={img}
                   alt={title}

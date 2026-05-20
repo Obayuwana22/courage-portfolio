@@ -187,28 +187,28 @@ import clothing14 from "./assets/CLOTHING LINE/Stills/clothing14.webp";
 import clothing15 from "./assets/CLOTHING LINE/Stills/clothing15.webp";
 
 // // Project eight assests
-import sun1 from "./assets/DYING SUN/Stills/sun1.webp";
-import sun2 from "./assets/DYING SUN/Stills/sun2.webp";
-import sun3 from "./assets/DYING SUN/Stills/sun3.webp";
-import sun4 from "./assets/DYING SUN/Stills/sun4.webp";
-import sun5 from "./assets/DYING SUN/Stills/sun5.webp";
-import sun6 from "./assets/DYING SUN/Stills/sun6.webp";
-import sun7 from "./assets/DYING SUN/Stills/sun7.webp";
-import sun8 from "./assets/DYING SUN/Stills/sun8.webp";
-import sun9 from "./assets/DYING SUN/Stills/sun9.webp";
-import sun10 from "./assets/DYING SUN/Stills/sun10.webp";
-import sun11 from "./assets/DYING SUN/Stills/sun11.webp";
-import sun12 from "./assets/DYING SUN/Stills/sun12.webp";
-import sun13 from "./assets/DYING SUN/Stills/sun13.webp";
-import sun14 from "./assets/DYING SUN/Stills/sun14.webp";
-import sun15 from "./assets/DYING SUN/Stills/sun15.webp";
-import sun16 from "./assets/DYING SUN/Stills/sun16.webp";
-import sun17 from "./assets/DYING SUN/Stills/sun17.webp";
-import sun18 from "./assets/DYING SUN/Stills/sun18.webp";
-import sun19 from "./assets/DYING SUN/Stills/sun19.webp";
-import sun20 from "./assets/DYING SUN/Stills/sun20.webp";
-import sun21 from "./assets/DYING SUN/Stills/sun21.webp";
-import sun22 from "./assets/DYING SUN/Stills/sun22.webp";
+// import sun1 from "./assets/DYING SUN/Stills/sun1.webp";
+// import sun2 from "./assets/DYING SUN/Stills/sun2.webp";
+// import sun3 from "./assets/DYING SUN/Stills/sun3.webp";
+// import sun4 from "./assets/DYING SUN/Stills/sun4.webp";
+// import sun5 from "./assets/DYING SUN/Stills/sun5.webp";
+// import sun6 from "./assets/DYING SUN/Stills/sun6.webp";
+// import sun7 from "./assets/DYING SUN/Stills/sun7.webp";
+// import sun8 from "./assets/DYING SUN/Stills/sun8.webp";
+// import sun9 from "./assets/DYING SUN/Stills/sun9.webp";
+// import sun10 from "./assets/DYING SUN/Stills/sun10.webp";
+// import sun11 from "./assets/DYING SUN/Stills/sun11.webp";
+// import sun12 from "./assets/DYING SUN/Stills/sun12.webp";
+// import sun13 from "./assets/DYING SUN/Stills/sun13.webp";
+// import sun14 from "./assets/DYING SUN/Stills/sun14.webp";
+// import sun15 from "./assets/DYING SUN/Stills/sun15.webp";
+// import sun16 from "./assets/DYING SUN/Stills/sun16.webp";
+// import sun17 from "./assets/DYING SUN/Stills/sun17.webp";
+// import sun18 from "./assets/DYING SUN/Stills/sun18.webp";
+// import sun19 from "./assets/DYING SUN/Stills/sun19.webp";
+// import sun20 from "./assets/DYING SUN/Stills/sun20.webp";
+// import sun21 from "./assets/DYING SUN/Stills/sun21.webp";
+// import sun22 from "./assets/DYING SUN/Stills/sun22.webp";
 
 // // Project nine assests
 import herVideo from "./assets/HER DARK PAST/Video/hervideo.mp4";
@@ -386,26 +386,152 @@ import jodala14 from "./assets/JODALA FILMS/Stills/jodala14.webp";
 import jodala15 from "./assets/JODALA FILMS/Stills/jodala15.webp";
 import jodala16 from "./assets/JODALA FILMS/Stills/jodala16.webp";
 
-import battle1 from "./assets/BATTLE GRADED/Stills/battle1.webp";
-import battle2 from "./assets/BATTLE GRADED/Stills/battle2.webp";
-import battle3 from "./assets/BATTLE GRADED/Stills/battle3.webp";
-import battle4 from "./assets/BATTLE GRADED/Stills/battle4.webp";
-import battle5 from "./assets/BATTLE GRADED/Stills/battle5.webp";
-import battle6 from "./assets/BATTLE GRADED/Stills/battle6.webp";
-import battle7 from "./assets/BATTLE GRADED/Stills/battle7.webp";
-import battle8 from "./assets/BATTLE GRADED/Stills/battle8.webp";
-import battle9 from "./assets/BATTLE GRADED/Stills/battle9.webp";
-import battle10 from "./assets/BATTLE GRADED/Stills/battle10.webp";
-import battle11 from "./assets/BATTLE GRADED/Stills/battle11.webp";
-import battle12 from "./assets/BATTLE GRADED/Stills/battle12.webp";
-import battle13 from "./assets/BATTLE GRADED/Stills/battle13.webp";
-import battle14 from "./assets/BATTLE GRADED/Stills/battle14.webp";
+import chizo1 from "./assets/CHIZO/Stills/chizo1.webp";
+import chizo2 from "./assets/CHIZO/Stills/chizo2.webp";
+import chizo3 from "./assets/CHIZO/Stills/chizo3.webp";
+import chizo4 from "./assets/CHIZO/Stills/chizo4.webp";
+import chizo5 from "./assets/CHIZO/Stills/chizo5.webp";
+import chizo6 from "./assets/CHIZO/Stills/chizo6.webp";
+import chizo7 from "./assets/CHIZO/Stills/chizo7.webp";
+import chizo8 from "./assets/CHIZO/Stills/chizo8.webp";
+import chizo9 from "./assets/CHIZO/Stills/chizo9.webp";
+import chizo10 from "./assets/CHIZO/Stills/chizo10.webp";
+import chizo11 from "./assets/CHIZO/Stills/chizo11.webp";
+import chizo12 from "./assets/CHIZO/Stills/chizo12.webp";
+import chizo13 from "./assets/CHIZO/Stills/chizo13.webp";
+import chizo14 from "./assets/CHIZO/Stills/chizo14.webp";
+import chizo15 from "./assets/CHIZO/Stills/chizo15.webp";
+import chizo16 from "./assets/CHIZO/Stills/chizo16.webp";
+import chizo17 from "./assets/CHIZO/Stills/chizo17.webp";
+import chizo18 from "./assets/CHIZO/Stills/chizo18.webp";
+import chizo19 from "./assets/CHIZO/Stills/chizo19.webp";
+import chizo20 from "./assets/CHIZO/Stills/chizo20.webp";
+import chizo21 from "./assets/CHIZO/Stills/chizo21.webp";
+import chizo22 from "./assets/CHIZO/Stills/chizo9.webp";
+import chizo23 from "./assets/CHIZO/Stills/chizo10.webp";
+import chizo24 from "./assets/CHIZO/Stills/chizo11.webp";
+import chizo25 from "./assets/CHIZO/Stills/chizo12.webp";
+import chizo26 from "./assets/CHIZO/Stills/chizo13.webp";
+import chizo27 from "./assets/CHIZO/Stills/chizo14.webp";
+import chizo28 from "./assets/CHIZO/Stills/chizo15.webp";
+import chizo29 from "./assets/CHIZO/Stills/chizo16.webp";
+import chizo30 from "./assets/CHIZO/Stills/chizo17.webp";
+import chizo31 from "./assets/CHIZO/Stills/chizo18.webp";
+import chizo32 from "./assets/CHIZO/Stills/chizo19.webp";
+
+// import battle1 from "./assets/BATTLE GRADED/Stills/battle1.webp";
+// import battle2 from "./assets/BATTLE GRADED/Stills/battle2.webp";
+// import battle3 from "./assets/BATTLE GRADED/Stills/battle3.webp";
+// import battle4 from "./assets/BATTLE GRADED/Stills/battle4.webp";
+// import battle5 from "./assets/BATTLE GRADED/Stills/battle5.webp";
+// import battle6 from "./assets/BATTLE GRADED/Stills/battle6.webp";
+// import battle7 from "./assets/BATTLE GRADED/Stills/battle7.webp";
+// import battle8 from "./assets/BATTLE GRADED/Stills/battle8.webp";
+// import battle9 from "./assets/BATTLE GRADED/Stills/battle9.webp";
+// import battle10 from "./assets/BATTLE GRADED/Stills/battle10.webp";
+// import battle11 from "./assets/BATTLE GRADED/Stills/battle11.webp";
+// import battle12 from "./assets/BATTLE GRADED/Stills/battle12.webp";
+// import battle13 from "./assets/BATTLE GRADED/Stills/battle13.webp";
+// import battle14 from "./assets/BATTLE GRADED/Stills/battle14.webp";
 
 export const projects = [
   {
     id: nanoid(),
+    img: chizo1,
+    title: "chizo",
+    genre: "short film",
+    roles: ["colorist", "dp"],
+    video: "",
+    projectInformation: {
+      title: "Chizo",
+      clientName: "Nile Entertainment ",
+      directorName: "Okoli Obiajulu",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: chizo1,
+      img2: chizo2,
+      img3: chizo3,
+      img4: chizo4,
+      img5: chizo5,
+      img6: chizo6,
+      img7: chizo7,
+      img8: chizo8,
+      img9: chizo9,
+      img10: chizo10,
+      img11: chizo11,
+      img12: chizo12,
+      img13: chizo13,
+      img14: chizo14,
+      img15: chizo15,
+      img16: chizo16,
+      img17: chizo17,
+      img18: chizo18,
+      img19: chizo19,
+      img20: chizo20,
+      img21: chizo21,
+      img22: chizo22,
+      img23: chizo23,
+      img24: chizo24,
+      img25: chizo25,
+      img26: chizo26,
+      img27: chizo27,
+      img28: chizo28,
+      img29: chizo29,
+      img30: chizo30,
+      img31: chizo31,
+      img32: chizo32,
+    },
+  },
+  {
+    id: nanoid(),
+    img: idia8,
+    title: "idia",
+    genre: "feature film",
+    roles: ["colorist", "dp"],
+    video: "",
+    projectInformation: {
+      title: "Idia",
+      clientName: "Golden Mhinute Pictures",
+      directorName: "Ese Arerimu & Jblaze",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: idia1,
+      img2: idia2,
+      img3: idia3,
+      img4: idia4,
+      img5: idia5,
+      img6: idia6,
+      img7: idia7,
+      img8: idia8,
+      img9: idia9,
+      img10: idia10,
+      img11: idia11,
+      img12: idia12,
+      img13: idia13,
+      img14: idia14,
+      img15: idia15,
+      img16: idia16,
+    },
+  },
+  {
+    id: nanoid(),
     img: betone18,
     title: "betking 1",
+    roles: ["colorist", "dp"],
     genre: "commercial",
     video: betkingVideo,
     projectInformation: {
@@ -450,6 +576,7 @@ export const projects = [
     img: bettwo1,
     title: "betking 2",
     genre: "commercial",
+    roles: ["colorist", "dp"],
     video: "",
     projectInformation: {
       title: "Betking",
@@ -475,9 +602,48 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: AB1,
+    title: "agbeke",
+    genre: "music video",
+    roles: ["colorist", "dp"],
+    video: "",
+    projectInformation: {
+      title: "Agbeke",
+      clientName: "",
+      directorName: "Micheal",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: AB1,
+      img2: AB2,
+      img3: AB3,
+      img4: AB4,
+      img5: AB5,
+      img6: AB6,
+      img7: AB7,
+      img8: AB8,
+      img9: AB9,
+      img10: AB10,
+      img11: AB11,
+      img12: AB12,
+      img13: AB13,
+      img14: AB14,
+      img15: AB15,
+      img16: AB16,
+    },
+  },
+  {
+    id: nanoid(),
     img: mexico17,
     title: "MEXICO NARCOS: BATTLE GROUND",
     genre: "documentary",
+    roles: ["colorist"],
     video: mexicoVideo,
     projectInformation: {
       title: "MEXICO NARCOS: BATTLE GROUND",
@@ -520,6 +686,7 @@ export const projects = [
     img: ibrahim1,
     title: "ibrahim",
     genre: "short film",
+    roles: ["colorist"],
     youTubeLink: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Ibrahim",
@@ -554,49 +721,13 @@ export const projects = [
       img19: ibrahim19,
     },
   },
-  {
-    id: nanoid(),
-    img: idia8,
-    title: "idia",
-    genre: "feature film",
-    video: "",
-    projectInformation: {
-      title: "Idia",
-      clientName: "Golden Mhinute Pictures",
-      directorName: "Ese Arerimu & Jblaze",
-      directorOfPhotographyName: "Courage Obayuwana",
-      beforeAfterLabel: "Before | After",
-    },
-    callToAction: {
-      contactDetails:
-        "Available for freelance work. Contact: courage304@gmail.com",
-      socialMediaLinks: "Follow @yourhandle on Instagram",
-    },
-    gallery: {
-      img1: idia1,
-      img2: idia2,
-      img3: idia3,
-      img4: idia4,
-      img5: idia5,
-      img6: idia6,
-      img7: idia7,
-      img8: idia8,
-      img9: idia9,
-      img10: idia10,
-      img11: idia11,
-      img12: idia12,
-      img13: idia13,
-      img14: idia14,
-      img15: idia15,
-      img16: idia16,
-    },
-  },
 
   {
     id: nanoid(),
     img: maji9,
     title: "project maji",
     genre: "documentary",
+    roles: ["colorist"],
     video: majivideo,
     projectInformation: {
       title: "Project Maji",
@@ -648,6 +779,7 @@ export const projects = [
     img: jodala9,
     title: "Through the train",
     genre: "short film",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Through the train",
@@ -686,6 +818,7 @@ export const projects = [
     img: asd3,
     title: "a silent disco",
     genre: "feature film",
+    roles: ["colorist"],
     video: "",
     isComingSoon: true,
     projectInformation: {
@@ -723,6 +856,7 @@ export const projects = [
     img: causalQ3,
     title: "causal queen",
     genre: "commercial",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Causal Queen",
@@ -758,6 +892,7 @@ export const projects = [
     img: her15,
     title: "her dark past",
     genre: "feature film",
+    roles: ["colorist"],
     video: herVideo,
     projectInformation: {
       title: "Her Dark Past",
@@ -804,6 +939,7 @@ export const projects = [
     img: journey13,
     title: "the journey",
     genre: "documentary",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "The Journey",
@@ -839,6 +975,7 @@ export const projects = [
     img: SS1,
     title: "saluni",
     genre: "commercial",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Saluni",
@@ -866,6 +1003,7 @@ export const projects = [
     img: goh1,
     title: "game of hearts",
     genre: "commercial",
+    roles: ["colorist"],
   },
 
   {
@@ -873,6 +1011,7 @@ export const projects = [
     img: stain4,
     title: "stain",
     genre: "short film",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Stain",
@@ -901,6 +1040,7 @@ export const projects = [
     img: recyclan1,
     title: "recyclan",
     genre: "documentary",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Guinness World Record Attempt",
@@ -934,6 +1074,7 @@ export const projects = [
     img: mesuem8,
     title: "musuem culture",
     genre: "documentary",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Musuem Culture",
@@ -973,46 +1114,10 @@ export const projects = [
 
   {
     id: nanoid(),
-    img: AB1,
-    title: "agbeke",
-    genre: "music video",
-    video: "",
-    projectInformation: {
-      title: "Agbeke",
-      clientName: "",
-      directorName: "Micheal",
-      directorOfPhotographyName: "Courage Obayuwana",
-      beforeAfterLabel: "Before | After",
-    },
-    callToAction: {
-      contactDetails:
-        "Available for freelance work. Contact: courage304@gmail.com",
-      socialMediaLinks: "Follow @yourhandle on Instagram",
-    },
-    gallery: {
-      img1: AB1,
-      img2: AB2,
-      img3: AB3,
-      img4: AB4,
-      img5: AB5,
-      img6: AB6,
-      img7: AB7,
-      img8: AB8,
-      img9: AB9,
-      img10: AB10,
-      img11: AB11,
-      img12: AB12,
-      img13: AB13,
-      img14: AB14,
-      img15: AB15,
-      img16: AB16,
-    },
-  },
-  {
-    id: nanoid(),
     img: jacobs1,
     title: "jacob's ladder",
     genre: "short film",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Jacob's Ladder",
@@ -1048,6 +1153,7 @@ export const projects = [
     img: dfwhome,
     title: "dying for water",
     genre: "documentary",
+    roles: ["colorist"],
     video: dfwVideo,
     projectInformation: {
       title: "Dying for Water",
@@ -1090,6 +1196,7 @@ export const projects = [
     img: smile1,
     title: "smile train",
     genre: "documentary",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Smile Train",
@@ -1201,6 +1308,7 @@ export const projects = [
     img: clothing15,
     title: "nosakhare",
     genre: "fashion film",
+    roles: ["colorist"],
     video: "",
     projectInformation: {
       title: "Nosakhare",

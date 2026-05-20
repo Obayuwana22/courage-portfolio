@@ -1,10 +1,12 @@
 import React from "react";
-import ComingSoon from "../components/ComingSoon";
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const DP = () => {
   return (
     <div>
-      <ComingSoon />
+      <Navbar />
+      <Outlet />
     </div>
   );
 };
