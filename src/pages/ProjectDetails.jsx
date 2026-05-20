@@ -7,7 +7,7 @@ const ProjectDetails = () => {
   const { projectTitle } = useParams();
 
   const project = projects.find(
-    (p) => p.title.toLowerCase() === projectTitle.toLowerCase()
+    (p) => p.title.toLowerCase() === projectTitle.toLowerCase(),
   );
 
   if (!project || !project.projectInformation || project.isComingSoon) {
@@ -38,7 +38,7 @@ const ProjectDetails = () => {
           <img
             src={project.img}
             alt="Fallback for missing video content"
-            className="h-[200px] md:h-[500px] lg:h-1/2 object-cover max-w-5xl mx-auto"
+            className="h-[200px] w-full md:h-[500px] lg:h-1/2 object-cover max-w-5xl mx-auto"
           />
         )}
 

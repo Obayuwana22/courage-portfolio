@@ -419,6 +419,26 @@ import chizo30 from "./assets/CHIZO/Stills/chizo17.webp";
 import chizo31 from "./assets/CHIZO/Stills/chizo18.webp";
 import chizo32 from "./assets/CHIZO/Stills/chizo19.webp";
 
+import worship1 from "./assets/WORSHIP COURT/Stills/worship1.webp";
+import worship2 from "./assets/WORSHIP COURT/Stills/worship2.webp";
+import worship3 from "./assets/WORSHIP COURT/Stills/worship3.webp";
+import worship4 from "./assets/WORSHIP COURT/Stills/worship4.webp";
+import worship5 from "./assets/WORSHIP COURT/Stills/worship5.webp";
+import worship6 from "./assets/WORSHIP COURT/Stills/worship6.webp";
+import worship7 from "./assets/WORSHIP COURT/Stills/worship7.webp";
+import worship8 from "./assets/WORSHIP COURT/Stills/worship8.webp";
+import worship9 from "./assets/WORSHIP COURT/Stills/worship9.webp";
+import worship10 from "./assets/WORSHIP COURT/Stills/worship10.webp";
+import worship11 from "./assets/WORSHIP COURT/Stills/worship11.webp";
+import worship12 from "./assets/WORSHIP COURT/Stills/worship12.webp";
+import worship13 from "./assets/WORSHIP COURT/Stills/worship13.webp";
+import worship14 from "./assets/WORSHIP COURT/Stills/worship14.webp";
+import worship15 from "./assets/WORSHIP COURT/Stills/worship15.webp";
+import worship16 from "./assets/WORSHIP COURT/Stills/worship16.webp";
+import worship17 from "./assets/WORSHIP COURT/Stills/worship17.webp";
+import worship18 from "./assets/WORSHIP COURT/Stills/worship18.webp";
+import worship19 from "./assets/WORSHIP COURT/Stills/worship19.webp";
+
 // import battle1 from "./assets/BATTLE GRADED/Stills/battle1.webp";
 // import battle2 from "./assets/BATTLE GRADED/Stills/battle2.webp";
 // import battle3 from "./assets/BATTLE GRADED/Stills/battle3.webp";
@@ -1338,6 +1358,47 @@ export const projects = [
       img13: clothing13,
       img14: clothing14,
       img15: clothing15,
+    },
+  },
+  {
+    id: nanoid(),
+    img: worship1,
+    title: "worship court",
+    genre: "music video",
+    roles: ["colorist"],
+    video: "",
+    projectInformation: {
+      title: "Worship Court",
+      clientName: " OK Okhis Media",
+      directorName: "Osakpolor",
+      directorOfPhotographyName: "Paul Sonntag",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: worship1,
+      img2: worship2,
+      img3: worship3,
+      img4: worship4,
+      img5: worship5,
+      img6: worship6,
+      img7: worship7,
+      img8: worship8,
+      img9: worship9,
+      img10: worship10,
+      img11: worship11,
+      img12: worship12,
+      img13: worship13,
+      img14: worship14,
+      img15: worship15,
+      img16: worship16,
+      img17: worship17,
+      img18: worship18,
+      img19: worship19,
     },
   },
 ];
