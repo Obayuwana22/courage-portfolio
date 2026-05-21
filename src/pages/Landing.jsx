@@ -55,12 +55,12 @@ const Landing = () => {
                 />
               </div>
               <div className="text-center uppercase text-sm absolute top-1/2 left-1/2 transform -translate-x-1/2 ">
-                <span className="text-[#ff4500] font-medium lg:text-xl">
+                <span className="text-white font-bold text-2xl lg:text-3xl">
                   {title}
                 </span>
-                <h3 className=" lg:text-[#ff4500] dark:text-white">
+                {/* <h3 className=" lg:text-[#ff4500] dark:text-white">
                   {subTitle}
-                </h3>
+                </h3> */}
               </div>
             </Link>
           </motion.div>

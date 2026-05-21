@@ -455,6 +455,47 @@ import worship19 from "./assets/WORSHIP COURT/Stills/worship19.webp";
 // import battle14 from "./assets/BATTLE GRADED/Stills/battle14.webp";
 
 export const projects = [
+    {
+    id: nanoid(),
+    img: worship1,
+    title: "worship court",
+    genre: "music video",
+    roles: ["colorist"],
+    video: "",
+    projectInformation: {
+      title: "Worship Court",
+      clientName: " OK Okhis Media",
+      directorName: "Osakpolor",
+      directorOfPhotographyName: "Paul Sonntag",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: worship1,
+      img2: worship2,
+      img3: worship3,
+      img4: worship4,
+      img5: worship5,
+      img6: worship6,
+      img7: worship7,
+      img8: worship8,
+      img9: worship9,
+      img10: worship10,
+      img11: worship11,
+      img12: worship12,
+      img13: worship13,
+      img14: worship14,
+      img15: worship15,
+      img16: worship16,
+      img17: worship17,
+      img18: worship18,
+      img19: worship19,
+    },
+  },
   {
     id: nanoid(),
     img: chizo1,
@@ -876,7 +917,7 @@ export const projects = [
     img: causalQ3,
     title: "causal queen",
     genre: "commercial",
-    roles: ["colorist"],
+    roles: ["colorist", "dp"],
     video: "",
     projectInformation: {
       title: "Causal Queen",
@@ -1031,7 +1072,7 @@ export const projects = [
     img: stain4,
     title: "stain",
     genre: "short film",
-    roles: ["colorist"],
+    roles: ["colorist", "dp"],
     video: "",
     projectInformation: {
       title: "Stain",
@@ -1360,45 +1401,5 @@ export const projects = [
       img15: clothing15,
     },
   },
-  {
-    id: nanoid(),
-    img: worship1,
-    title: "worship court",
-    genre: "music video",
-    roles: ["colorist"],
-    video: "",
-    projectInformation: {
-      title: "Worship Court",
-      clientName: " OK Okhis Media",
-      directorName: "Osakpolor",
-      directorOfPhotographyName: "Paul Sonntag",
-      beforeAfterLabel: "Before | After",
-    },
-    callToAction: {
-      contactDetails:
-        "Available for freelance work. Contact: courage304@gmail.com",
-      socialMediaLinks: "Follow @yourhandle on Instagram",
-    },
-    gallery: {
-      img1: worship1,
-      img2: worship2,
-      img3: worship3,
-      img4: worship4,
-      img5: worship5,
-      img6: worship6,
-      img7: worship7,
-      img8: worship8,
-      img9: worship9,
-      img10: worship10,
-      img11: worship11,
-      img12: worship12,
-      img13: worship13,
-      img14: worship14,
-      img15: worship15,
-      img16: worship16,
-      img17: worship17,
-      img18: worship18,
-      img19: worship19,
-    },
-  },
+
 ];
