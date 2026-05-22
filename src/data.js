@@ -464,9 +464,9 @@ export const projects = [
     video: "",
     projectInformation: {
       title: "Worship Court",
-      clientName: " OK Okhis Media",
-      directorName: "Osakpolor",
-      directorOfPhotographyName: "Paul Sonntag",
+      clientName: "Okhis Media",
+      directorName: "N/A",
+      directorOfPhotographyName: "N/A",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
