@@ -465,7 +465,7 @@ export const projects = [
     projectInformation: {
       title: "Worship Court",
       clientName: "Okhis Media",
-      directorName: "N/A",
+      directorName: "David Ovie Ugboboghene",
       directorOfPhotographyName: "N/A",
       beforeAfterLabel: "Before | After",
     },
