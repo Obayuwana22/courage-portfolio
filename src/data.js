@@ -439,6 +439,24 @@ import worship17 from "./assets/WORSHIP COURT/Stills/worship17.webp";
 import worship18 from "./assets/WORSHIP COURT/Stills/worship18.webp";
 import worship19 from "./assets/WORSHIP COURT/Stills/worship19.webp";
 
+import rf1 from "./assets/RIPPER'S FATE/Stills/rf1.webp";
+import rf2 from "./assets/RIPPER'S FATE/Stills/rf2.webp";
+import rf3 from "./assets/RIPPER'S FATE/Stills/rf3.webp";
+import rf4 from "./assets/RIPPER'S FATE/Stills/rf4.webp";
+import rf5 from "./assets/RIPPER'S FATE/Stills/rf5.webp";
+import rf6 from "./assets/RIPPER'S FATE/Stills/rf6.webp";
+import rf7 from "./assets/RIPPER'S FATE/Stills/rf7.webp";
+import rf8 from "./assets/RIPPER'S FATE/Stills/rf8.webp";
+import rf9 from "./assets/RIPPER'S FATE/Stills/rf9.webp";
+import rf10 from "./assets/RIPPER'S FATE/Stills/rf10.webp";
+import rf11 from "./assets/RIPPER'S FATE/Stills/rf11.webp";
+import rf12 from "./assets/RIPPER'S FATE/Stills/rf12.webp";
+import rf13 from "./assets/RIPPER'S FATE/Stills/rf13.webp";
+import rf14 from "./assets/RIPPER'S FATE/Stills/rf14.webp";
+import rf15 from "./assets/RIPPER'S FATE/Stills/rf15.webp";
+import rf16 from "./assets/RIPPER'S FATE/Stills/rf16.webp";
+import rf17 from "./assets/RIPPER'S FATE/Stills/rf17.webp";
+
 // import battle1 from "./assets/BATTLE GRADED/Stills/battle1.webp";
 // import battle2 from "./assets/BATTLE GRADED/Stills/battle2.webp";
 // import battle3 from "./assets/BATTLE GRADED/Stills/battle3.webp";
@@ -455,7 +473,7 @@ import worship19 from "./assets/WORSHIP COURT/Stills/worship19.webp";
 // import battle14 from "./assets/BATTLE GRADED/Stills/battle14.webp";
 
 export const projects = [
-    {
+  {
     id: nanoid(),
     img: worship1,
     title: "worship court",
@@ -496,6 +514,47 @@ export const projects = [
       img19: worship19,
     },
   },
+
+    {
+    id: nanoid(),
+    img: rf1,
+    title: "ripper's fate by 6uff ft Tuff",
+    genre: "music video",
+    roles: ["colorist", "dp"],
+    video: "",
+    projectInformation: {
+      title: "Ripper's Fate by 6uff ft Tuff",
+      clientName: "Okhis Media",
+      directorName: "Splash",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: rf1,
+      img2: rf2,
+      img3: rf3,
+      img4: rf4,
+      img5: rf5,
+      img6: rf6,
+      img7: rf7,
+      img8: rf8,
+      img9: rf9,
+      img10: rf10,
+      img11: rf11,
+      img12: rf12,
+      img13: rf13,
+      img14: rf14,
+      img15: rf15,
+      img16: rf16,
+      img17: rf17,
+    },
+  },
+
   {
     id: nanoid(),
     img: chizo1,
