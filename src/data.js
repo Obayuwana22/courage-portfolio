@@ -522,6 +522,7 @@ export const projects = [
     genre: "music video",
     roles: ["colorist", "dp"],
     video: "",
+    youTubeLink: 'https://www.youtube.com/embed/l9wZdS7L-uY',
     projectInformation: {
       title: "Ripper's Fate by 6uff ft Tuff",
       clientName: "Okhis Media",

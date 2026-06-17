@@ -3,6 +3,19 @@ import { projects } from "../data";
 import ComingSoon from "../components/ComingSoon";
 import { motion } from "framer-motion";
 
+const getEmbedUrl = (url) => {
+  if (!url) return "";
+  if (url.includes("/embed/")) return url;
+  
+  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+  const match = url.match(regExp);
+  
+  if (match && match[2].length === 11) {
+    return `https://www.youtube.com/embed/${match[2]}`;
+  }
+  return url;
+};
+
 const ProjectDetails = () => {
   const { projectTitle } = useParams();
 
@@ -27,8 +40,8 @@ const ProjectDetails = () => {
         ) : project.youTubeLink ? (
           <iframe
             className="w-full h-[200px] md:h-[500px] lg:h-screen"
-            src={project.youTubeLink}
-            title="IBRAHIM | Short Film | 2023"
+            src={getEmbedUrl(project.youTubeLink)}
+            title={project.title}
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
