@@ -457,6 +457,58 @@ import rf15 from "./assets/RIPPER'S FATE/Stills/rf15.webp";
 import rf16 from "./assets/RIPPER'S FATE/Stills/rf16.webp";
 import rf17 from "./assets/RIPPER'S FATE/Stills/rf17.webp";
 
+import ebike1 from "./assets/E-BIKE/Stills/ebike1.webp";
+import ebike2 from "./assets/E-BIKE/Stills/ebike2.webp";
+import ebike3 from "./assets/E-BIKE/Stills/ebike3.webp";
+import ebike4 from "./assets/E-BIKE/Stills/ebike4.webp";
+import ebike5 from "./assets/E-BIKE/Stills/ebike5.webp";
+import ebike6 from "./assets/E-BIKE/Stills/ebike6.webp";
+import ebike7 from "./assets/E-BIKE/Stills/ebike7.webp";
+import ebike8 from "./assets/E-BIKE/Stills/ebike8.webp";
+import ebike9 from "./assets/E-BIKE/Stills/ebike9.webp";
+import ebike10 from "./assets/E-BIKE/Stills/ebike10.webp";
+import ebike11 from "./assets/E-BIKE/Stills/ebike11.webp";
+import ebike12 from "./assets/E-BIKE/Stills/ebike12.webp";
+import ebike13 from "./assets/E-BIKE/Stills/ebike13.webp";
+import ebike14 from "./assets/E-BIKE/Stills/ebike14.webp";
+import ebike15 from "./assets/E-BIKE/Stills/ebike15.webp";
+import ebike16 from "./assets/E-BIKE/Stills/ebike16.webp";
+import ebike17 from "./assets/E-BIKE/Stills/ebike17.webp";
+import ebike18 from "./assets/E-BIKE/Stills/ebike18.webp";
+import ebike19 from "./assets/E-BIKE/Stills/ebike19.webp";
+
+import cook1 from "./assets/COOK/Stills/cook1.webp";
+import cook2 from "./assets/COOK/Stills/cook2.webp";
+import cook3 from "./assets/COOK/Stills/cook3.webp";
+import cook4 from "./assets/COOK/Stills/cook4.webp";
+import cook5 from "./assets/COOK/Stills/cook5.webp";
+import cook6 from "./assets/COOK/Stills/cook6.webp";
+import cook7 from "./assets/COOK/Stills/cook7.webp";
+import cook8 from "./assets/COOK/Stills/cook8.webp";
+import cook9 from "./assets/COOK/Stills/cook9.webp";
+import cook10 from "./assets/COOK/Stills/cook10.webp";
+import cook11 from "./assets/COOK/Stills/cook11.webp";
+import cook12 from "./assets/COOK/Stills/cook12.webp";
+import cook13 from "./assets/COOK/Stills/cook13.webp";
+import cook14 from "./assets/COOK/Stills/cook14.webp";
+import cook15 from "./assets/COOK/Stills/cook15.webp";
+import cook16 from "./assets/COOK/Stills/cook16.webp";
+import cook17 from "./assets/COOK/Stills/cook17.webp";
+import cook18 from "./assets/COOK/Stills/cook18.webp";
+import cook19 from "./assets/COOK/Stills/cook19.webp";
+import cook20 from "./assets/COOK/Stills/cook20.webp";
+import cook21 from "./assets/COOK/Stills/cook21.webp";
+import cook22 from "./assets/COOK/Stills/cook22.webp";
+import cook23 from "./assets/COOK/Stills/cook23.webp";
+import cook24 from "./assets/COOK/Stills/cook24.webp";
+import cook25 from "./assets/COOK/Stills/cook25.webp";
+import cook26 from "./assets/COOK/Stills/cook26.webp";
+import cook27 from "./assets/COOK/Stills/cook27.webp";
+import cook28 from "./assets/COOK/Stills/cook28.webp";
+import cook29 from "./assets/COOK/Stills/cook29.webp";
+import cook30 from "./assets/COOK/Stills/cook30.webp";
+import cook31 from "./assets/COOK/Stills/cook31.webp";
+
 // import battle1 from "./assets/BATTLE GRADED/Stills/battle1.webp";
 // import battle2 from "./assets/BATTLE GRADED/Stills/battle2.webp";
 // import battle3 from "./assets/BATTLE GRADED/Stills/battle3.webp";
@@ -515,14 +567,14 @@ export const projects = [
     },
   },
 
-    {
+  {
     id: nanoid(),
     img: rf1,
     title: "ripper's fate by 6uff ft Tuff",
     genre: "music video",
     roles: ["colorist", "dp"],
     video: "",
-    youTubeLink: 'https://www.youtube.com/embed/l9wZdS7L-uY',
+    youTubeLink: "https://www.youtube.com/embed/l9wZdS7L-uY",
     projectInformation: {
       title: "Ripper's Fate by 6uff ft Tuff",
       clientName: "Okhis Media",
@@ -1462,4 +1514,99 @@ export const projects = [
     },
   },
 
+  {
+    id: nanoid(),
+    img: ebike1,
+    title: "e-bike",
+    genre: "documentary",
+    roles: ["colorist"],
+    video: "",
+    projectInformation: {
+      title: "E-Bike",
+      clientName: "N/A",
+      directorName: "N/A",
+      directorOfPhotographyName: "N/A",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: ebike1,
+      img2: ebike2,
+      img3: ebike3,
+      img4: ebike4,
+      img5: ebike5,
+      img6: ebike6,
+      img7: ebike7,
+      img8: ebike8,
+      img9: ebike9,
+      img10: ebike10,
+      img11: ebike11,
+      img12: ebike12,
+      img13: ebike13,
+      img14: ebike14,
+      img15: ebike15,
+      img16: ebike16,
+      img17: ebike17,
+      img18: ebike18,
+      img19: ebike19,
+    },
+  },
+
+  {
+    id: nanoid(),
+    img: cook8,
+    title: "cook stove",
+    genre: "documentary",
+    roles: ["colorist"],
+    video: "",
+    projectInformation: {
+      title: "Cook Stove",
+      clientName: "N/A",
+      directorName: "N/A",
+      directorOfPhotographyName: "N/A",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: cook1,
+      img2: cook2,
+      img3: cook3,
+      img4: cook4,
+      img5: cook5,
+      img6: cook6,
+      img7: cook7,
+      img8: cook8,
+      img9: cook9,
+      img10: cook10,
+      img11: cook11,
+      img12: cook12,
+      img13: cook13,
+      img14: cook14,
+      img15: cook15,
+      img16: cook16,
+      img17: cook17,
+      img18: cook18,
+      img19: cook19,
+      img20: cook20,
+      img21: cook21,
+      img22: cook22,
+      img23: cook23,
+      img24: cook24,
+      img25: cook25,
+      img26: cook26,
+      img27: cook27,
+      img28: cook28,
+      img29: cook29,
+      img30: cook30,
+      img31: cook31,
+    },
+  },
 ];
