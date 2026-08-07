@@ -569,7 +569,7 @@ export const projects = [
 
   {
     id: nanoid(),
-    img: cook8,
+    img: cook19,
     title: "cook stove",
     genre: "documentary",
     roles: ["colorist"],
