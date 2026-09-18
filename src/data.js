@@ -509,6 +509,22 @@ import cook29 from "./assets/COOK/Stills/cook29.webp";
 import cook30 from "./assets/COOK/Stills/cook30.webp";
 import cook31 from "./assets/COOK/Stills/cook31.webp";
 
+
+import turbulent1 from "./assets/TURBULENT FELLOW/Stills/turbulent1.webp";
+import turbulent2 from "./assets/TURBULENT FELLOW/Stills/turbulent2.webp";
+import turbulent3 from "./assets/TURBULENT FELLOW/Stills/turbulent3.webp";
+import turbulent4 from "./assets/TURBULENT FELLOW/Stills/turbulent4.webp";
+import turbulent5 from "./assets/TURBULENT FELLOW/Stills/turbulent5.webp";
+import turbulent6 from "./assets/TURBULENT FELLOW/Stills/turbulent6.webp";
+import turbulent7 from "./assets/TURBULENT FELLOW/Stills/turbulent7.webp";
+import turbulent8 from "./assets/TURBULENT FELLOW/Stills/turbulent8.webp";
+import turbulent9 from "./assets/TURBULENT FELLOW/Stills/turbulent9.webp";
+import turbulent10 from "./assets/TURBULENT FELLOW/Stills/turbulent10.webp";
+import turbulent11 from "./assets/TURBULENT FELLOW/Stills/turbulent11.webp";
+import turbulent12 from "./assets/TURBULENT FELLOW/Stills/turbulent12.webp";
+import turbulent13 from "./assets/TURBULENT FELLOW/Stills/turbulent13.webp";
+import turbulent14 from "./assets/TURBULENT FELLOW/Stills/turbulent14.webp";
+
 // import battle1 from "./assets/BATTLE GRADED/Stills/battle1.webp";
 // import battle2 from "./assets/BATTLE GRADED/Stills/battle2.webp";
 // import battle3 from "./assets/BATTLE GRADED/Stills/battle3.webp";
@@ -524,7 +540,46 @@ import cook31 from "./assets/COOK/Stills/cook31.webp";
 // import battle13 from "./assets/BATTLE GRADED/Stills/battle13.webp";
 // import battle14 from "./assets/BATTLE GRADED/Stills/battle14.webp";
 
+
+
 export const projects = [
+  {
+    id: nanoid(),
+    img: turbulent12,
+    title: "TURBULENT FELLOW 6uff ft Phyno",
+    genre: "music video",
+    roles: ["colorist", "dp"],
+    video: "",
+     youTubeLink: "https://www.youtube.com/watch?v=L-kLoYw0VhQ",
+    projectInformation: {
+      title: "TURBULENT FELLOW 6uff ft Phyno",
+      clientName: "N/A",
+      directorName: "Splaash",
+      directorOfPhotographyName: "Courage Obayuwana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: turbulent1,
+      img2: turbulent2,
+      img3: turbulent3,
+      img4: turbulent4,
+      img5: turbulent5,
+      img6: turbulent6,
+      img7: turbulent7,
+      img8: turbulent8,
+      img9: turbulent9,
+      img10: turbulent10,
+      img11: turbulent11,
+      img12: turbulent12,
+      img13: turbulent13,
+      img14: turbulent14,
+    },
+  },
   {
     id: nanoid(),
     img: ebike1,
