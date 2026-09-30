@@ -22,7 +22,7 @@ const HomeLayout = () => {
             COURAGE OBAYUWANA
           </h1>
         </Link>
-        <h2 className="tracking-[0.5em] text-gray-500">freelance colorist</h2>
+        {/* <h2 className="tracking-[0.5em] text-gray-500">freelance colorist</h2> */}
       </header>
 
       <div>
