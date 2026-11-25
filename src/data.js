@@ -566,7 +566,7 @@ export const projects = [
     img: pfd16,
     title: "palm fruit",
     genre: "documentary",
-    roles: ["colorist", "dp"],
+    roles: ["colorist"],
     country: "Ghana",
     video: "",
     youTubeLink: "",
