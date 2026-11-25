@@ -83,6 +83,14 @@ const ProjectDetails = () => {
                 {project.projectInformation.directorOfPhotographyName}
               </span>
             </div>
+            {(project.projectInformation.country || project.country) && (
+              <div>
+                <span className="font-medium">Country: </span>
+                <span>
+                  {project.projectInformation.country || project.country}
+                </span>
+              </div>
+            )}
           </div>
 
           <div>

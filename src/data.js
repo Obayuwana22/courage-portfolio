@@ -509,7 +509,6 @@ import cook29 from "./assets/COOK/Stills/cook29.webp";
 import cook30 from "./assets/COOK/Stills/cook30.webp";
 import cook31 from "./assets/COOK/Stills/cook31.webp";
 
-
 import turbulent1 from "./assets/TURBULENT FELLOW/Stills/turbulent1.webp";
 import turbulent2 from "./assets/TURBULENT FELLOW/Stills/turbulent2.webp";
 import turbulent3 from "./assets/TURBULENT FELLOW/Stills/turbulent3.webp";
@@ -524,6 +523,27 @@ import turbulent11 from "./assets/TURBULENT FELLOW/Stills/turbulent11.webp";
 import turbulent12 from "./assets/TURBULENT FELLOW/Stills/turbulent12.webp";
 import turbulent13 from "./assets/TURBULENT FELLOW/Stills/turbulent13.webp";
 import turbulent14 from "./assets/TURBULENT FELLOW/Stills/turbulent14.webp";
+
+import pfd1 from "./assets/PALM FRUIT/Stills/pfd1.webp";
+import pfd2 from "./assets/PALM FRUIT/Stills/pfd2.webp";
+import pfd3 from "./assets/PALM FRUIT/Stills/pfd3.webp";
+import pfd4 from "./assets/PALM FRUIT/Stills/pfd4.webp";
+import pfd5 from "./assets/PALM FRUIT/Stills/pfd5.webp";
+import pfd6 from "./assets/PALM FRUIT/Stills/pfd6.webp";
+import pfd7 from "./assets/PALM FRUIT/Stills/pfd7.webp";
+import pfd8 from "./assets/PALM FRUIT/Stills/pfd8.webp";
+import pfd9 from "./assets/PALM FRUIT/Stills/pfd9.webp";
+import pfd10 from "./assets/PALM FRUIT/Stills/pfd10.webp";
+import pfd11 from "./assets/PALM FRUIT/Stills/pfd11.webp";
+import pfd12 from "./assets/PALM FRUIT/Stills/pfd12.webp";
+import pfd13 from "./assets/PALM FRUIT/Stills/pfd13.webp";
+import pfd14 from "./assets/PALM FRUIT/Stills/pfd14.webp";
+import pfd15 from "./assets/PALM FRUIT/Stills/pfd15.webp";
+import pfd16 from "./assets/PALM FRUIT/Stills/pfd16.webp";
+import pfd17 from "./assets/PALM FRUIT/Stills/pfd17.webp";
+import pfd18 from "./assets/PALM FRUIT/Stills/pfd18.webp";
+import pfd19 from "./assets/PALM FRUIT/Stills/pfd19.webp";
+import pfd20 from "./assets/PALM FRUIT/Stills/pfd20.webp";
 
 // import battle1 from "./assets/BATTLE GRADED/Stills/battle1.webp";
 // import battle2 from "./assets/BATTLE GRADED/Stills/battle2.webp";
@@ -540,22 +560,67 @@ import turbulent14 from "./assets/TURBULENT FELLOW/Stills/turbulent14.webp";
 // import battle13 from "./assets/BATTLE GRADED/Stills/battle13.webp";
 // import battle14 from "./assets/BATTLE GRADED/Stills/battle14.webp";
 
-
-
 export const projects = [
+  {
+    id: nanoid(),
+    img: pfd16,
+    title: "palm fruit",
+    genre: "documentary",
+    roles: ["colorist", "dp"],
+    country: "Ghana",
+    video: "",
+    youTubeLink: "",
+    projectInformation: {
+      title: "palm fruit",
+      clientName: "Film Etoile",
+      directorName: "Sarah Dowuona",
+      directorOfPhotographyName: "N/A",
+      country: "Ghana",
+      beforeAfterLabel: "Before | After",
+    },
+    callToAction: {
+      contactDetails:
+        "Available for freelance work. Contact: courage304@gmail.com",
+      socialMediaLinks: "Follow @yourhandle on Instagram",
+    },
+    gallery: {
+      img1: pfd1,
+      img2: pfd2,
+      img3: pfd3,
+      img4: pfd4,
+      img5: pfd5,
+      img6: pfd6,
+      img7: pfd7,
+      img8: pfd8,
+      img9: pfd9,
+      img10: pfd10,
+      img11: pfd11,
+      img12: pfd12,
+      img13: pfd13,
+      img14: pfd14,
+      img15: pfd15,
+      img16: pfd16,
+      img17: pfd17,
+      img18: pfd18,
+      img19: pfd19,
+      img20: pfd20,
+    },
+  },
   {
     id: nanoid(),
     img: turbulent12,
     title: "TURBULENT FELLOW 6uff ft Phyno",
     genre: "music video",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     video: "",
-     youTubeLink: "https://www.youtube.com/watch?v=L-kLoYw0VhQ",
+    youTubeLink: "https://www.youtube.com/watch?v=L-kLoYw0VhQ",
     projectInformation: {
       title: "TURBULENT FELLOW 6uff ft Phyno",
       clientName: "N/A",
       directorName: "Splaash",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -586,12 +651,14 @@ export const projects = [
     title: "e-bike",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Ghana",
     video: "",
     projectInformation: {
       title: "E-Bike",
       clientName: "N/A",
       directorName: "N/A",
       directorOfPhotographyName: "N/A",
+      country: "Ghana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -628,12 +695,14 @@ export const projects = [
     title: "cook stove",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Ghana",
     video: "",
     projectInformation: {
       title: "Cook Stove",
       clientName: "N/A",
       directorName: "N/A",
       directorOfPhotographyName: "N/A",
+      country: "Ghana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -681,12 +750,14 @@ export const projects = [
     title: "worship court",
     genre: "music video",
     roles: ["colorist"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Worship Court",
       clientName: "Okhis Media",
       directorName: "David Ovie Ugboboghene",
       directorOfPhotographyName: "N/A",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -723,6 +794,7 @@ export const projects = [
     title: "ripper's fate by 6uff ft Tuff",
     genre: "music video",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     video: "",
     youTubeLink: "https://www.youtube.com/embed/l9wZdS7L-uY",
     projectInformation: {
@@ -730,6 +802,7 @@ export const projects = [
       clientName: "Okhis Media",
       directorName: "Splash",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -764,12 +837,14 @@ export const projects = [
     title: "chizo",
     genre: "short film",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Chizo",
       clientName: "Nile Entertainment ",
       directorName: "Okoli Obiajulu",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -818,12 +893,14 @@ export const projects = [
     title: "idia",
     genre: "feature film",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Idia",
       clientName: "Golden Mhinute Pictures",
       directorName: "Ese Arerimu & Jblaze",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -855,6 +932,7 @@ export const projects = [
     img: betone18,
     title: "betking 1",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     genre: "commercial",
     video: betkingVideo,
     projectInformation: {
@@ -862,6 +940,7 @@ export const projects = [
       clientName: "Betking",
       directorName: "Aje Filmworks",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -900,12 +979,14 @@ export const projects = [
     title: "betking 2",
     genre: "commercial",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Betking",
       clientName: "Betking",
       directorName: "Aje Filmworks",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -929,12 +1010,14 @@ export const projects = [
     title: "agbeke",
     genre: "music video",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Agbeke",
       clientName: "",
       directorName: "Micheal",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -967,12 +1050,14 @@ export const projects = [
     title: "MEXICO NARCOS: BATTLE GROUND",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Mexico",
     video: mexicoVideo,
     projectInformation: {
       title: "MEXICO NARCOS: BATTLE GROUND",
       clientName: "Quintus Studios",
       directorName: "Chidozie C. Ahaiwe",
       directorOfPhotographyName: "Fernando Poire Villanneva",
+      country: "Mexico",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1010,12 +1095,14 @@ export const projects = [
     title: "ibrahim",
     genre: "short film",
     roles: ["colorist"],
+    country: "USA",
     youTubeLink: "https://www.youtube.com/embed/syHSnmPaBaE",
     projectInformation: {
       title: "Ibrahim",
       clientName: "Just Red Production",
       directorName: "Yemi Orru",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "USA",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1051,12 +1138,14 @@ export const projects = [
     title: "project maji",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Ghana",
     video: majivideo,
     projectInformation: {
       title: "Project Maji",
       clientName: "Film Etoile",
       directorName: "Sarah Narki Dowuona",
       directorOfPhotographyName: "Ghanaian Filmmaker",
+      country: "Ghana",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1103,12 +1192,14 @@ export const projects = [
     title: "Through the train",
     genre: "short film",
     roles: ["colorist"],
+    country: "Uganda",
     video: "",
     projectInformation: {
       title: "Through the train",
       clientName: "Jodala Creatives/Films",
       directorName: "Joan Rispa",
       directorOfPhotographyName: "Samuel Oduor",
+      country: "Uganda",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1142,6 +1233,7 @@ export const projects = [
     title: "a silent disco",
     genre: "feature film",
     roles: ["colorist"],
+    country: "Nigeria",
     video: "",
     isComingSoon: true,
     projectInformation: {
@@ -1149,6 +1241,7 @@ export const projects = [
       clientName: "Sozo Film",
       directorName: "Prosper Edesiri",
       directorOfPhotographyName: "Jerry Ogbe",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1180,12 +1273,14 @@ export const projects = [
     title: "causal queen",
     genre: "commercial",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Causal Queen",
       clientName: "Xtreme Captures",
       directorName: "Micheal",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1216,12 +1311,14 @@ export const projects = [
     title: "her dark past",
     genre: "feature film",
     roles: ["colorist"],
+    country: "Nigeria",
     video: herVideo,
     projectInformation: {
       title: "Her Dark Past",
       clientName: "Muiltichoice Talent Factory",
       directorName: " Deborah Oluwatobi Ahmed & Samuel Oluwasegun Ogundeyie",
       directorOfPhotographyName: "Chimaobi Akwuche",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1263,12 +1360,14 @@ export const projects = [
     title: "the journey",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Germany",
     video: "",
     projectInformation: {
       title: "The Journey",
       clientName: "Osakpolor",
       directorName: "Osakpolor Omoregie",
       directorOfPhotographyName: "Osakpolor Omoregie",
+      country: "Germany",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1299,12 +1398,14 @@ export const projects = [
     title: "saluni",
     genre: "commercial",
     roles: ["colorist"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Saluni",
       clientName: "Saluni App",
       directorName: "Ejiroko",
       directorOfPhotographyName: "Ejiroko",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1327,6 +1428,7 @@ export const projects = [
     title: "game of hearts",
     genre: "commercial",
     roles: ["colorist"],
+    country: "Nigeria",
   },
 
   {
@@ -1335,12 +1437,14 @@ export const projects = [
     title: "stain",
     genre: "short film",
     roles: ["colorist", "dp"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Stain",
       clientName: "Golden Minute Pictures",
       directorName: "Ese Arerimu",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1364,12 +1468,14 @@ export const projects = [
     title: "recyclan",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Guinness World Record Attempt",
       clientName: "Recyclan",
       directorName: "Courage Obayuwana",
       directorOfPhotographyName: "Courage Obayuwana",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1398,12 +1504,14 @@ export const projects = [
     title: "musuem culture",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Musuem Culture",
       clientName: "Osakpolor Omoregie",
       directorName: "Osakpolor Omoregie",
       directorOfPhotographyName: "Osakpolor Omoregie",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1441,12 +1549,14 @@ export const projects = [
     title: "jacob's ladder",
     genre: "short film",
     roles: ["colorist"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Jacob's Ladder",
       clientName: "IZODUUWA",
       directorName: "Osakpolor",
       directorOfPhotographyName: "Paul Sonntag",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1477,12 +1587,14 @@ export const projects = [
     title: "dying for water",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Nigeria",
     video: dfwVideo,
     projectInformation: {
       title: "Dying for Water",
       clientName: "Rector Cares Foundation",
       directorName: "Osakpolor Omoregie",
       directorOfPhotographyName: "Osakpolor Omoregie",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1520,12 +1632,14 @@ export const projects = [
     title: "smile train",
     genre: "documentary",
     roles: ["colorist"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Smile Train",
       clientName: "Smile  Train",
       directorName: "Osakpolor Omoregie",
       directorOfPhotographyName: "Osakpolor Omoregie",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
@@ -1632,12 +1746,14 @@ export const projects = [
     title: "nosakhare",
     genre: "fashion film",
     roles: ["colorist"],
+    country: "Nigeria",
     video: "",
     projectInformation: {
       title: "Nosakhare",
       clientName: "IZODUUWA",
       directorName: "Osakpolor",
       directorOfPhotographyName: "Paul Sonntag",
+      country: "Nigeria",
       beforeAfterLabel: "Before | After",
     },
     callToAction: {
